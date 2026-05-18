@@ -1,0 +1,63 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model User {
+  id        String   @id @default(cuid())
+  clerkId   String   @unique
+  email     String   @unique
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  shelf     ShelfBook[]
+  swipes    Swipe[]
+  genres    UserGenre[]
+}
+
+model ShelfBook {
+  id            String   @id @default(cuid())
+  userId        String
+  googleBooksId String
+  title         String
+  author        String
+  coverUrl      String?
+  description   String?
+  rating        Float?
+  genres        String[]
+  addedAt       DateTime @default(now())
+
+  user          User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, googleBooksId])
+}
+
+model Swipe {
+  id            String    @id @default(cuid())
+  userId        String
+  googleBooksId String
+  direction     Direction
+  swipedAt      DateTime  @default(now())
+
+  user          User      @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, googleBooksId])
+}
+
+model UserGenre {
+  id     String @id @default(cuid())
+  userId String
+  genre  String
+
+  user   User   @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([userId, genre])
+}
+
+enum Direction {
+  LEFT
+  RIGHT
+}
