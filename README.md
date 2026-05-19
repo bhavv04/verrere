@@ -1,36 +1,136 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Verso
+
+> Tinder for books. Swipe through titles, build your shelf, discover what to read next.
+
+![Homepage Screenshot](public/homepage.png)
+
+First prototype, UI is still under developement with more features to come.
+
+![Shelf Preview](public/shelf.png)
+
+## Overview
+
+Verso is a full stack web app that lets you discover books through a swipe-based interface. Pick your genres, swipe right on books you want to read, and build a personal shelf over time. Built with a modern TypeScript stack and deployed on Vercel.
+
+## Features
+
+- **Swipe interface** — drag cards left to pass, right to save. LIKE/PASS indicators animate as you drag.
+- **Genre-based feed** — picks genres during onboarding, feed rotates through them automatically.
+- **Personal shelf** — all your saved books in one place, with the ability to remove any title.
+- **Duplicate prevention** — books you've already swiped never appear again.
+- **Auth** — sign up and sign in via Clerk with email or Google.
+
+## Tech Stack
+
+| Layer | Technology |
+|---|---|
+| Frontend | Next.js 15, TypeScript, Tailwind CSS |
+| Animation | Framer Motion |
+| Auth | Clerk |
+| Database | Neon (Postgres) |
+| ORM | Prisma 7 |
+| Books Data | Google Books API |
+| Deployment | Vercel |
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+- Node.js 18+
+- A [Neon](https://neon.tech) account
+- A [Clerk](https://clerk.com) account
+- A [Google Books API](https://console.cloud.google.com) key
+
+### Installation
+
+```bash
+git clone https://github.com/yourusername/verso.git
+cd verso
+npm install
+```
+
+### Environment Variables
+
+Create a `.env` file in the project root:
+
+```env
+# Database
+DATABASE_URL="postgresql://..."
+
+# Clerk
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_...
+CLERK_SECRET_KEY=sk_test_...
+NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
+NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+
+# Google Books
+GOOGLE_BOOKS_API_KEY=...
+
+# Anthropic (optional, for AI blurbs)
+ANTHROPIC_API_KEY=...
+```
+
+### Database Setup
+
+```bash
+npx prisma db push
+npx prisma generate
+```
+
+### Run Locally
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Project Structure
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/
+│   ├── (auth)/
+│   │   ├── sign-in/[[...sign-in]]/page.tsx
+│   │   └── sign-up/[[...sign-up]]/page.tsx
+│   ├── api/
+│   │   ├── books/route.ts        # Google Books API proxy + swipe filtering
+│   │   ├── shelf/route.ts        # GET and DELETE shelf books
+│   │   ├── swipe/route.ts        # Record swipes, save liked books
+│   │   ├── user/route.ts         # Upsert user on login
+│   │   └── onboarding/route.ts   # Save genre preferences
+│   ├── onboarding/page.tsx
+│   ├── shelf/page.tsx
+│   └── page.tsx                  # Main swipe UI
+├── components/
+│   ├── BookCard.tsx              # Draggable card with LIKE/PASS overlay
+│   ├── SwipeStack.tsx            # Animated card stack
+│   └── GenrePicker.tsx           # Genre selection pills
+└── lib/
+    ├── prisma.ts                 # Prisma client singleton
+    └── books.ts                  # Google Books API helper
+```
 
-## Learn More
+## Roadmap
 
-To learn more about Next.js, take a look at the following resources:
+### In Progress
+- [ ] Deploy to Vercel
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Planned
+- [ ] **AI recommendations** — Claude API generates a personalised "why you'd like this" blurb based on swipe history
+- [ ] **Shelf filters** — filter saved books by genre, rating, or date added
+- [ ] **Onboarding redirect** — detect new users and route them to onboarding before the feed
+- [ ] **Reading status** — mark books as "want to read", "reading", or "finished"
+- [ ] **Book detail modal** — tap a card to expand full description, page count, and publication info
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Future Ideas
+- [ ] **Friends & social** — follow friends, see what they're reading
+- [ ] **Weekly picks** — curated stack of 10 books refreshed every Monday
+- [ ] **Export shelf** — download your shelf as a CSV or sync to Goodreads
+- [ ] **PWA support** — install as a mobile app
 
-## Deploy on Vercel
+## License
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
