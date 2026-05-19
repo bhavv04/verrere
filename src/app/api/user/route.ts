@@ -16,6 +16,9 @@ export async function POST() {
       clerkId: userId,
       email: clerkUser.emailAddresses[0]?.emailAddress ?? "",
     },
+    include: {
+      genres: true,
+    },
   });
 
   return NextResponse.json({ user });
