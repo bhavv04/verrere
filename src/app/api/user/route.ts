@@ -18,6 +18,7 @@ export async function POST() {
     },
     include: {
       genres: true,
+      shelf: { select: { genres: true } },
     },
   });
 
