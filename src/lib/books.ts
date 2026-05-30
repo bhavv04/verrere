@@ -15,17 +15,30 @@ export interface Book {
   openLibraryKey?: string | null;
 }
 
-async function hardcoverQuery(query: string, variables: Record<string, any> = {}) {
-  const res = await fetch(HARDCOVER_API_URL, {
-    method: "POST",
-    headers: {
-      "Content-Type": "application/json",
-      "Authorization": `Bearer ${process.env.HARDCOVER_API_KEY}`,
-    },
-    body: JSON.stringify({ query, variables }),
-  });
-  if (!res.ok) throw new Error(`Hardcover API error: ${res.status}`);
-  return res.json();
+async function hardcoverQuery(query: string, variables: Record<string, any> = {}, retries = 3) {
+  for (let i = 0; i < retries; i++) {
+    try {
+      const controller = new AbortController();
+      const timeout = setTimeout(() => controller.abort(), 15000);
+
+      const res = await fetch(HARDCOVER_API_URL, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          "Authorization": `Bearer ${process.env.HARDCOVER_API_KEY}`,
+        },
+        body: JSON.stringify({ query, variables }),
+        signal: controller.signal,
+      });
+
+      clearTimeout(timeout);
+      if (!res.ok) throw new Error(`Hardcover API error: ${res.status}`);
+      return res.json();
+    } catch (err: any) {
+      if (i === retries - 1) throw err;
+      await new Promise((r) => setTimeout(r, 1000 * (i + 1)));
+    }
+  }
 }
 
 // Map our genre names to Hardcover tag names
@@ -131,6 +144,87 @@ export async function fetchBooksByGenre(genre: string, maxResults = 10): Promise
       .slice(0, maxResults);
   } catch (err) {
     console.error("Hardcover fetch error:", err);
+    return [];
+  }
+}
+
+export async function fetchBulkBooks(genres: string[], limit = 40): Promise<Book[]> {
+  const query = `
+    query BulkBooks($limit: Int!) {
+      books(
+        where: {
+          image: { url: { _is_null: false } }
+          pages: { _gte: 50 }
+          rating: { _gte: 3.5 }
+        }
+        order_by: { ratings_count: desc }
+        limit: $limit
+      ) {
+        id
+        title
+        description
+        release_year
+        pages
+        rating
+        image { url }
+        contributions { author { name } }
+        taggings { tag { tag } }
+      }
+    }
+  `;
+
+  try {
+    const data = await hardcoverQuery(query, { limit });
+    if (data.errors) {
+      console.error("Hardcover errors:", data.errors);
+      return [];
+    }
+
+    const books = data?.data?.books ?? [];
+
+    const NOISE_TAGS = new Set([
+      "funny", "fast", "slow", "medium", "dark", "hopeful", "emotional",
+      "inspiring", "lighthearted", "mysterious", "relaxing", "tense",
+      "Plot driven", "Character driven", "A mix driven",
+      "Strong Character Development", "Weak Character Development",
+      "Loveable Characters", "Unloveable Characters",
+      "Diverse Characters", "Not Diverse Characters",
+    ]);
+
+    // Filter to only books matching user's genres
+    const genreTags = genres.flatMap((g) => GENRE_TAG_MAP[g] ?? [g]).map((t) => t.toLowerCase());
+
+    return books
+      .map((book: any) => {
+        const uniqueTagList = [...new Set(
+          (book.taggings ?? [])
+            .map((t: any) => t.tag?.tag)
+            .filter((t: string) => t && !NOISE_TAGS.has(t) && !t.includes("/") && t.length < 30)
+        )] as string[];
+
+        return {
+          id: String(book.id),
+          title: book.title ?? "Unknown Title",
+          author: book.contributions?.[0]?.author?.name ?? "Unknown Author",
+          coverUrl: book.image?.url ?? "",
+          description: book.description ?? "No description available.",
+          rating: book.rating ?? null,
+          genres: uniqueTagList.slice(0, 5),
+          pageCount: book.pages ?? null,
+          publishedDate: book.release_year ? String(book.release_year) : null,
+          subjects: uniqueTagList.slice(5, 12),
+          editions: null,
+          openLibraryKey: null,
+        };
+      })
+      .filter((book: Book) => {
+        if (!book.coverUrl || book.description.length < 100) return false;
+        // Keep if any of the book's genres match user preferences
+        if (genreTags.length === 0) return true;
+        return book.genres.some((g) => genreTags.some((t) => g.toLowerCase().includes(t)));
+      });
+  } catch (err) {
+    console.error("Hardcover bulk fetch error:", err);
     return [];
   }
 }

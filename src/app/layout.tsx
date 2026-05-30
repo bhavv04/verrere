@@ -7,15 +7,11 @@ export const metadata: Metadata = {
   description: "Find your next favourite book",
 };
 
-export default function RootLayout({
-  children,
-}: {
-  children: React.ReactNode;
-}) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <ClerkProvider>
       <html lang="en">
-        <body>{children}</body>
+        <body className="bg-[#faf8f5] text-[#1a1a2e]">{children}</body>
       </html>
     </ClerkProvider>
   );
