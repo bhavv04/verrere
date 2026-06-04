@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 import BookCard from "./BookCard";
 import { Book } from "@/lib/books";
@@ -17,66 +17,73 @@ export default function SwipeStack({ books, onEmpty, onStackChange }: SwipeStack
   const [lastDirection, setLastDirection] = useState<"LEFT" | "RIGHT" | null>(null);
   const [expanded, setExpanded] = useState(false);
 
+  const exitDirectionRef = useRef<"LEFT" | "RIGHT">("LEFT");
+
   const currentBook = stack[stack.length - 1];
 
     const handleSwipe = async (direction: "LEFT" | "RIGHT") => {
-        const book = stack[stack.length - 1];
-        if (!book) return;
+  const book = stack[stack.length - 1];
+  if (!book) return;
 
-        setLastDirection(direction);
-        setExpanded(false);
-        const newStack = stack.slice(0, -1);
-        setStack(newStack);
-        onStackChange?.(newStack);
+  exitDirectionRef.current = direction; // ← set ref immediately
+  setLastDirection(direction);
+  setExpanded(false);
+  const newStack = stack.slice(0, -1);
+  setStack(newStack);
+  onStackChange?.(newStack);
 
-        if (stack.length === 1) onEmpty();
+  if (stack.length === 1) onEmpty();
 
-        await fetch("/api/swipe", {
-            method: "POST",
-            headers: { "Content-Type": "application/json" },
-            body: JSON.stringify({ googleBooksId: book.id, direction, book }),
-        });
+  await fetch("/api/swipe", {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ googleBooksId: book.id, direction, book }),
+  });
 
-        // Remove from localStorage cache too
-        if (direction === "RIGHT") {
-            try {
-            const raw = localStorage.getItem("verso_feed");
-            if (raw) {
-                const parsed = JSON.parse(raw);
-                parsed.books = parsed.books.filter((b: any) => b.id !== book.id);
-                localStorage.setItem("verso_feed", JSON.stringify(parsed));
-            }
-            } catch {}
-        }
-    };
+  if (direction === "RIGHT") {
+    try {
+      const raw = localStorage.getItem("verso_feed");
+      if (raw) {
+        const parsed = JSON.parse(raw);
+        parsed.books = parsed.books.filter((b: any) => b.id !== book.id);
+        localStorage.setItem("verso_feed", JSON.stringify(parsed));
+      }
+    } catch {}
+  }
+};
 
   return (
     <div className="flex flex-col lg:flex-row items-start justify-center gap-16 w-full max-w-5xl mx-auto">
 
       {/* LEFT — Card + Buttons */}
       <div className="flex flex-col items-center gap-5 flex-shrink-0">
-        <div className="relative w-[240px] h-[360px] border-none">
-          <AnimatePresence>
-            {stack.slice(-1).map((book, i) => {
-              const isTop = i === stack.slice(-1).length - 1;
-              return (
+        <div className="relative w-[240px] h-[360px]">
+
+            <AnimatePresence custom={exitDirectionRef.current}>
+            {stack.slice(-1).map((book) => {
+                return (
                 <motion.div
-                  key={book.id}
-                  className="absolute inset-0"
-                  initial={{ scale: 0.9, opacity: 0 }}
-                  animate={{ opacity: 1 }}
-                  exit={{
-                    x: lastDirection === "RIGHT" ? 400 : -400,
-                    rotate: lastDirection === "RIGHT" ? 25 : -25,
-                    opacity: 0,
-                    transition: { duration: 0.3 },
-                  }}
+                    key={book.id}
+                    custom={exitDirectionRef.current}
+                    className="absolute inset-0"
+                    initial={{ scale: 0.95, opacity: 0 }}
+                    animate={{ scale: 1, opacity: 1 }}
+                    variants={{
+                    exit: (direction: "LEFT" | "RIGHT") => ({
+                        x: direction === "RIGHT" ? 400 : -400,
+                        rotate: direction === "RIGHT" ? 25 : -25,
+                        opacity: 0,
+                        transition: { duration: 0.3 },
+                    }),
+                    }}
+                    exit="exit"
                 >
-                  <BookCard book={book} onSwipe={handleSwipe} isTop={isTop} />
+                    <BookCard book={book} onSwipe={handleSwipe} isTop={true} />
                 </motion.div>
-              );
+                );
             })}
-          </AnimatePresence>
+            </AnimatePresence>
+            
         </div>
 
         {/* Buttons */}
