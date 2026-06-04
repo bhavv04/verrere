@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import { useRouter } from "next/navigation";
 import GenrePicker from "@/components/GenrePicker";
+import Navbar from "@/components/Navbar";
 
 export default function PreferencesPage() {
   const router = useRouter();
@@ -35,29 +36,30 @@ export default function PreferencesPage() {
 
   return (
     <div className="flex-1 overflow-y-auto bg-stone-50 dark:bg-stone-950 text-stone-900 dark:text-stone-100 p-10">
-      <main className="max-w-lg mx-auto">
-        <h1 className="text-2xl font-bold mb-1">Your genres</h1>
-        <p className="text-stone-500 dark:text-stone-400 text-sm mb-8">
-          Pick up to 5 genres. Your feed weights these alongside books you've liked.
-        </p>
+        <Navbar />
+        <main className="max-w-lg mx-auto">
+            <h1 className="text-2xl font-bold mb-1">Your genres</h1>
+            <p className="text-stone-500 dark:text-stone-400 text-sm mb-8">
+            Pick up to 5 genres. Your feed weights these alongside books you've liked.
+            </p>
 
-        {loading ? (
-          <div className="flex justify-center mt-10">
-            <div className="w-8 h-8 rounded-full border-4 border-stone-200 dark:border-stone-700 border-t-stone-900 dark:border-t-stone-100 animate-spin" />
-          </div>
-        ) : (
-          <>
-            <GenrePicker selected={genres} onChange={setGenres} />
-            <button
-              onClick={handleSave}
-              disabled={saving || genres.length === 0}
-              className="mt-10 w-full py-3.5 rounded-xl font-semibold bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 hover:opacity-80 disabled:opacity-30 disabled:cursor-not-allowed transition-opacity"
-            >
-              {saving ? "Saving..." : saved ? "Saved ✓" : "Save preferences"}
-            </button>
-          </>
-        )}
-      </main>
+            {loading ? (
+            <div className="flex justify-center mt-10">
+                <div className="w-8 h-8 rounded-full border-4 border-stone-200 dark:border-stone-700 border-t-stone-900 dark:border-t-stone-100 animate-spin" />
+            </div>
+            ) : (
+            <>
+                <GenrePicker selected={genres} onChange={setGenres} />
+                <button
+                onClick={handleSave}
+                disabled={saving || genres.length === 0}
+                className="mt-10 w-full py-3.5 rounded-xl font-semibold bg-stone-900 dark:bg-stone-100 text-white dark:text-stone-900 hover:opacity-80 disabled:opacity-30 disabled:cursor-not-allowed transition-opacity"
+                >
+                {saving ? "Saving..." : saved ? "Saved ✓" : "Save preferences"}
+                </button>
+            </>
+            )}
+        </main>
     </div>
   );
 }

@@ -5,6 +5,7 @@ import { useUser } from "@clerk/nextjs";
 import { useRouter } from "next/navigation";
 import SwipeStack from "@/components/SwipeStack";
 import { Book } from "@/lib/books";
+import Navbar from "@/components/Navbar";
 
 const CACHE_KEY = "verso_feed";
 const CACHE_TTL = 45 * 60 * 1000;
@@ -192,27 +193,28 @@ export default function Home() {
 
   return (
     <div className="min-h-screen flex flex-col bg-stone-100 dark:bg-stone-950 text-black dark:text-stone-100">
-      <main className="flex-1 flex flex-col items-center justify-center px-6 py-10">
-        {loading ? (
-          <SkeletonLoader />
-        ) : books.length === 0 ? (
-          <div className="flex flex-col items-center gap-3">
-            <p className="text-stone-400">No books found.</p>
-            <button
-              onClick={() => loadBooks(true)}
-              className="text-sm text-stone-900 dark:text-stone-100 hover:opacity-60 transition-opacity"
-            >
-              Try again →
-            </button>
-          </div>
-        ) : (
-          <SwipeStack
-            books={books}
-            onEmpty={() => loadBooks(true)}
-            onStackChange={(stack) => { cachedStack = stack; }}
-          />
-        )}
-      </main>
+        <Navbar />
+        <main className="flex-1 flex flex-col items-center justify-center px-6 py-10">
+            {loading ? (
+            <SkeletonLoader />
+            ) : books.length === 0 ? (
+            <div className="flex flex-col items-center gap-3">
+                <p className="text-stone-400">No books found.</p>
+                <button
+                onClick={() => loadBooks(true)}
+                className="text-sm text-stone-900 dark:text-stone-100 hover:opacity-60 transition-opacity"
+                >
+                Try again →
+                </button>
+            </div>
+            ) : (
+            <SwipeStack
+                books={books}
+                onEmpty={() => loadBooks(true)}
+                onStackChange={(stack) => { cachedStack = stack; }}
+            />
+            )}
+        </main>
     </div>
   );
 }
