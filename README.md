@@ -4,8 +4,6 @@
 
 ![Homepage Screenshot](public/verso1.png)
 
-First prototype, UI is still under developement with more features to come.
-
 ![Shelf Preview](public/verso2.png)
 
 ## Overview
@@ -54,22 +52,23 @@ npm install
 Create a `.env` file in the project root:
 
 ```env
-# Database
-DATABASE_URL="postgresql://..."
-
 # Clerk
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=pk_test_...
-CLERK_SECRET_KEY=sk_test_...
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
+CLERK_SECRET_KEY
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
 NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
 NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
 
-# Google Books
-GOOGLE_BOOKS_API_KEY=...
+# Neon
+DATABASE_URL=""
 
-# Anthropic (optional, for AI blurbs)
-ANTHROPIC_API_KEY=...
+# Google Books
+GOOGLE_BOOKS_API_KEY=
+
+#Hardcover API
+HARDCOVER_API_KEY=
+# no need for `bearer` for hardcover api key 
 ```
 
 ### Database Setup
@@ -116,12 +115,12 @@ src/
 ## Roadmap
 
 ### In Progress
-- [ ] Deploy to Vercel
+- [x] Deploy to Vercel
 
 ### Planned
 - [ ] **AI recommendations** — Claude API generates a personalised "why you'd like this" blurb based on swipe history
 - [ ] **Shelf filters** — filter saved books by genre, rating, or date added
-- [ ] **Onboarding redirect** — detect new users and route them to onboarding before the feed
+- [x] **Onboarding redirect** — detect new users and route them to onboarding before the feed
 - [ ] **Reading status** — mark books as "want to read", "reading", or "finished"
 - [ ] **Book detail modal** — tap a card to expand full description, page count, and publication info
 
@@ -130,7 +129,3 @@ src/
 - [ ] **Weekly picks** — curated stack of 10 books refreshed every Monday
 - [ ] **Export shelf** — download your shelf as a CSV or sync to Goodreads
 - [ ] **PWA support** — install as a mobile app
-
-## License
-
-MIT

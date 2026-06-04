@@ -111,6 +111,15 @@ export default function Home() {
   const fetching = useRef(false);
 
   useEffect(() => {
+    if (!user) return;
+    fetch("/api/user")
+        .then(r => r.json())
+        .then(data => {
+        if (!data.user?.genres?.length) router.replace("/onboarding");
+        });
+    }, [user]);
+
+  useEffect(() => {
     if (isLoaded && !user) router.push("/sign-in");
   }, [isLoaded, user]);
 
@@ -185,9 +194,9 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-[100dvh] w-full bg-stone-100 dark:bg-stone-950 text-black dark:text-stone-100 isolation-isolate">
-      <Navbar />
-      <main className="flex-1 flex flex-col items-center justify-center px-6 py-10 w-full">
+    <div className="min-h-screen flex flex-col bg-stone-100 dark:bg-stone-950 text-black dark:text-stone-100">
+        <Navbar />
+      <main className="flex-1 flex flex-col items-center justify-center px-6 py-24 w-full">
         {loading ? (
           <SkeletonLoader />
         ) : books.length === 0 ? (

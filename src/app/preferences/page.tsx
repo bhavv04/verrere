@@ -38,7 +38,7 @@ export default function PreferencesPage() {
   return (
     <div className="min-h-screen bg-stone-50 dark:bg-stone-950 text-stone-900 dark:text-stone-100">
         <Navbar />
-        <main className="max-w-lg mx-auto p-10">
+        <main className="min-h-screen max-w-lg mx-auto px-6 flex flex-col justify-center pt-20">
             <h1 className="text-2xl font-bold mb-1">Your genres</h1>
             <p className="text-stone-500 dark:text-stone-400 text-sm mb-8">
             Pick up to 5 genres. Your feed weights these alongside books you've liked.

@@ -42,7 +42,7 @@ export default function ShelfPage() {
   return (
     <div className="bg-stone-50 dark:bg-stone-950 text-stone-900 dark:text-stone-100">
         <Navbar />
-        <main className="px-8 py-8 max-w-5xl mx-auto">
+        <main className="min-h-screen py-24 px-12 max-w-7xl mx-auto">
             {loading ? (
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 animate-pulse">
                 {[...Array(10)].map((_, i) => (
