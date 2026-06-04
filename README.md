@@ -4,6 +4,8 @@
 
 ![Homepage Screenshot](public/verso1.png)
 
+books that were swiped right get saved to your shelf: 
+
 ![Shelf Preview](public/verso2.png)
 
 ## Overview
@@ -129,3 +131,7 @@ src/
 - [ ] **Weekly picks** — curated stack of 10 books refreshed every Monday
 - [ ] **Export shelf** — download your shelf as a CSV or sync to Goodreads
 - [ ] **PWA support** — install as a mobile app
+
+## Acknowledgments
+
+Background photo by [Peter Herrmann](https://unsplash.com/@tama66) on [Unsplash](https://unsplash.com/photos/a-room-with-a-lot-of-books-in-it-O_DUcg4cDlc)

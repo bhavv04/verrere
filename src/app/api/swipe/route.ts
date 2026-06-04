@@ -36,3 +36,16 @@ export async function POST(req: NextRequest) {
 
   return NextResponse.json({ success: true });
 }
+
+export async function DELETE(req: Request) {
+  const { userId } = await auth();
+  if (!userId) return NextResponse.json({ error: "Unauthorized" }, { status: 401 });
+
+  const { googleBooksId } = await req.json();
+
+  await prisma.swipe.deleteMany({
+    where: { userId: (await prisma.user.findUnique({ where: { clerkId: userId } }))?.id, googleBooksId },
+  });
+
+  return NextResponse.json({ success: true });
+}
