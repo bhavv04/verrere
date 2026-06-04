@@ -9,31 +9,34 @@ import { X, Heart, BookOpen, Star, Calendar, Layers } from "lucide-react";
 interface SwipeStackProps {
   books: Book[];
   onEmpty: () => void;
+  onStackChange?: (stack: Book[]) => void;
 }
 
-export default function SwipeStack({ books, onEmpty }: SwipeStackProps) {
+export default function SwipeStack({ books, onEmpty, onStackChange }: SwipeStackProps) {
   const [stack, setStack] = useState<Book[]>(books);
   const [lastDirection, setLastDirection] = useState<"LEFT" | "RIGHT" | null>(null);
   const [expanded, setExpanded] = useState(false);
 
   const currentBook = stack[stack.length - 1];
 
-  const handleSwipe = async (direction: "LEFT" | "RIGHT") => {
+    const handleSwipe = async (direction: "LEFT" | "RIGHT") => {
     const book = stack[stack.length - 1];
     if (!book) return;
 
     setLastDirection(direction);
     setExpanded(false);
-    setStack((prev) => prev.slice(0, -1));
+    const newStack = stack.slice(0, -1);
+    setStack(newStack);
+    onStackChange?.(newStack); // ← sync back
 
     if (stack.length === 1) onEmpty();
 
     await fetch("/api/swipe", {
-      method: "POST",
-      headers: { "Content-Type": "application/json" },
-      body: JSON.stringify({ googleBooksId: book.id, direction, book }),
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ googleBooksId: book.id, direction, book }),
     });
-  };
+    };
 
   return (
     <div className="flex flex-col lg:flex-row items-start justify-center gap-12 w-full max-w-5xl mx-auto">

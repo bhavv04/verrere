@@ -47,6 +47,7 @@ const BATCH = 30;
 
 // Module-level flag — persists across navigations
 let sessionInitialized = false;
+let cachedStack: Book[] = []; // persists across navigations
 
 export default function Home() {
   const { user, isLoaded } = useUser();
@@ -60,32 +61,27 @@ export default function Home() {
     if (isLoaded && !user) router.push("/sign-in");
   }, [isLoaded, user]);
 
-  useEffect(() => {
-        if (user) {
+    useEffect(() => {
+    if (user) {
         fetch("/api/user", { method: "POST" })
         .then((r) => r.json())
         .then((data) => {
-                if (sessionInitialized) {
-                // Already initialized this session — just serve from cache
-                const cached = getCache();
-                if (cached.length >= BATCH) {
-                const batch = popCache(BATCH);
-                setBooks(batch);
-                setLoading(false);
-                if (cacheSize() < 10) fetchFeed();
-                } else {
-                loadBooks(false);
-                }
-                return;
-                }
+            if (sessionInitialized && cachedStack.length > 0) {
+            // Just restore exactly where we left off
+            setBooks(cachedStack);
+            setLoading(false);
+            return;
+            }
 
-                sessionInitialized = true;
-                const userGenres = data.user?.genres ?? [];
-                if (userGenres.length === 0) router.push("/onboarding");
-                else loadBooks(false);
+            if (sessionInitialized) return;
+            sessionInitialized = true;
+
+            const userGenres = data.user?.genres ?? [];
+            if (userGenres.length === 0) router.push("/onboarding");
+            else loadBooks(false);
         });
-        }
-        }, [user]);
+    }
+    }, [user]);
 
   const fetchFeed = useCallback(async (attempt = 0): Promise<Book[]> => {
     if (fetching.current) return [];
@@ -117,34 +113,33 @@ export default function Home() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const loadBooks = useCallback(async (fromEmpty: boolean) => {
-    const cached = getCache();
+    const loadBooks = useCallback(async (fromEmpty: boolean) => {
+        const cached = getCache();
 
-    // Serve from cache instantly
-    if (cached.length >= BATCH) {
-      const batch = popCache(BATCH);
-      setBooks(batch);
-      setLoading(false);
+        if (cached.length >= BATCH) {
+            const batch = popCache(BATCH);
+            cachedStack = batch; // ← sync
+            setBooks(batch);
+            setLoading(false);
+            if (cacheSize() < 10) fetchFeed();
+            return;
+        }
 
-      // Silently refill cache in background if low
-      if (cacheSize() < 20) fetchFeed();
-      return;
-    }
+        if (!fromEmpty) setLoadingMsg("Building your feed...");
+        setLoading(true);
 
-    // Cache empty — fetch fresh
-    if (!fromEmpty) setLoadingMsg("Building your feed...");
-    setLoading(true);
-
-    const fresh = await fetchFeed();
-    if (fresh.length > 0) {
-      const batch = popCache(BATCH);
-      setBooks(batch.length > 0 ? batch : fresh.slice(0, BATCH));
-    } else {
-      setBooks([]);
-    }
-    setLoading(false);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+        const fresh = await fetchFeed();
+        if (fresh.length > 0) {
+            const batch = popCache(BATCH);
+            const finalBatch = batch.length > 0 ? batch : fresh.slice(0, BATCH);
+            cachedStack = finalBatch; // ← sync
+            setBooks(finalBatch);
+        } else {
+            setBooks([]);
+        }
+        setLoading(false);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, []);
 
   return (
     <div className="min-h-screen bg-[#faf8f5] text-[#1a1a2e] flex flex-col">
@@ -189,7 +184,11 @@ export default function Home() {
             </button>
           </div>
         ) : (
-          <SwipeStack books={books} onEmpty={() => loadBooks(true)} />
+          <SwipeStack
+                books={books}
+                onEmpty={() => loadBooks(true)}
+                onStackChange={(stack) => { cachedStack = stack; }}
+            />
         )}
       </main>
     </div>
