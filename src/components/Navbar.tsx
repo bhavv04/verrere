@@ -61,18 +61,23 @@ export default function Navbar() {
             <Library className="w-4 h-4 flex-shrink-0" />
             <span className="hidden sm:inline leading-none">Shelf</span>
           </button>
-
+          
           {/* Theme */}
-          <button
-            onClick={toggle}
+            <button
+            onClick={(e) => toggle(e)}
             className="w-8 h-8 flex items-center justify-center rounded-xl
-              text-stone-400 hover:text-stone-700 dark:text-stone-500 dark:hover:text-stone-200
-              hover:bg-stone-100 dark:hover:bg-stone-800/60
-              active:scale-[0.97] transition-all duration-150"
+                text-stone-400 hover:text-stone-700 dark:text-stone-500 dark:hover:text-stone-200
+                hover:bg-stone-100 dark:hover:bg-stone-800/60
+                active:scale-[0.97] transition-all duration-150"
             aria-label="Toggle theme"
-          >
-            {theme === "dark" ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
-          </button>
+            >
+                <span
+                    key={theme}
+                    className="animate-theme-icon"
+                >
+                    {theme === "dark" ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+                </span>
+            </button>
 
           {/* Settings */}
           <button
