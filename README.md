@@ -55,12 +55,12 @@ Create a `.env` file in the project root:
 
 ```env
 # Clerk
-NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY
-CLERK_SECRET_KEY
+NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
+CLERK_SECRET_KEY=
 NEXT_PUBLIC_CLERK_SIGN_IN_URL=/sign-in
 NEXT_PUBLIC_CLERK_SIGN_UP_URL=/sign-up
-NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/
-NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/
+NEXT_PUBLIC_CLERK_AFTER_SIGN_IN_URL=/app
+NEXT_PUBLIC_CLERK_AFTER_SIGN_UP_URL=/app
 
 # Neon
 DATABASE_URL=""
@@ -124,7 +124,7 @@ src/
 - [ ] **Shelf filters** — filter saved books by genre, rating, or date added
 - [x] **Onboarding redirect** — detect new users and route them to onboarding before the feed
 - [ ] **Reading status** — mark books as "want to read", "reading", or "finished"
-- [ ] **Book detail modal** — tap a card to expand full description, page count, and publication info
+- [x] **Book detail modal** — tap a card to expand full description, page count, and publication info
 
 ### Future Ideas
 - [ ] **Friends & social** — follow friends, see what they're reading
