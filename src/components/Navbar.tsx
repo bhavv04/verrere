@@ -39,10 +39,10 @@ export default function Navbar() {
               active:scale-[0.97] transition-all duration-150"
             aria-label="Go to homepage"
           >
-            <div className="w-6 h-6 rounded-md bg-stone-900 dark:bg-stone-100/90 flex items-center justify-center flex-shrink-0">
-              <BookOpen className="w-3.5 h-3.5 text-stone-100 dark:text-stone-900" />
+            <div className="w-8 h-8  flex items-center justify-center flex-shrink-0">
+              <img src="/verrere.png" alt="verrere" className="w-full h-full object-contain" />
             </div>
-            <span className="text-stone-900 dark:text-stone-100">verrere</span>
+            <span className="font-bold text-lg tracking-tight text-slate-900 dark:text-stone-100">verrere</span>
           </button>
         </div>
 
@@ -58,7 +58,7 @@ export default function Navbar() {
                 : "text-stone-400 dark:text-stone-500 hover:text-stone-700 dark:hover:text-stone-200 hover:bg-stone-100 dark:hover:bg-stone-800/60"
               }`}
           >
-            <Library className="w-4 h-4 flex-shrink-0" />
+            <Library className="w-5 h-5 flex-shrink-0" />
             <span className="hidden sm:inline leading-none">Shelf</span>
           </button>
 
@@ -72,7 +72,7 @@ export default function Navbar() {
             aria-label="Toggle theme"
           >
             <span key={theme} className="animate-theme-icon">
-              {theme === "dark" ? <Sun className="w-4 h-4" /> : <Moon className="w-4 h-4" />}
+              {theme === "dark" ? <Sun className="w-5 h-5" /> : <Moon className="w-5 h-5" />}
             </span>
           </button>
 
@@ -86,7 +86,7 @@ export default function Navbar() {
               }`}
             aria-label="Preferences"
           >
-            <Settings className="w-3.5 h-3.5" />
+            <Settings className="w-5 h-5" />
           </button>
 
           {/* Divider */}

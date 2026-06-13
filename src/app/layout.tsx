@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import { ClerkProvider } from "@clerk/nextjs";
-import { dark } from "@clerk/themes";
 import { ThemeProvider } from "@/lib/theme";
 import "./globals.css";
 import { Analytics } from "@vercel/analytics/next"
@@ -8,7 +7,15 @@ import { Analytics } from "@vercel/analytics/next"
 export const metadata: Metadata = {
   title: "verrere",
   description: "Find your next favourite book",
-    icons: {
+  icons: {
+    icon: [
+      { url: "/favicon.ico" },
+      { url: "/public/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/public/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: [
+      { url: "/public/apple-touch-icon.png", sizes: "180x180" },
+    ],
   },
 };
 

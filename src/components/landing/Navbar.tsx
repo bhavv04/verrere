@@ -18,8 +18,8 @@ export default function Navbar() {
 
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2 active:scale-[0.98] transition-transform duration-150">
-          <div className="w-8 h-8 rounded-lg bg-slate-900 dark:bg-stone-100 flex items-center justify-center transition-colors">
-            <BookOpen className="w-4 h-4 text-white dark:text-stone-900" />
+          <div className="w-8 h-8 rounded-lg flex items-center justify-center transition-colors">
+            <img src="/verrere.png" alt="verrere" className="w-full h-full object-contain" />
           </div>
           <span className="font-bold text-lg tracking-tight text-slate-900 dark:text-stone-100" style={{ fontFamily: "var(--font-playfair)" }}>
             verrere
