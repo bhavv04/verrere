@@ -47,7 +47,7 @@ export default function BookCard({ book, onSwipe, isTop }: BookCardProps) {
         className="absolute inset-0 bg-emerald-400/20 flex items-start justify-start p-6 rounded-2xl"
         style={{ opacity: rightOpacity }}
       >
-        <span className="text-emerald-600 text-2xl font-black tracking-wide -rotate-12">
+        <span className="text-emerald-600 text-2xl font-black -rotate-12">
           SAVE
         </span>
       </motion.div>

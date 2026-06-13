@@ -182,7 +182,7 @@ export default function ShelfPage() {
                 {/* Description */}
                 {selectedBook.description && (
                     <div>
-                    <p className="text-xs font-semibold text-[#9ca3af] uppercase tracking-widest mb-2">About</p>
+                    <p className="text-xs font-semibold text-[#9ca3af] uppercase mb-2">About</p>
                     <p className="text-[#4b5563] dark:text-[#9ca3af] text-sm leading-relaxed">{selectedBook.description}</p>
                     </div>
                 )}

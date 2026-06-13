@@ -163,7 +163,7 @@ export default function SwipeStack({ books, onEmpty, onStackChange }: SwipeStack
           className="flex-1 min-w-0 pt-1 flex flex-col gap-4"
         >
           <div>
-            <h2 className="text-3xl font-bold text-black dark:text-white leading-tight tracking-tight">
+            <h2 className="text-3xl font-bold text-black dark:text-white leading-tight">
               {currentBook.title}
             </h2>
             <p className="text-amber-500 font-medium mt-1">{currentBook.author}</p>
