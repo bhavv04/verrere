@@ -2,11 +2,11 @@
 
 > Tinder for books. Swipe through titles, build your shelf, discover what to read next.
 
-![Homepage Screenshot](public/verrere_shelf.png)
+![Homepage Screenshot](public/verrere2.png)
 
 books that were swiped right get saved to your shelf: 
 
-![Shelf Preview](public/verrere_shelf.png)
+![Shelf Preview](public/verrere3.png)
 
 ## Overview
 
