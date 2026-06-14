@@ -16,10 +16,10 @@ export default function Navbar() {
         {/* Logo */}
         <Link href="/" className="flex items-center gap-2.5 group active:scale-[0.98] transition-transform duration-150">
           <div className="w-10 h-10">
-            <img src="/verrere.png" alt="verso" className="w-full h-full object-contain" />
+            <img src="/verrere.png" alt="Verrere" className="w-full h-full object-contain" />
           </div>
           <span className="hidden sm:block text-[15px] font-semibold tracking-[-0.02em] text-stone-900 dark:text-stone-100" style={{ fontFamily: "var(--font-playfair)" }}>
-            verso
+            Verrere
           </span>
         </Link>
 

@@ -33,7 +33,7 @@ export default function Footer() {
             <Link href="/" className="flex items-center gap-2 w-fit">
               <BookOpen className="w-4 h-4 text-amber-600 dark:text-amber-400" />
               <span className="font-serif italic text-slate-900 dark:text-stone-100 text-lg">
-                Verso
+                Verrere
               </span>
             </Link>
             <p className="text-sm text-stone-500 dark:text-stone-400 leading-relaxed max-w-[200px]">
@@ -65,9 +65,9 @@ export default function Footer() {
 
         {/* Bottom row — copyright */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-xs text-stone-400 dark:text-stone-500">
-            © {new Date().getFullYear()} Verso. All rights reserved.
-          </p>
+            <p className="text-xs text-stone-400 dark:text-stone-500">
+            © 2026 Verrere. All rights reserved.
+            </p>
           <p className="text-xs text-stone-400 dark:text-stone-500">
             Powered by{" "}
             <a

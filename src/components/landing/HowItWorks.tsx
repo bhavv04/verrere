@@ -9,14 +9,14 @@ const steps = [
     step: "01",
     title: "Tell us your taste",
     description:
-      "Pick a few genres you love. Verso uses your preferences as a starting point to build your first deck.",
+      "Pick a few genres you love. Verrere uses your preferences as a starting point to build your first deck.",
   },
   {
     icon: <ThumbsUp className="w-5 h-5" />,
     step: "02",
     title: "Swipe through books",
     description:
-      "Right to save, left to skip. Each swipe teaches Verso more about what you love — no typing required.",
+      "Right to save, left to skip. Each swipe teaches Verrere more about what you love — no typing required.",
   },
   {
     icon: <BookMarked className="w-5 h-5" />,
@@ -29,7 +29,7 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section className="bg-stone-50 dark:bg-stone-900 py-24 px-6 transition-colors duration-200">
+    <section className="bg-stone-50 dark:bg-stone-900 py-16 px-6 transition-colors duration-200">
       <div className="max-w-5xl mx-auto">
 
         {/* Eyebrow */}
@@ -38,9 +38,8 @@ export default function HowItWorks() {
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.5, ease: "easeOut" }}
-          className="flex items-center gap-2 w-fit px-3 py-1.5 rounded-full bg-stone-100 dark:bg-stone-800/60 mb-6"
+          className="flex items-center w-fit px-3 py-2 font-bold rounded-full bg-stone-100 dark:bg-stone-800/60 mb-4"
         >
-          <Sparkles className="w-3 h-3 text-amber-600 dark:text-amber-400" />
           <span className="text-xs text-stone-500 dark:text-stone-400 tracking-wide">
             How it works
           </span>
@@ -54,7 +53,7 @@ export default function HowItWorks() {
           transition={{ duration: 0.55, ease: "easeOut" }}
           className="mb-16"
         >
-          <h2 className="text-4xl sm:text-5xl font-serif italic text-slate-900 dark:text-stone-100 leading-tight mb-3">
+          <h2 className="text-4xl sm:text-5xl font-serif italic text-slate-900 dark:text-stone-100 leading-tight mb-4">
             Up and reading in{" "}
             <span className="text-amber-600 dark:text-amber-400">
               three steps
@@ -67,7 +66,7 @@ export default function HowItWorks() {
         </motion.div>
 
         {/* Steps */}
-        <div className="relative grid grid-cols-1 sm:grid-cols-3 gap-px bg-stone-200 dark:bg-stone-900 rounded-2xl overflow-hidden gap-2">
+        <div className="relative grid grid-cols-1 sm:grid-cols-3 bg-stone-200 dark:bg-stone-900 rounded-2xl overflow-hidden">
           {steps.map((step, i) => (
             <motion.div
               key={i}
