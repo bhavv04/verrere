@@ -16,7 +16,7 @@ export default function Hero() {
   }, []);
 
   return (
-    <section className="relative min-h-screen bg-stone-50 dark:bg-stone-950 overflow-hidden transition-colors duration-200 text-center lg:text-left">
+    <section className="relative min-h-screen bg-stone-50 dark:bg-stone-900 overflow-hidden transition-colors duration-200">
       <div className="max-w-6xl space-y-4 mx-auto px-6 pt-28 lg:pt-36 pb-16">
 
         {/* Eyebrow */}
@@ -94,7 +94,7 @@ export default function Hero() {
                 </Link>
                 <Link
                   href="/sign-in"
-                  className="px-6 py-3 rounded-xl bg-stone-200 dark:bg-stone-900 hover:bg-stone-300 dark:hover:bg-stone-800 text-sm text-stone-900 dark:text-stone-100 transition-colors shadow-sm"
+                  className="px-6 py-3 rounded-xl bg-stone-200 dark:bg-black hover:bg-stone-300 dark:hover:bg-stone-800 text-sm text-stone-900 dark:text-stone-100 transition-colors shadow-sm"
                 >
                   Sign in
                 </Link>
