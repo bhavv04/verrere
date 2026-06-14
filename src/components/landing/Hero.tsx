@@ -53,9 +53,9 @@ export default function Hero() {
             className="relative mt-10 lg:absolute lg:right-0 lg:bottom-0 lg:translate-y-32/100 flex justify-center lg:justify-end"
           >
             <div className="relative">
-              <div className="absolute inset-0 rounded-2xl bg-stone-300 dark:bg-stone-900 rotate-[8deg] z-0 shadow-sm" />
-              <div className="absolute inset-0 rounded-2xl bg-stone-200 dark:bg-stone-900 rotate-[-2deg] z-0 shadow-sm" />
-              <div className="absolute inset-0 rounded-2xl bg-stone-100 dark:bg-stone-800 rotate-[-12deg] z-0 shadow-sm" />
+              <div className="absolute inset-0 rounded-2xl bg-stone-200 dark:bg-stone-800 rotate-[8deg] z-0 shadow-sm" />
+              <div className="absolute inset-0 rounded-2xl bg-stone-200 dark:bg-stone-800 rotate-[-2deg] z-0 shadow-sm" />
+              <div className="absolute inset-0 rounded-2xl bg-stone-300 dark:bg-stone-700 rotate-[-12deg] z-0 shadow-sm" />
 
               <div className="absolute -top-3.5 right-4 z-20 flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-slate-900 dark:bg-stone-100 w-fit rotate-[5deg] shadow-md">
                 <MousePointerClick className="w-3.5 h-3.5 text-white dark:text-stone-900" />
