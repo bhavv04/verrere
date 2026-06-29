@@ -60,7 +60,8 @@ let cachedStack: Book[] = [];
 
 function SkeletonLoader() {
   return (
-    <div className="flex flex-col lg:flex-row items-start justify-center gap-16 w-full max-w-5xl mx-auto animate-pulse">
+    <div className="flex flex-col lg:flex-row items-start justify-center gap-16 w-full max-w-5xl mx-auto">
+
       {/* Left col: responsive card skeleton matching mobile upgrades */}
       <div className="flex flex-col items-center gap-6 flex-shrink-0 w-full lg:w-auto">
         <div className="w-[85vw] h-[120vw] sm:w-[280px] sm:h-[420px] max-w-sm rounded-2xl bg-stone-200 dark:bg-stone-800" />
@@ -111,15 +112,6 @@ export default function Home() {
   const fetching = useRef(false);
 
   useEffect(() => {
-    if (!user) return;
-    fetch("/api/user")
-        .then(r => r.json())
-        .then(data => {
-        if (!data.user?.genres?.length) router.replace("/onboarding");
-        });
-    }, [user]);
-
-  useEffect(() => {
     if (isLoaded && !user) router.push("/sign-in");
   }, [isLoaded, user]);
 
@@ -136,7 +128,7 @@ export default function Home() {
           if (sessionInitialized) return;
           sessionInitialized = true;
           const userGenres = data.user?.genres ?? [];
-          if (userGenres.length === 0) router.push("/onboarding");
+          if (userGenres.length === 0) router.push("/app/onboarding");
           else loadBooks(false);
         });
     }
@@ -194,7 +186,7 @@ export default function Home() {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col bg-stone-100 dark:bg-stone-950 text-black dark:text-stone-100">
+    <div className="min-h-screen flex flex-col bg-stone-100 dark:bg-stone-900 text-black dark:text-stone-100">
         <Navbar />
       <main className="flex-1 flex flex-col items-center justify-center px-6 py-24 w-full">
         {loading ? (

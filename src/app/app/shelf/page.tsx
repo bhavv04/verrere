@@ -43,9 +43,9 @@ export default function ShelfPage() {
   };
 
   return (
-    <div className="bg-stone-50 dark:bg-stone-950 text-stone-900 dark:text-stone-100">
+    <div className="bg-stone-50 dark:bg-stone-900 text-stone-900 dark:text-stone-100">
         <Navbar />
-        <main className="min-h-screen py-24 px-12 max-w-7xl mx-auto">
+        <main className="min-h-screen py-26 max-w-7xl mx-auto">
             {loading ? (
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 gap-5 animate-pulse">
                 {[...Array(10)].map((_, i) => (

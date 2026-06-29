@@ -36,7 +36,7 @@ export default function PreferencesPage() {
     };
 
   return (
-    <div className="min-h-screen bg-stone-50 dark:bg-stone-950 text-stone-900 dark:text-stone-100">
+    <div className="min-h-screen bg-stone-50 dark:bg-stone-900 text-stone-900 dark:text-stone-100">
         <Navbar />
         <main className="min-h-screen max-w-lg mx-auto px-6 flex flex-col justify-center pt-20">
             <h1 className="text-2xl font-bold mb-1">Your genres</h1>

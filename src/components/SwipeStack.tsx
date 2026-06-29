@@ -59,21 +59,18 @@ export default function SwipeStack({ books, onEmpty, onStackChange }: SwipeStack
     if (!lastSwiped) return;
     const { book, direction } = lastSwiped;
 
-    // Restore book to top of stack
     const restored = [...stack, book];
     setStack(restored);
     onStackChange?.(restored);
     setLastSwiped(null);
     setExpanded(false);
 
-    // Undo the swipe on the server
     await fetch("/api/swipe", {
       method: "DELETE",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({ googleBooksId: book.id }),
     });
 
-    // If it was a right swipe, put it back in the local cache too
     if (direction === "RIGHT") {
       try {
         const raw = localStorage.getItem("verrere_feed");
@@ -87,11 +84,13 @@ export default function SwipeStack({ books, onEmpty, onStackChange }: SwipeStack
   };
 
   return (
-    <div className="flex flex-col lg:flex-row items-start justify-center gap-16 w-full max-w-5xl mx-auto">
+    <div className="flex flex-col lg:flex-row items-start justify-center gap-12 w-full max-w-5xl xl:max-w-5xl mx-auto lg:pt-8">
 
       {/* Card + Buttons */}
       <div className="flex flex-col items-center gap-6 flex-shrink-0 w-full sm:w-auto">
-        <div className="relative w-[85vw] h-[120vw] sm:w-[280px] sm:h-[420px] max-w-sm">
+
+        {/* Card */}
+        <div className="relative w-[85vw] h-[120vw] sm:w-[260px] sm:h-[390px] md:w-[280px] md:h-[420px] xl:w-[310px] xl:h-[465px] max-w-sm">
           <AnimatePresence custom={exitDirectionRef.current}>
             {stack.slice(-1).map((book) => (
               <motion.div
@@ -116,12 +115,12 @@ export default function SwipeStack({ books, onEmpty, onStackChange }: SwipeStack
           </AnimatePresence>
         </div>
 
-        {/* Swipe buttons */}
-        <div className="flex gap-4 w-[85vw] sm:w-full max-w-sm">
+        {/* Buttons */}
+        <div className="flex gap-4 w-[85vw] sm:w-[260px] md:w-[280px] xl:w-[310px] max-w-sm">
           <button
             onClick={() => handleSwipe("LEFT")}
             aria-label="Pass"
-            className="flex-1 flex items-center justify-center p-4 rounded-full bg-black/5 dark:bg-white/5 hover:bg-red-100 dark:hover:bg-red-900/40 hover:text-red-500 active:scale-95 transition-all group touch-manipulation"
+            className="flex-1 flex items-center justify-center p-4 rounded-full bg-black/5 dark:bg-white/5 hover:bg-red-100 dark:hover:bg-red-900/40 active:scale-95 transition-all group touch-manipulation"
           >
             <X className="w-5 h-5 text-black/40 dark:text-white/40 group-hover:text-red-500 transition-colors" strokeWidth={2.5} />
           </button>
@@ -134,7 +133,7 @@ export default function SwipeStack({ books, onEmpty, onStackChange }: SwipeStack
           </button>
         </div>
 
-        {/* Queue count + undo */}
+        {/* Queue + undo */}
         <div className="flex items-center gap-3">
           <p className="text-black/20 dark:text-white/20 text-xs">{stack.length} in queue</p>
           {lastSwiped && (
@@ -160,22 +159,26 @@ export default function SwipeStack({ books, onEmpty, onStackChange }: SwipeStack
           initial={{ opacity: 0, y: 8 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.25 }}
-          className="flex-1 min-w-0 pt-1 flex flex-col gap-4"
+          className="flex-1 min-w-0 pt-1 flex flex-col gap-4 xl:gap-5"
         >
+          {/* Title + Author */}
           <div>
-            <h2 className="text-3xl font-bold text-black dark:text-white leading-tight">
+            <h2 className="text-3xl xl:text-4xl font-bold text-black dark:text-white leading-tight tracking-tight">
               {currentBook.title}
             </h2>
-            <p className="text-amber-500 font-medium mt-1">{currentBook.author}</p>
+            <p className="text-amber-500 font-medium mt-1 text-base xl:text-lg">
+              {currentBook.author}
+            </p>
           </div>
 
+          {/* Rating */}
           {currentBook.rating && (
             <div className="flex items-center gap-2">
               <div className="flex gap-0.5">
                 {[1, 2, 3, 4, 5].map((star) => (
                   <Star
                     key={star}
-                    className={`w-3.5 h-3.5 ${
+                    className={`w-3.5 h-3.5 xl:w-4 xl:h-4 ${
                       star <= Math.round(currentBook.rating!)
                         ? "text-amber-400 fill-amber-400"
                         : "text-black/10 dark:text-white/10 fill-black/10 dark:fill-white/10"
@@ -183,14 +186,20 @@ export default function SwipeStack({ books, onEmpty, onStackChange }: SwipeStack
                   />
                 ))}
               </div>
-              <span className="text-black/30 dark:text-white/30 text-xs">{currentBook.rating.toFixed(1)}</span>
+              <span className="text-black/30 dark:text-white/30 text-xs xl:text-sm">
+                {currentBook.rating.toFixed(1)}
+              </span>
             </div>
           )}
 
+          {/* Genres */}
           {currentBook.genres.length > 0 && (
             <div className="flex flex-wrap gap-1.5">
               {currentBook.genres.slice(0, 4).map((g) => (
-                <span key={g} className="px-2.5 py-1 rounded-full text-xs border border-black/10 dark:border-white/10 text-black/40 dark:text-white/40">
+                <span
+                  key={g}
+                  className="px-2.5 py-1 xl:px-3 rounded-full text-xs xl:text-sm border border-black/10 dark:border-white/10 text-black/40 dark:text-white/40"
+                >
                   {g}
                 </span>
               ))}
@@ -199,8 +208,9 @@ export default function SwipeStack({ books, onEmpty, onStackChange }: SwipeStack
 
           <div className="h-px bg-black/8 dark:bg-white/8" />
 
+          {/* Description */}
           <div>
-            <p className={`text-black/50 dark:text-white/50 text-sm leading-relaxed ${expanded ? "" : "line-clamp-6"}`}>
+            <p className={`text-black/50 dark:text-white/50 text-sm xl:text-base leading-relaxed ${expanded ? "" : "line-clamp-6 xl:line-clamp-7"}`}>
               {currentBook.description}
             </p>
             {currentBook.description.length > 300 && (
@@ -221,26 +231,31 @@ export default function SwipeStack({ books, onEmpty, onStackChange }: SwipeStack
             )}
           </div>
 
+          {/* Subjects */}
           {currentBook.subjects && currentBook.subjects.length > 0 && (
             <div className="flex flex-wrap gap-1.5">
               {currentBook.subjects.slice(0, 6).map((s) => (
-                <span key={s} className="px-2 py-0.5 rounded text-xs bg-black/5 dark:bg-white/5 text-black/30 dark:text-white/30">
+                <span
+                  key={s}
+                  className="px-2 py-0.5 xl:px-2.5 rounded text-xs xl:text-sm bg-black/5 dark:bg-white/5 text-black/30 dark:text-white/30"
+                >
                   {s}
                 </span>
               ))}
             </div>
           )}
 
-          <div className="flex items-center gap-5 text-black/30 dark:text-white/30 text-xs">
+          {/* Meta */}
+          <div className="flex items-center gap-5 xl:gap-6 text-black/30 dark:text-white/30 text-xs xl:text-sm">
             {currentBook.pageCount && (
-              <span className="flex items-center gap-1">
-                <BookOpen className="w-4 h-4" />
+              <span className="flex items-center gap-1.5">
+                <BookOpen className="w-3.5 h-3.5 xl:w-4 xl:h-4" />
                 {currentBook.pageCount.toLocaleString()} pages
               </span>
             )}
             {currentBook.publishedDate && (
-              <span className="flex items-center gap-1">
-                <Calendar className="w-4 h-4" />
+              <span className="flex items-center gap-1.5">
+                <Calendar className="w-3.5 h-3.5 xl:w-4 xl:h-4" />
                 {currentBook.publishedDate.slice(0, 4)}
               </span>
             )}
