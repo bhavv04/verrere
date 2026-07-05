@@ -1,0 +1,3930 @@
+{
+  "Fiction": [
+    {
+      "id": "379760",
+      "title": "1984",
+      "coverUrl": "https://assets.hardcover.app/edition/29258002/fb69559e-7c34-40cb-8518-3ef4898b830c.jpg"
+    },
+    {
+      "id": "427578",
+      "title": "Project Hail Mary",
+      "coverUrl": "https://assets.hardcover.app/editions/3274049/8741341047797682-91mYu67RfUL._SL1500_.jpg"
+    },
+    {
+      "id": "328491",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "coverUrl": "https://assets.hardcover.app/edition/2667580/06168492-bf52-4333-9ac6-66ed21907865.jpg"
+    },
+    {
+      "id": "312460",
+      "title": "Dune",
+      "coverUrl": "https://assets.hardcover.app/editions/30426415/8362709973192601-9780441013593-us.jpg"
+    },
+    {
+      "id": "429306",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "coverUrl": "https://assets.hardcover.app/editions/25614271/4833571895209920-lf.jpeg"
+    },
+    {
+      "id": "356467",
+      "title": "Animal Farm",
+      "coverUrl": "https://assets.hardcover.app/edition/22658835/7019472-L.jpg"
+    },
+    {
+      "id": "88639",
+      "title": "The Hunger Games",
+      "coverUrl": "https://assets.hardcover.app/editions/1589497/2979196565308831-lf%202.jpeg"
+    },
+    {
+      "id": "2459845",
+      "title": "The Hobbit, or There and Back Again",
+      "coverUrl": "https://assets.hardcover.app/edition/17456445/d34448a9-bf3f-441d-93f2-1cd32dd3867c.jpg"
+    },
+    {
+      "id": "376219",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "coverUrl": "https://assets.hardcover.app/edition/28780168/0012cc5a-9e3a-48d4-95b6-d91f484de17a.jpg"
+    },
+    {
+      "id": "383236",
+      "title": "Harry Potter and the Goblet of Fire",
+      "coverUrl": "https://assets.hardcover.app/editions/28458058/1771665257940243-49130.jpg"
+    },
+    {
+      "id": "428465",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "coverUrl": "https://assets.hardcover.app/editions/29262698/2170450621507933-58613451.jpg"
+    },
+    {
+      "id": "369692",
+      "title": "Mistborn: The Final Empire",
+      "coverUrl": "https://assets.hardcover.app/external_data/31614753/800579f7d675e7d2cd01043ddc57eb6ff724a6a5.jpeg"
+    },
+    {
+      "id": "427798",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "coverUrl": "https://assets.hardcover.app/edition/21490281/d9b48333ac7a69ebe0aa5573fe0ff032e6f97508.jpeg"
+    },
+    {
+      "id": "382143",
+      "title": "Harry Potter and the Deathly Hallows",
+      "coverUrl": "https://assets.hardcover.app/editions/14019917/7017379795452299-58613224.jpg"
+    },
+    {
+      "id": "428506",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "coverUrl": "https://assets.hardcover.app/editions/19724535/8038369521613846-58613345.jpg"
+    },
+    {
+      "id": "375938",
+      "title": "Fahrenheit 451",
+      "coverUrl": "https://assets.hardcover.app/edition/6336191/3d353406f14fd36043a8bdfb8c3288f90ee4f96c.jpeg"
+    },
+    {
+      "id": "292354",
+      "title": "The Martian",
+      "coverUrl": "https://assets.hardcover.app/editions/21716111/5323176149970177.jpg"
+    },
+    {
+      "id": "427473",
+      "title": "Red Rising",
+      "coverUrl": "https://assets.hardcover.app/editions/26096001/3897005112280259.jpg"
+    },
+    {
+      "id": "149361",
+      "title": "To Kill A Mockingbird",
+      "coverUrl": "https://assets.hardcover.app/edition/22780788/eef525120e32b6eca1070bbfb2b63a11d324579d.jpeg"
+    },
+    {
+      "id": "139773",
+      "title": "The Fellowship of the Ring",
+      "coverUrl": "https://assets.hardcover.app/edition/29029601/6d64b05efec0ccb215640b38d8c6bc4c712da0f5.jpeg"
+    },
+    {
+      "id": "644",
+      "title": "A Game of Thrones",
+      "coverUrl": "https://assets.hardcover.app/edition/12841472/a63e7ea1-9064-4eb8-afb4-5372db40aed2.jpg"
+    },
+    {
+      "id": "377193",
+      "title": "The Great Gatsby",
+      "coverUrl": "https://assets.hardcover.app/external_data/27597898/6cb93bdc8f29bc483f692644c829ab97a7f17716.jpeg"
+    },
+    {
+      "id": "208339",
+      "title": "The Three-Body Problem",
+      "coverUrl": "https://assets.hardcover.app/edition/30400656/a042ea0a-127c-4e98-8202-f20519445ec3.jpg"
+    },
+    {
+      "id": "386446",
+      "title": "The Way of Kings",
+      "coverUrl": "https://assets.hardcover.app/edition/3134360/a18d937805a28e3214a556442c8d33f41c02f2cb.jpeg"
+    },
+    {
+      "id": "427971",
+      "title": "All Systems Red",
+      "coverUrl": "https://assets.hardcover.app/edition/31608045/3c51e2999ec8dc7e94fdd569d083d45f2d46dd3b.jpeg"
+    },
+    {
+      "id": "374328",
+      "title": "Brave New World",
+      "coverUrl": "https://assets.hardcover.app/edition/3299811/3e542fb1d6aed92c0f4e9cd0ac9b2f6892ca97a3.jpeg"
+    },
+    {
+      "id": "446681",
+      "title": "Dungeon Crawler Carl",
+      "coverUrl": "https://assets.hardcover.app/edition/31601422/3a01ea07-01f4-45a2-9940-6fc7e00e0d08.jpeg"
+    },
+    {
+      "id": "175780",
+      "title": "Catching Fire",
+      "coverUrl": "https://assets.hardcover.app/edition/7988314/dbef0f7db3fc4a6157550d5f7cc01563af40315c.jpeg"
+    },
+    {
+      "id": "26363",
+      "title": "Ready Player One",
+      "coverUrl": "https://assets.hardcover.app/edition/31561015/c72731ad-c2bc-49c8-a087-66605cead82f.jpg"
+    },
+    {
+      "id": "463683",
+      "title": "Mockingjay",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332302/73342f741799f340cc0237284f304ed48b64d1cb.jpeg"
+    },
+    {
+      "id": "377799",
+      "title": "The Handmaid’s Tale",
+      "coverUrl": "https://assets.hardcover.app/edition/20879993/7be97c9457dd0572c4cf915cddc844a91a24dc24.jpeg"
+    },
+    {
+      "id": "381379",
+      "title": "The Catcher in the Rye",
+      "coverUrl": "https://assets.hardcover.app/editions/20025793/2524829738512264-91YXaY-I9VS._SL1500_.jpg"
+    },
+    {
+      "id": "714600",
+      "title": "Fourth Wing",
+      "coverUrl": "https://assets.hardcover.app/editions/30707731/3559167047761380.jpeg"
+    },
+    {
+      "id": "379217",
+      "title": "The Name of the Wind",
+      "coverUrl": "https://assets.hardcover.app/editions/19454574/9509867934646082.jpg"
+    },
+    {
+      "id": "428018",
+      "title": "The Midnight Library",
+      "coverUrl": "https://assets.hardcover.app/external_data/30206313/f95c74793bcdd7925758f16a6f6f5f423a2ec81d.jpeg"
+    },
+    {
+      "id": "379647",
+      "title": "Pride and Prejudice",
+      "coverUrl": "https://assets.hardcover.app/edition/30519375/e154c876-72fd-4f13-ba24-3551f0104306.jpg"
+    },
+    {
+      "id": "158268",
+      "title": "Ender's Game",
+      "coverUrl": "https://assets.hardcover.app/external_data/59556867/ec6f766e71f270e2aac18494d2a4d9c1e05ceb56.jpeg"
+    },
+    {
+      "id": "175280",
+      "title": "Piranesi",
+      "coverUrl": "https://assets.hardcover.app/editions/30480426/ec301cb7-b118-48fd-aa3a-5d336e61c182.jpg"
+    },
+    {
+      "id": "374481",
+      "title": "Lord of the Flies",
+      "coverUrl": "https://assets.hardcover.app/editions/5311461/6685526815468095-8016155.jpg"
+    },
+    {
+      "id": "436692",
+      "title": "The Picture of Dorian Gray",
+      "coverUrl": "https://assets.hardcover.app/edition/25403534/25aad411adf5c70ceab52ba339ea701564cb93d6.jpeg"
+    },
+    {
+      "id": "80378",
+      "title": "The Song of Achilles",
+      "coverUrl": "https://assets.hardcover.app/editions/8933288/8719175186248367.jpg"
+    },
+    {
+      "id": "383598",
+      "title": "Circe",
+      "coverUrl": "https://assets.hardcover.app/editions/187333/9694237244087422-circe.jpg"
+    },
+    {
+      "id": "428290",
+      "title": "A Court of Thorns and Roses",
+      "coverUrl": "https://assets.hardcover.app/external_data/50291833/4af7f88042d87ecc991f2fcb53e945d8daaabcfd.jpeg"
+    },
+    {
+      "id": "427383",
+      "title": "The Well of Ascension",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332358/43f95ab5370016fe0b2eddf9adee5f338850e6c4.jpeg"
+    },
+    {
+      "id": "479910",
+      "title": "Tomorrow, and Tomorrow, and Tomorrow",
+      "coverUrl": "https://assets.hardcover.app/edition/30535150/2efdfd508a803c89913fd6e987f69048a17c89c6.jpeg"
+    },
+    {
+      "id": "57214",
+      "title": "Dark Matter",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332342/e3c5928fc0a24ca97940c68f03dd2b503e42ba4f.jpeg"
+    },
+    {
+      "id": "122240",
+      "title": "Slaughterhouse-Five, or The Children's Crusade",
+      "coverUrl": "https://assets.hardcover.app/edition/17079379/6cd33f6e07aae9f2a3f5299de4fe48c07571dd66.jpeg"
+    },
+    {
+      "id": "337236",
+      "title": "The Alchemist",
+      "coverUrl": "https://assets.hardcover.app/editions/30399646/6724991536065856.jpg"
+    },
+    {
+      "id": "657",
+      "title": "American Gods",
+      "coverUrl": "https://assets.hardcover.app/external_data/30222505/3e02a50c5ecf68835504b66795c7553ae9cc6d98.jpeg"
+    },
+    {
+      "id": "379631",
+      "title": "The Two Towers",
+      "coverUrl": "https://assets.hardcover.app/edition/25616931/cd5d5770785ed7174f4649b06ff4feb6cbdb800e.jpeg"
+    },
+    {
+      "id": "103241",
+      "title": "The Hero of Ages",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332415/e3dcf34cb6632d5de4f946fbbd5d20558f3d69d6.jpeg"
+    },
+    {
+      "id": "427621",
+      "title": "Leviathan Wakes",
+      "coverUrl": "https://assets.hardcover.app/editions/31795264/8326503637087890.jpg"
+    },
+    {
+      "id": "266084",
+      "title": "The Stranger",
+      "coverUrl": "https://assets.hardcover.app/edition/15655608/419742-L.jpg"
+    },
+    {
+      "id": "219252",
+      "title": "The Lightning Thief",
+      "coverUrl": "https://assets.hardcover.app/edition/11185124/b076b406ccdf683e9fb871f8aa24c041ae354514.jpeg"
+    },
+    {
+      "id": "496492",
+      "title": "Babel, or The Necessity of Violence: An Arcane History of the Oxford Translators' Revolution",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332611/bbb44be9ff044379e6934ceae26be2405e3efdd6.jpeg"
+    },
+    {
+      "id": "469783",
+      "title": "Crime and Punishment",
+      "coverUrl": "https://assets.hardcover.app/edition/11223468/295861-L.jpg"
+    },
+    {
+      "id": "28722",
+      "title": "Frankenstein",
+      "coverUrl": "https://assets.hardcover.app/edition/18780509/e353c2cafc8293db69a5771436ffc8a8779c26ab.jpeg"
+    },
+    {
+      "id": "300042",
+      "title": "The Book Thief",
+      "coverUrl": "https://assets.hardcover.app/editions/30399827/3081662300594446.jpg"
+    },
+    {
+      "id": "340654",
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "coverUrl": "https://assets.hardcover.app/edition/1849541/60b7835bda66d83c00f9e3e34c8eceebaee1f381.jpeg"
+    },
+    {
+      "id": "378949",
+      "title": "Of Mice and Men",
+      "coverUrl": "https://assets.hardcover.app/editions/30399637/208697025088793-Of_Mice_and_Men_(1937_1st_ed_dust_jacket).jpg"
+    }
+  ],
+  "Fantasy": [
+    {
+      "id": "427578",
+      "title": "Project Hail Mary",
+      "coverUrl": "https://assets.hardcover.app/editions/3274049/8741341047797682-91mYu67RfUL._SL1500_.jpg"
+    },
+    {
+      "id": "328491",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "coverUrl": "https://assets.hardcover.app/edition/2667580/06168492-bf52-4333-9ac6-66ed21907865.jpg"
+    },
+    {
+      "id": "312460",
+      "title": "Dune",
+      "coverUrl": "https://assets.hardcover.app/editions/30426415/8362709973192601-9780441013593-us.jpg"
+    },
+    {
+      "id": "429306",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "coverUrl": "https://assets.hardcover.app/editions/25614271/4833571895209920-lf.jpeg"
+    },
+    {
+      "id": "356467",
+      "title": "Animal Farm",
+      "coverUrl": "https://assets.hardcover.app/edition/22658835/7019472-L.jpg"
+    },
+    {
+      "id": "88639",
+      "title": "The Hunger Games",
+      "coverUrl": "https://assets.hardcover.app/editions/1589497/2979196565308831-lf%202.jpeg"
+    },
+    {
+      "id": "2459845",
+      "title": "The Hobbit, or There and Back Again",
+      "coverUrl": "https://assets.hardcover.app/edition/17456445/d34448a9-bf3f-441d-93f2-1cd32dd3867c.jpg"
+    },
+    {
+      "id": "376219",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "coverUrl": "https://assets.hardcover.app/edition/28780168/0012cc5a-9e3a-48d4-95b6-d91f484de17a.jpg"
+    },
+    {
+      "id": "383236",
+      "title": "Harry Potter and the Goblet of Fire",
+      "coverUrl": "https://assets.hardcover.app/editions/28458058/1771665257940243-49130.jpg"
+    },
+    {
+      "id": "428465",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "coverUrl": "https://assets.hardcover.app/editions/29262698/2170450621507933-58613451.jpg"
+    },
+    {
+      "id": "369692",
+      "title": "Mistborn: The Final Empire",
+      "coverUrl": "https://assets.hardcover.app/external_data/31614753/800579f7d675e7d2cd01043ddc57eb6ff724a6a5.jpeg"
+    },
+    {
+      "id": "427798",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "coverUrl": "https://assets.hardcover.app/edition/21490281/d9b48333ac7a69ebe0aa5573fe0ff032e6f97508.jpeg"
+    },
+    {
+      "id": "382143",
+      "title": "Harry Potter and the Deathly Hallows",
+      "coverUrl": "https://assets.hardcover.app/editions/14019917/7017379795452299-58613224.jpg"
+    },
+    {
+      "id": "428506",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "coverUrl": "https://assets.hardcover.app/editions/19724535/8038369521613846-58613345.jpg"
+    },
+    {
+      "id": "375938",
+      "title": "Fahrenheit 451",
+      "coverUrl": "https://assets.hardcover.app/edition/6336191/3d353406f14fd36043a8bdfb8c3288f90ee4f96c.jpeg"
+    },
+    {
+      "id": "427473",
+      "title": "Red Rising",
+      "coverUrl": "https://assets.hardcover.app/editions/26096001/3897005112280259.jpg"
+    },
+    {
+      "id": "139773",
+      "title": "The Fellowship of the Ring",
+      "coverUrl": "https://assets.hardcover.app/edition/29029601/6d64b05efec0ccb215640b38d8c6bc4c712da0f5.jpeg"
+    },
+    {
+      "id": "644",
+      "title": "A Game of Thrones",
+      "coverUrl": "https://assets.hardcover.app/edition/12841472/a63e7ea1-9064-4eb8-afb4-5372db40aed2.jpg"
+    },
+    {
+      "id": "208339",
+      "title": "The Three-Body Problem",
+      "coverUrl": "https://assets.hardcover.app/edition/30400656/a042ea0a-127c-4e98-8202-f20519445ec3.jpg"
+    },
+    {
+      "id": "386446",
+      "title": "The Way of Kings",
+      "coverUrl": "https://assets.hardcover.app/edition/3134360/a18d937805a28e3214a556442c8d33f41c02f2cb.jpeg"
+    },
+    {
+      "id": "427971",
+      "title": "All Systems Red",
+      "coverUrl": "https://assets.hardcover.app/edition/31608045/3c51e2999ec8dc7e94fdd569d083d45f2d46dd3b.jpeg"
+    },
+    {
+      "id": "374328",
+      "title": "Brave New World",
+      "coverUrl": "https://assets.hardcover.app/edition/3299811/3e542fb1d6aed92c0f4e9cd0ac9b2f6892ca97a3.jpeg"
+    },
+    {
+      "id": "446681",
+      "title": "Dungeon Crawler Carl",
+      "coverUrl": "https://assets.hardcover.app/edition/31601422/3a01ea07-01f4-45a2-9940-6fc7e00e0d08.jpeg"
+    },
+    {
+      "id": "175780",
+      "title": "Catching Fire",
+      "coverUrl": "https://assets.hardcover.app/edition/7988314/dbef0f7db3fc4a6157550d5f7cc01563af40315c.jpeg"
+    },
+    {
+      "id": "26363",
+      "title": "Ready Player One",
+      "coverUrl": "https://assets.hardcover.app/edition/31561015/c72731ad-c2bc-49c8-a087-66605cead82f.jpg"
+    },
+    {
+      "id": "463683",
+      "title": "Mockingjay",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332302/73342f741799f340cc0237284f304ed48b64d1cb.jpeg"
+    },
+    {
+      "id": "714600",
+      "title": "Fourth Wing",
+      "coverUrl": "https://assets.hardcover.app/editions/30707731/3559167047761380.jpeg"
+    },
+    {
+      "id": "379217",
+      "title": "The Name of the Wind",
+      "coverUrl": "https://assets.hardcover.app/editions/19454574/9509867934646082.jpg"
+    },
+    {
+      "id": "428018",
+      "title": "The Midnight Library",
+      "coverUrl": "https://assets.hardcover.app/external_data/30206313/f95c74793bcdd7925758f16a6f6f5f423a2ec81d.jpeg"
+    },
+    {
+      "id": "158268",
+      "title": "Ender's Game",
+      "coverUrl": "https://assets.hardcover.app/external_data/59556867/ec6f766e71f270e2aac18494d2a4d9c1e05ceb56.jpeg"
+    },
+    {
+      "id": "175280",
+      "title": "Piranesi",
+      "coverUrl": "https://assets.hardcover.app/editions/30480426/ec301cb7-b118-48fd-aa3a-5d336e61c182.jpg"
+    },
+    {
+      "id": "374481",
+      "title": "Lord of the Flies",
+      "coverUrl": "https://assets.hardcover.app/editions/5311461/6685526815468095-8016155.jpg"
+    },
+    {
+      "id": "80378",
+      "title": "The Song of Achilles",
+      "coverUrl": "https://assets.hardcover.app/editions/8933288/8719175186248367.jpg"
+    },
+    {
+      "id": "383598",
+      "title": "Circe",
+      "coverUrl": "https://assets.hardcover.app/editions/187333/9694237244087422-circe.jpg"
+    },
+    {
+      "id": "428290",
+      "title": "A Court of Thorns and Roses",
+      "coverUrl": "https://assets.hardcover.app/external_data/50291833/4af7f88042d87ecc991f2fcb53e945d8daaabcfd.jpeg"
+    },
+    {
+      "id": "427383",
+      "title": "The Well of Ascension",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332358/43f95ab5370016fe0b2eddf9adee5f338850e6c4.jpeg"
+    },
+    {
+      "id": "57214",
+      "title": "Dark Matter",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332342/e3c5928fc0a24ca97940c68f03dd2b503e42ba4f.jpeg"
+    },
+    {
+      "id": "122240",
+      "title": "Slaughterhouse-Five, or The Children's Crusade",
+      "coverUrl": "https://assets.hardcover.app/edition/17079379/6cd33f6e07aae9f2a3f5299de4fe48c07571dd66.jpeg"
+    },
+    {
+      "id": "337236",
+      "title": "The Alchemist",
+      "coverUrl": "https://assets.hardcover.app/editions/30399646/6724991536065856.jpg"
+    },
+    {
+      "id": "657",
+      "title": "American Gods",
+      "coverUrl": "https://assets.hardcover.app/external_data/30222505/3e02a50c5ecf68835504b66795c7553ae9cc6d98.jpeg"
+    },
+    {
+      "id": "379631",
+      "title": "The Two Towers",
+      "coverUrl": "https://assets.hardcover.app/edition/25616931/cd5d5770785ed7174f4649b06ff4feb6cbdb800e.jpeg"
+    },
+    {
+      "id": "103241",
+      "title": "The Hero of Ages",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332415/e3dcf34cb6632d5de4f946fbbd5d20558f3d69d6.jpeg"
+    },
+    {
+      "id": "427621",
+      "title": "Leviathan Wakes",
+      "coverUrl": "https://assets.hardcover.app/editions/31795264/8326503637087890.jpg"
+    },
+    {
+      "id": "219252",
+      "title": "The Lightning Thief",
+      "coverUrl": "https://assets.hardcover.app/edition/11185124/b076b406ccdf683e9fb871f8aa24c041ae354514.jpeg"
+    },
+    {
+      "id": "496492",
+      "title": "Babel, or The Necessity of Violence: An Arcane History of the Oxford Translators' Revolution",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332611/bbb44be9ff044379e6934ceae26be2405e3efdd6.jpeg"
+    },
+    {
+      "id": "249097",
+      "title": "This Is How You Lose the Time War",
+      "coverUrl": "https://assets.hardcover.app/external_data/44204908/47b512a8e31cb3c55f8957b2659c59be05a2dbc5.jpeg"
+    },
+    {
+      "id": "427825",
+      "title": "The Fifth Season",
+      "coverUrl": "https://assets.hardcover.app/editions/30436469/70e6b452-e137-4ff2-8d6f-d83a2c852070.jpg"
+    },
+    {
+      "id": "188628",
+      "title": "Foundation",
+      "coverUrl": "https://assets.hardcover.app/edition/15198128/a07b8584-b7cd-4873-a08d-cf28aa56820f.jpg"
+    },
+    {
+      "id": "427524",
+      "title": "The Invisible Life of Addie LaRue",
+      "coverUrl": "https://assets.hardcover.app/edition/9887800/25a0234922dc176711a9f418e70af29bc5a6153c.jpeg"
+    },
+    {
+      "id": "428657",
+      "title": "Dracula",
+      "coverUrl": "https://assets.hardcover.app/editions/12963649/989255574897903-812-AV3IC3L._SL1500_.jpg"
+    },
+    {
+      "id": "313448",
+      "title": "Neuromancer",
+      "coverUrl": "https://assets.hardcover.app/editions/30401722/203725739738019-PxOL.jpg"
+    },
+    {
+      "id": "431713",
+      "title": "The Metamorphosis",
+      "coverUrl": "https://assets.hardcover.app/edition/6343685/704cd849182f0351406e03434d2968ade757fde0.jpeg"
+    },
+    {
+      "id": "427374",
+      "title": "A Clash of Kings",
+      "coverUrl": "https://assets.hardcover.app/edition/7441206/83b941d8f996468d946641f3674e9b26461a3ddc.jpeg"
+    },
+    {
+      "id": "77104",
+      "title": "The Eye of the World",
+      "coverUrl": "https://assets.hardcover.app/edition/30621010/97e433a0-efab-4de8-a7cc-23ad09a4df05.png"
+    },
+    {
+      "id": "115005",
+      "title": "The Little Prince",
+      "coverUrl": "https://assets.hardcover.app/editions/30426444/4807756302554780-157993.jpg"
+    },
+    {
+      "id": "427460",
+      "title": "Hyperion",
+      "coverUrl": "https://assets.hardcover.app/edition/30428122/3c2f0e295e374546dcee4d94bd25197589d8484a.jpeg"
+    },
+    {
+      "id": "434342",
+      "title": "Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch",
+      "coverUrl": "https://assets.hardcover.app/edition/25781438/e82f7695d3fb5f077c3a997a1359c639fdf7f891.jpeg"
+    },
+    {
+      "id": "374131",
+      "title": "Words of Radiance",
+      "coverUrl": "https://assets.hardcover.app/edition/419923/7428154-L.jpg"
+    },
+    {
+      "id": "36087",
+      "title": "The Road",
+      "coverUrl": "https://assets.hardcover.app/editions/642392/7620614454245640-cormacmcarthytheroad.jpg"
+    },
+    {
+      "id": "1898835",
+      "title": "Six of Crows",
+      "coverUrl": "https://assets.hardcover.app/edition/30399477/8fbcdad6-5240-4e0e-9eb5-b691b0745f01.jpg"
+    }
+  ],
+  "Science Fiction": [
+    {
+      "id": "379760",
+      "title": "1984",
+      "coverUrl": "https://assets.hardcover.app/edition/29258002/fb69559e-7c34-40cb-8518-3ef4898b830c.jpg"
+    },
+    {
+      "id": "427578",
+      "title": "Project Hail Mary",
+      "coverUrl": "https://assets.hardcover.app/editions/3274049/8741341047797682-91mYu67RfUL._SL1500_.jpg"
+    },
+    {
+      "id": "312460",
+      "title": "Dune",
+      "coverUrl": "https://assets.hardcover.app/editions/30426415/8362709973192601-9780441013593-us.jpg"
+    },
+    {
+      "id": "356467",
+      "title": "Animal Farm",
+      "coverUrl": "https://assets.hardcover.app/edition/22658835/7019472-L.jpg"
+    },
+    {
+      "id": "88639",
+      "title": "The Hunger Games",
+      "coverUrl": "https://assets.hardcover.app/editions/1589497/2979196565308831-lf%202.jpeg"
+    },
+    {
+      "id": "427798",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "coverUrl": "https://assets.hardcover.app/edition/21490281/d9b48333ac7a69ebe0aa5573fe0ff032e6f97508.jpeg"
+    },
+    {
+      "id": "428506",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "coverUrl": "https://assets.hardcover.app/editions/19724535/8038369521613846-58613345.jpg"
+    },
+    {
+      "id": "375938",
+      "title": "Fahrenheit 451",
+      "coverUrl": "https://assets.hardcover.app/edition/6336191/3d353406f14fd36043a8bdfb8c3288f90ee4f96c.jpeg"
+    },
+    {
+      "id": "292354",
+      "title": "The Martian",
+      "coverUrl": "https://assets.hardcover.app/editions/21716111/5323176149970177.jpg"
+    },
+    {
+      "id": "427473",
+      "title": "Red Rising",
+      "coverUrl": "https://assets.hardcover.app/editions/26096001/3897005112280259.jpg"
+    },
+    {
+      "id": "139773",
+      "title": "The Fellowship of the Ring",
+      "coverUrl": "https://assets.hardcover.app/edition/29029601/6d64b05efec0ccb215640b38d8c6bc4c712da0f5.jpeg"
+    },
+    {
+      "id": "644",
+      "title": "A Game of Thrones",
+      "coverUrl": "https://assets.hardcover.app/edition/12841472/a63e7ea1-9064-4eb8-afb4-5372db40aed2.jpg"
+    },
+    {
+      "id": "208339",
+      "title": "The Three-Body Problem",
+      "coverUrl": "https://assets.hardcover.app/edition/30400656/a042ea0a-127c-4e98-8202-f20519445ec3.jpg"
+    },
+    {
+      "id": "386446",
+      "title": "The Way of Kings",
+      "coverUrl": "https://assets.hardcover.app/edition/3134360/a18d937805a28e3214a556442c8d33f41c02f2cb.jpeg"
+    },
+    {
+      "id": "427971",
+      "title": "All Systems Red",
+      "coverUrl": "https://assets.hardcover.app/edition/31608045/3c51e2999ec8dc7e94fdd569d083d45f2d46dd3b.jpeg"
+    },
+    {
+      "id": "374328",
+      "title": "Brave New World",
+      "coverUrl": "https://assets.hardcover.app/edition/3299811/3e542fb1d6aed92c0f4e9cd0ac9b2f6892ca97a3.jpeg"
+    },
+    {
+      "id": "446681",
+      "title": "Dungeon Crawler Carl",
+      "coverUrl": "https://assets.hardcover.app/edition/31601422/3a01ea07-01f4-45a2-9940-6fc7e00e0d08.jpeg"
+    },
+    {
+      "id": "175780",
+      "title": "Catching Fire",
+      "coverUrl": "https://assets.hardcover.app/edition/7988314/dbef0f7db3fc4a6157550d5f7cc01563af40315c.jpeg"
+    },
+    {
+      "id": "26363",
+      "title": "Ready Player One",
+      "coverUrl": "https://assets.hardcover.app/edition/31561015/c72731ad-c2bc-49c8-a087-66605cead82f.jpg"
+    },
+    {
+      "id": "463683",
+      "title": "Mockingjay",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332302/73342f741799f340cc0237284f304ed48b64d1cb.jpeg"
+    },
+    {
+      "id": "377799",
+      "title": "The Handmaid’s Tale",
+      "coverUrl": "https://assets.hardcover.app/edition/20879993/7be97c9457dd0572c4cf915cddc844a91a24dc24.jpeg"
+    },
+    {
+      "id": "379217",
+      "title": "The Name of the Wind",
+      "coverUrl": "https://assets.hardcover.app/editions/19454574/9509867934646082.jpg"
+    },
+    {
+      "id": "428018",
+      "title": "The Midnight Library",
+      "coverUrl": "https://assets.hardcover.app/external_data/30206313/f95c74793bcdd7925758f16a6f6f5f423a2ec81d.jpeg"
+    },
+    {
+      "id": "158268",
+      "title": "Ender's Game",
+      "coverUrl": "https://assets.hardcover.app/external_data/59556867/ec6f766e71f270e2aac18494d2a4d9c1e05ceb56.jpeg"
+    },
+    {
+      "id": "427383",
+      "title": "The Well of Ascension",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332358/43f95ab5370016fe0b2eddf9adee5f338850e6c4.jpeg"
+    },
+    {
+      "id": "479910",
+      "title": "Tomorrow, and Tomorrow, and Tomorrow",
+      "coverUrl": "https://assets.hardcover.app/edition/30535150/2efdfd508a803c89913fd6e987f69048a17c89c6.jpeg"
+    },
+    {
+      "id": "57214",
+      "title": "Dark Matter",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332342/e3c5928fc0a24ca97940c68f03dd2b503e42ba4f.jpeg"
+    },
+    {
+      "id": "122240",
+      "title": "Slaughterhouse-Five, or The Children's Crusade",
+      "coverUrl": "https://assets.hardcover.app/edition/17079379/6cd33f6e07aae9f2a3f5299de4fe48c07571dd66.jpeg"
+    },
+    {
+      "id": "657",
+      "title": "American Gods",
+      "coverUrl": "https://assets.hardcover.app/external_data/30222505/3e02a50c5ecf68835504b66795c7553ae9cc6d98.jpeg"
+    },
+    {
+      "id": "379631",
+      "title": "The Two Towers",
+      "coverUrl": "https://assets.hardcover.app/edition/25616931/cd5d5770785ed7174f4649b06ff4feb6cbdb800e.jpeg"
+    },
+    {
+      "id": "103241",
+      "title": "The Hero of Ages",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332415/e3dcf34cb6632d5de4f946fbbd5d20558f3d69d6.jpeg"
+    },
+    {
+      "id": "427621",
+      "title": "Leviathan Wakes",
+      "coverUrl": "https://assets.hardcover.app/editions/31795264/8326503637087890.jpg"
+    },
+    {
+      "id": "496492",
+      "title": "Babel, or The Necessity of Violence: An Arcane History of the Oxford Translators' Revolution",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332611/bbb44be9ff044379e6934ceae26be2405e3efdd6.jpeg"
+    },
+    {
+      "id": "28722",
+      "title": "Frankenstein",
+      "coverUrl": "https://assets.hardcover.app/edition/18780509/e353c2cafc8293db69a5771436ffc8a8779c26ab.jpeg"
+    },
+    {
+      "id": "249097",
+      "title": "This Is How You Lose the Time War",
+      "coverUrl": "https://assets.hardcover.app/external_data/44204908/47b512a8e31cb3c55f8957b2659c59be05a2dbc5.jpeg"
+    },
+    {
+      "id": "427825",
+      "title": "The Fifth Season",
+      "coverUrl": "https://assets.hardcover.app/editions/30436469/70e6b452-e137-4ff2-8d6f-d83a2c852070.jpg"
+    },
+    {
+      "id": "188628",
+      "title": "Foundation",
+      "coverUrl": "https://assets.hardcover.app/edition/15198128/a07b8584-b7cd-4873-a08d-cf28aa56820f.jpg"
+    },
+    {
+      "id": "313448",
+      "title": "Neuromancer",
+      "coverUrl": "https://assets.hardcover.app/editions/30401722/203725739738019-PxOL.jpg"
+    },
+    {
+      "id": "431713",
+      "title": "The Metamorphosis",
+      "coverUrl": "https://assets.hardcover.app/edition/6343685/704cd849182f0351406e03434d2968ade757fde0.jpeg"
+    },
+    {
+      "id": "427374",
+      "title": "A Clash of Kings",
+      "coverUrl": "https://assets.hardcover.app/edition/7441206/83b941d8f996468d946641f3674e9b26461a3ddc.jpeg"
+    },
+    {
+      "id": "77104",
+      "title": "The Eye of the World",
+      "coverUrl": "https://assets.hardcover.app/edition/30621010/97e433a0-efab-4de8-a7cc-23ad09a4df05.png"
+    },
+    {
+      "id": "427460",
+      "title": "Hyperion",
+      "coverUrl": "https://assets.hardcover.app/edition/30428122/3c2f0e295e374546dcee4d94bd25197589d8484a.jpeg"
+    },
+    {
+      "id": "434342",
+      "title": "Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch",
+      "coverUrl": "https://assets.hardcover.app/edition/25781438/e82f7695d3fb5f077c3a997a1359c639fdf7f891.jpeg"
+    },
+    {
+      "id": "374131",
+      "title": "Words of Radiance",
+      "coverUrl": "https://assets.hardcover.app/edition/419923/7428154-L.jpg"
+    },
+    {
+      "id": "36087",
+      "title": "The Road",
+      "coverUrl": "https://assets.hardcover.app/editions/642392/7620614454245640-cormacmcarthytheroad.jpg"
+    },
+    {
+      "id": "1898835",
+      "title": "Six of Crows",
+      "coverUrl": "https://assets.hardcover.app/edition/30399477/8fbcdad6-5240-4e0e-9eb5-b691b0745f01.jpg"
+    },
+    {
+      "id": "594985",
+      "title": "The Will of the Many",
+      "coverUrl": "https://assets.hardcover.app/edition/30615590/1fe836a2-7004-4378-add0-dc78b96b2d17.jpg"
+    },
+    {
+      "id": "427553",
+      "title": "Children of Time",
+      "coverUrl": "https://assets.hardcover.app/editions/30400632/1512151722488735-25563522.jpg"
+    },
+    {
+      "id": "355708",
+      "title": "The Golden Compass",
+      "coverUrl": "https://assets.hardcover.app/editions/19151716/902688047208777-119322.jpg"
+    },
+    {
+      "id": "268150",
+      "title": "Do Androids Dream of Electric Sheep?",
+      "coverUrl": "https://assets.hardcover.app/editions/24366858/2403087114756371-912qCxdgTRL._SL1500_.jpg"
+    },
+    {
+      "id": "1218611",
+      "title": "The Girl with the Dragon Tattoo",
+      "coverUrl": "https://assets.hardcover.app/edition/22298854/46bea0924000f4fae375accbeefa58c7a615f02e.jpeg"
+    },
+    {
+      "id": "262039",
+      "title": "The Giver",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332318/b23de44fadf6eca2f7196c4aa3efbec84b748a35.jpeg"
+    },
+    {
+      "id": "383404",
+      "title": "The Blade Itself",
+      "coverUrl": "https://assets.hardcover.app/external_data/25818704/6d4c4406902175a5fe5292e8a64df7e6180f1712.jpeg"
+    },
+    {
+      "id": "380764",
+      "title": "The Lies of Locke Lamora",
+      "coverUrl": "https://assets.hardcover.app/edition/14655125/9aab1cd2-201a-4312-813b-d5118c1e8bc2.jpg"
+    },
+    {
+      "id": "132314",
+      "title": "Never Let Me Go",
+      "coverUrl": "https://assets.hardcover.app/external_data/46506540/42538243519a7ec280aea12b7dfe11a109fbf6ac.jpeg"
+    },
+    {
+      "id": "236",
+      "title": "A Storm of Swords",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332349/5249dbcbc118ae4ea68c37295c8386f96c341c95.jpeg"
+    },
+    {
+      "id": "602482",
+      "title": "Tress of the Emerald Sea",
+      "coverUrl": "https://assets.hardcover.app/external_data/60564134/fc31b11ae8f367e5717cf7916e557846dbc356f7.jpeg"
+    },
+    {
+      "id": "378044",
+      "title": "Golden Son",
+      "coverUrl": "https://assets.hardcover.app/editions/30404982/b5150007-bf09-4937-8d32-ecf89f136342.jpg"
+    },
+    {
+      "id": "480139",
+      "title": "Flowers for Algernon",
+      "coverUrl": "https://assets.hardcover.app/edition/116801/3d46aa36-501a-4609-a744-1500713078f9.jpg"
+    },
+    {
+      "id": "109344",
+      "title": "Divergent",
+      "coverUrl": "https://assets.hardcover.app/edition/22182301/7276222-L.jpg"
+    }
+  ],
+  "Mystery": [
+    {
+      "id": "427971",
+      "title": "All Systems Red",
+      "coverUrl": "https://assets.hardcover.app/edition/31608045/3c51e2999ec8dc7e94fdd569d083d45f2d46dd3b.jpeg"
+    },
+    {
+      "id": "26363",
+      "title": "Ready Player One",
+      "coverUrl": "https://assets.hardcover.app/edition/31561015/c72731ad-c2bc-49c8-a087-66605cead82f.jpg"
+    },
+    {
+      "id": "175280",
+      "title": "Piranesi",
+      "coverUrl": "https://assets.hardcover.app/editions/30480426/ec301cb7-b118-48fd-aa3a-5d336e61c182.jpg"
+    },
+    {
+      "id": "436692",
+      "title": "The Picture of Dorian Gray",
+      "coverUrl": "https://assets.hardcover.app/edition/25403534/25aad411adf5c70ceab52ba339ea701564cb93d6.jpeg"
+    },
+    {
+      "id": "57214",
+      "title": "Dark Matter",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332342/e3c5928fc0a24ca97940c68f03dd2b503e42ba4f.jpeg"
+    },
+    {
+      "id": "427621",
+      "title": "Leviathan Wakes",
+      "coverUrl": "https://assets.hardcover.app/editions/31795264/8326503637087890.jpg"
+    },
+    {
+      "id": "373163",
+      "title": "The Da Vinci Code",
+      "coverUrl": "https://assets.hardcover.app/editions/30400169/2520023766251547.jpeg"
+    },
+    {
+      "id": "386401",
+      "title": "Wuthering Heights",
+      "coverUrl": "https://assets.hardcover.app/edition/10342255/9cd80aacd1d00db0d02a6d0019bc5cb946871387.jpeg"
+    },
+    {
+      "id": "1218611",
+      "title": "The Girl with the Dragon Tattoo",
+      "coverUrl": "https://assets.hardcover.app/edition/22298854/46bea0924000f4fae375accbeefa58c7a615f02e.jpeg"
+    },
+    {
+      "id": "166849",
+      "title": "The Secret History",
+      "coverUrl": "https://assets.hardcover.app/edition/30823800/10a85a6a452e60500f4a545a7d86ae824e030144.jpeg"
+    },
+    {
+      "id": "2008536",
+      "title": "And Then There Were None",
+      "coverUrl": "https://assets.hardcover.app/editions/26939988/4489646938598107-16299.jpg"
+    },
+    {
+      "id": "280359",
+      "title": "The Shining",
+      "coverUrl": "https://assets.hardcover.app/edition/6224476/39a69b16a4087379b6fa08bd0c9781fc9bf0da85.jpeg"
+    },
+    {
+      "id": "187993",
+      "title": "The Silent Patient",
+      "coverUrl": "https://assets.hardcover.app/edition/30408097/283e4f71-ecbc-4e2c-8876-6fdfad786456.jpg"
+    },
+    {
+      "id": "590689",
+      "title": "Yellowface",
+      "coverUrl": "https://assets.hardcover.app/editions/30634192/886596728607296.jpg"
+    },
+    {
+      "id": "1145808",
+      "title": "Gone Girl",
+      "coverUrl": "https://assets.hardcover.app/editions/30400927/daac9aed-3fb0-4404-9248-925788cae4f2.jpeg"
+    },
+    {
+      "id": "39629",
+      "title": "Throne of Glass",
+      "coverUrl": "https://assets.hardcover.app/edition/30501042/9052e867e43511a1f2ec7dc8ce0e33d01faf7c6e.jpeg"
+    },
+    {
+      "id": "99422",
+      "title": "Artemis",
+      "coverUrl": "https://assets.hardcover.app/edition/30426459/f167b2da-7e34-4e59-a0da-2233d70a61b7.jpg"
+    },
+    {
+      "id": "123621",
+      "title": "Angels & Demons",
+      "coverUrl": "https://assets.hardcover.app/edition/28693581/2a05f293-29e8-4228-902d-d6dc0fd20564.jpg"
+    },
+    {
+      "id": "475214",
+      "title": "Legends & Lattes",
+      "coverUrl": "https://assets.hardcover.app/editions/30396420/4372639752917043.jpg"
+    },
+    {
+      "id": "427537",
+      "title": "Artificial Condition",
+      "coverUrl": "https://assets.hardcover.app/external_data/43328916/fa176120b21cfbaafcd9a26fe6f4252433a53f1f.jpeg"
+    },
+    {
+      "id": "202782",
+      "title": "Recursion",
+      "coverUrl": "https://assets.hardcover.app/external_data/31968027/91983cb00d2a53d0c88cf8b9eacf2d7714428465.jpeg"
+    },
+    {
+      "id": "376341",
+      "title": "The Stand",
+      "coverUrl": "https://assets.hardcover.app/edition/21840079/da029af124d14c28d6ade5a3b69bfcf8d4a17472.jpeg"
+    },
+    {
+      "id": "20941",
+      "title": "Gideon the Ninth",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332376/5bf3c29956bfa33ff0829ae4a136dd7c1e006543.jpeg"
+    },
+    {
+      "id": "301814",
+      "title": "House of Leaves",
+      "coverUrl": "https://assets.hardcover.app/edition/30496249/35f243520f8801a93728f653e67f68a31b7b47fc.jpeg"
+    },
+    {
+      "id": "373525",
+      "title": "It",
+      "coverUrl": "https://assets.hardcover.app/edition/8943980/122ac0cfc4b131affedd32c2aff08463199bec1e.jpeg"
+    },
+    {
+      "id": "427560",
+      "title": "Rogue Protocol",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332654/d29ec327867b45eaa6838d359475917d6e9cabbc.jpeg"
+    },
+    {
+      "id": "182003",
+      "title": "The Girl on the Train",
+      "coverUrl": "https://assets.hardcover.app/edition/30399545/22a077d7c5cc34bf31fd72d67ed7286796ea73dc.jpeg"
+    },
+    {
+      "id": "427736",
+      "title": "Ninth House",
+      "coverUrl": "https://assets.hardcover.app/external_data/50636014/6a62672d810875ba820bbc109f07274ceabfccb3.jpeg"
+    },
+    {
+      "id": "428261",
+      "title": "Where the Crawdads Sing",
+      "coverUrl": "https://assets.hardcover.app/editions/22309128/6102116956447505.jpg"
+    },
+    {
+      "id": "207877",
+      "title": "Kafka on the Shore",
+      "coverUrl": "https://assets.hardcover.app/editions/31645214/7751038927873328.jpg"
+    },
+    {
+      "id": "446722",
+      "title": "The Gate of the Feral Gods",
+      "coverUrl": "https://assets.hardcover.app/edition/32402587/413583e40b9333a84f65bc0ee582326ce71b82ee.jpeg"
+    },
+    {
+      "id": "382641",
+      "title": "The Curious Incident of the Dog in the Night-Time",
+      "coverUrl": "https://assets.hardcover.app/external_data/60344932/5d3d325dbfd7eda00bc7f63495d4a03519bb1e8f.jpeg"
+    },
+    {
+      "id": "511526",
+      "title": "The Housemaid",
+      "coverUrl": "https://assets.hardcover.app/edition/30793259/4ce04b693c8025f739ba67460aaff16f1e417b8a.jpeg"
+    },
+    {
+      "id": "203347",
+      "title": "Storm Front",
+      "coverUrl": "https://assets.hardcover.app/edition/5769057/2e530f75ff71f188b9bd260763bd3b09d5fb0455.jpeg"
+    },
+    {
+      "id": "382513",
+      "title": "A Good Girl's Guide to Murder",
+      "coverUrl": "https://assets.hardcover.app/edition/30614103/222bb8053c54c2a15bf641bd87f53993c8328f18.jpeg"
+    },
+    {
+      "id": "437572",
+      "title": "The Thursday Murder Club",
+      "coverUrl": "https://assets.hardcover.app/external_data/47667262/f7aa5ab35a99f0b0f24d4b75d06e02b96a81dcec.jpeg"
+    },
+    {
+      "id": "375534",
+      "title": "Murder on the Orient Express",
+      "coverUrl": "https://assets.hardcover.app/editions/30399401/9393001616356172-853510.jpg"
+    },
+    {
+      "id": "321728",
+      "title": "Fight Club",
+      "coverUrl": "https://assets.hardcover.app/editions/14379830/9291375278274024-81GH0MPAUIL._SL1500_.jpg"
+    },
+    {
+      "id": "385032",
+      "title": "A Short History of Nearly Everything",
+      "coverUrl": "https://assets.hardcover.app/external_data/30192277/7a058dd6f1dc49d4ec324913388c1c97a23c2cd2.jpeg"
+    },
+    {
+      "id": "772009",
+      "title": "The Tainted Cup",
+      "coverUrl": "https://assets.hardcover.app/editions/30774097/5279737640186273-ttce1.jpg"
+    },
+    {
+      "id": "375470",
+      "title": "The Shadow of the Wind",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332507/488f5702a797385ab4e5532825d2e11aebde45da.jpeg"
+    },
+    {
+      "id": "381936",
+      "title": "The Goldfinch",
+      "coverUrl": "https://assets.hardcover.app/editions/30399797/9607564183148250.jpg"
+    },
+    {
+      "id": "428353",
+      "title": "Mexican Gothic",
+      "coverUrl": "https://assets.hardcover.app/external_data/23195265/5e715ac598fd7eb8e81f4946fc39948b7f3425c9.jpeg"
+    },
+    {
+      "id": "428979",
+      "title": "The Shadow of the Gods",
+      "coverUrl": "https://assets.hardcover.app/editions/3509075/5156442469290046.jpg"
+    },
+    {
+      "id": "481892",
+      "title": "Remarkably Bright Creatures",
+      "coverUrl": "https://assets.hardcover.app/external_data/59469142/340246db2f5b43b566a8dfc27887bb13301ca4cd.jpeg"
+    },
+    {
+      "id": "1708426",
+      "title": "The 7 1/2 Deaths of Evelyn Hardcastle",
+      "coverUrl": "https://assets.hardcover.app/edition/30385617/30dc1a93-b2a9-4499-a0be-f5ae3641bc05.png"
+    },
+    {
+      "id": "186373",
+      "title": "Crooked Kingdom",
+      "coverUrl": "https://assets.hardcover.app/editions/15324026/454101783196428.jpg"
+    },
+    {
+      "id": "432760",
+      "title": "Verity",
+      "coverUrl": "https://assets.hardcover.app/editions/3030202/2823118527969986.jpg"
+    },
+    {
+      "id": "385850",
+      "title": "Pet Sematary",
+      "coverUrl": "https://assets.hardcover.app/edition/31659400/8c361af1f4d12a8568575e715ad3e253c35ec71a.jpeg"
+    },
+    {
+      "id": "385191",
+      "title": "Carrie",
+      "coverUrl": "https://assets.hardcover.app/edition/31884529/e08da983-ed59-484d-afd7-92de64782664.jpg"
+    },
+    {
+      "id": "435167",
+      "title": "Fugitive Telemetry",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7333079/1dd5f1cc67a36104185d7cc0c9967729fc44bf18.jpeg"
+    },
+    {
+      "id": "263530",
+      "title": "Rebecca",
+      "coverUrl": "https://assets.hardcover.app/edition/30908630/4aec62a83748259134ed1d275e56f77ff96fbb83.jpeg"
+    },
+    {
+      "id": "384057",
+      "title": "'Salem's Lot",
+      "coverUrl": "https://assets.hardcover.app/edition/6460652/156d04facc3e767256e086ca3cf53e52c0c669a5.jpeg"
+    },
+    {
+      "id": "512106",
+      "title": "Demon Copperhead",
+      "coverUrl": "https://assets.hardcover.app/edition/30513018/8fec1e23-f6ff-4dc6-bb53-837f99d315a6.jpg"
+    },
+    {
+      "id": "428546",
+      "title": "The Inheritance Games",
+      "coverUrl": "https://assets.hardcover.app/editions/12972012/261130687709961-91oB1gHuiIL._SL1500_.jpg"
+    },
+    {
+      "id": "654",
+      "title": "Breaking Dawn",
+      "coverUrl": "https://assets.hardcover.app/edition/22419642/5253aa33134dfaf746b479bcdb37161c5f05a98f.jpeg"
+    },
+    {
+      "id": "321898",
+      "title": "If We Were Villains",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332896/3d6f1c74c62f208ce1605c61bab47389b771bcbd.jpeg"
+    },
+    {
+      "id": "31677",
+      "title": "Heart of Darkness",
+      "coverUrl": "https://assets.hardcover.app/external_data/41529885/48a9c088af3c98971dc1e6c5663590b04c7da65a.jpeg"
+    },
+    {
+      "id": "438396",
+      "title": "Miss Peregrine’s Home for Peculiar Children",
+      "coverUrl": "https://assets.hardcover.app/edition/26442710/40fe8f04593aa9e0803c5fbf2700964f0f22079b.jpeg"
+    },
+    {
+      "id": "130839",
+      "title": "Sharp Objects",
+      "coverUrl": "https://assets.hardcover.app/external_data/48812118/acf4dec3c464b013bf3fcff7545db1f529e29697.jpeg"
+    }
+  ],
+  "Thriller": [
+    {
+      "id": "427578",
+      "title": "Project Hail Mary",
+      "coverUrl": "https://assets.hardcover.app/editions/3274049/8741341047797682-91mYu67RfUL._SL1500_.jpg"
+    },
+    {
+      "id": "292354",
+      "title": "The Martian",
+      "coverUrl": "https://assets.hardcover.app/editions/21716111/5323176149970177.jpg"
+    },
+    {
+      "id": "175780",
+      "title": "Catching Fire",
+      "coverUrl": "https://assets.hardcover.app/edition/7988314/dbef0f7db3fc4a6157550d5f7cc01563af40315c.jpeg"
+    },
+    {
+      "id": "57214",
+      "title": "Dark Matter",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332342/e3c5928fc0a24ca97940c68f03dd2b503e42ba4f.jpeg"
+    },
+    {
+      "id": "428657",
+      "title": "Dracula",
+      "coverUrl": "https://assets.hardcover.app/editions/12963649/989255574897903-812-AV3IC3L._SL1500_.jpg"
+    },
+    {
+      "id": "373163",
+      "title": "The Da Vinci Code",
+      "coverUrl": "https://assets.hardcover.app/editions/30400169/2520023766251547.jpeg"
+    },
+    {
+      "id": "429356",
+      "title": "The Lion, the Witch and the Wardrobe",
+      "coverUrl": "https://assets.hardcover.app/editions/30400082/2444907221007209.jpg"
+    },
+    {
+      "id": "1218611",
+      "title": "The Girl with the Dragon Tattoo",
+      "coverUrl": "https://assets.hardcover.app/edition/22298854/46bea0924000f4fae375accbeefa58c7a615f02e.jpeg"
+    },
+    {
+      "id": "166849",
+      "title": "The Secret History",
+      "coverUrl": "https://assets.hardcover.app/edition/30823800/10a85a6a452e60500f4a545a7d86ae824e030144.jpeg"
+    },
+    {
+      "id": "2008536",
+      "title": "And Then There Were None",
+      "coverUrl": "https://assets.hardcover.app/editions/26939988/4489646938598107-16299.jpg"
+    },
+    {
+      "id": "280359",
+      "title": "The Shining",
+      "coverUrl": "https://assets.hardcover.app/edition/6224476/39a69b16a4087379b6fa08bd0c9781fc9bf0da85.jpeg"
+    },
+    {
+      "id": "187993",
+      "title": "The Silent Patient",
+      "coverUrl": "https://assets.hardcover.app/edition/30408097/283e4f71-ecbc-4e2c-8876-6fdfad786456.jpg"
+    },
+    {
+      "id": "590689",
+      "title": "Yellowface",
+      "coverUrl": "https://assets.hardcover.app/editions/30634192/886596728607296.jpg"
+    },
+    {
+      "id": "1145808",
+      "title": "Gone Girl",
+      "coverUrl": "https://assets.hardcover.app/editions/30400927/daac9aed-3fb0-4404-9248-925788cae4f2.jpeg"
+    },
+    {
+      "id": "123621",
+      "title": "Angels & Demons",
+      "coverUrl": "https://assets.hardcover.app/edition/28693581/2a05f293-29e8-4228-902d-d6dc0fd20564.jpg"
+    },
+    {
+      "id": "202782",
+      "title": "Recursion",
+      "coverUrl": "https://assets.hardcover.app/external_data/31968027/91983cb00d2a53d0c88cf8b9eacf2d7714428465.jpeg"
+    },
+    {
+      "id": "376341",
+      "title": "The Stand",
+      "coverUrl": "https://assets.hardcover.app/edition/21840079/da029af124d14c28d6ade5a3b69bfcf8d4a17472.jpeg"
+    },
+    {
+      "id": "383587",
+      "title": "11/22/63",
+      "coverUrl": "https://assets.hardcover.app/edition/23959086/a129e91093231fcfa21c51c2195fcae2e4a56969.jpeg"
+    },
+    {
+      "id": "9724",
+      "title": "Jurassic Park",
+      "coverUrl": "https://assets.hardcover.app/editions/30401767/7336843016391221-81rBVCDfrgL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "373525",
+      "title": "It",
+      "coverUrl": "https://assets.hardcover.app/edition/8943980/122ac0cfc4b131affedd32c2aff08463199bec1e.jpeg"
+    },
+    {
+      "id": "182003",
+      "title": "The Girl on the Train",
+      "coverUrl": "https://assets.hardcover.app/edition/30399545/22a077d7c5cc34bf31fd72d67ed7286796ea73dc.jpeg"
+    },
+    {
+      "id": "192946",
+      "title": "I, Robot",
+      "coverUrl": "https://assets.hardcover.app/edition/12373277/509ae6a85955acc6ed96febacdcbffb105f0ebea.jpeg"
+    },
+    {
+      "id": "430941",
+      "title": "The Titan's Curse",
+      "coverUrl": "https://assets.hardcover.app/editions/9190622/6990422080815135-51JNWnz1zyL.jpg"
+    },
+    {
+      "id": "511526",
+      "title": "The Housemaid",
+      "coverUrl": "https://assets.hardcover.app/edition/30793259/4ce04b693c8025f739ba67460aaff16f1e417b8a.jpeg"
+    },
+    {
+      "id": "382513",
+      "title": "A Good Girl's Guide to Murder",
+      "coverUrl": "https://assets.hardcover.app/edition/30614103/222bb8053c54c2a15bf641bd87f53993c8328f18.jpeg"
+    },
+    {
+      "id": "437572",
+      "title": "The Thursday Murder Club",
+      "coverUrl": "https://assets.hardcover.app/external_data/47667262/f7aa5ab35a99f0b0f24d4b75d06e02b96a81dcec.jpeg"
+    },
+    {
+      "id": "321728",
+      "title": "Fight Club",
+      "coverUrl": "https://assets.hardcover.app/editions/14379830/9291375278274024-81GH0MPAUIL._SL1500_.jpg"
+    },
+    {
+      "id": "436338",
+      "title": "Tender Is the Flesh",
+      "coverUrl": "https://assets.hardcover.app/edition/12261434/bd8f2cff-a620-415f-975d-69206e5c6d39.jpg"
+    },
+    {
+      "id": "375470",
+      "title": "The Shadow of the Wind",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332507/488f5702a797385ab4e5532825d2e11aebde45da.jpeg"
+    },
+    {
+      "id": "428353",
+      "title": "Mexican Gothic",
+      "coverUrl": "https://assets.hardcover.app/external_data/23195265/5e715ac598fd7eb8e81f4946fc39948b7f3425c9.jpeg"
+    },
+    {
+      "id": "432760",
+      "title": "Verity",
+      "coverUrl": "https://assets.hardcover.app/editions/3030202/2823118527969986.jpg"
+    },
+    {
+      "id": "98094",
+      "title": "The Pillars of the Earth",
+      "coverUrl": "https://assets.hardcover.app/edition/32856871/bdab1721-61a6-454e-8e1e-05977ef697fe.jpg"
+    },
+    {
+      "id": "385191",
+      "title": "Carrie",
+      "coverUrl": "https://assets.hardcover.app/edition/31884529/e08da983-ed59-484d-afd7-92de64782664.jpg"
+    },
+    {
+      "id": "321898",
+      "title": "If We Were Villains",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332896/3d6f1c74c62f208ce1605c61bab47389b771bcbd.jpeg"
+    },
+    {
+      "id": "130839",
+      "title": "Sharp Objects",
+      "coverUrl": "https://assets.hardcover.app/external_data/48812118/acf4dec3c464b013bf3fcff7545db1f529e29697.jpeg"
+    },
+    {
+      "id": "444640",
+      "title": "The Girl Who Played With Fire",
+      "coverUrl": "https://assets.hardcover.app/edition/18512719/5c232b2b7e8e03d36816c4a171a4d6a367c9d8e4.jpeg"
+    },
+    {
+      "id": "428504",
+      "title": "The Guest List",
+      "coverUrl": "https://assets.hardcover.app/external_data/35435236/43242e719c3badc4629b1728254757cba51d2d7f.jpeg"
+    },
+    {
+      "id": "469768",
+      "title": "Fairy Tale",
+      "coverUrl": "https://assets.hardcover.app/edition/30445662/0c91093569488c3b6ffed7b9fafa10cbf9ea0ccf.jpeg"
+    },
+    {
+      "id": "375422",
+      "title": "Stoner",
+      "coverUrl": "https://assets.hardcover.app/edition/3478337/724f3530e9716fc03ded4f7d635c65f64c4e93c6.jpeg"
+    },
+    {
+      "id": "429559",
+      "title": "In Cold Blood",
+      "coverUrl": "https://assets.hardcover.app/edition/29139931/b227320dd378685b36172c6f2888b53e2247e170.jpeg"
+    },
+    {
+      "id": "363651",
+      "title": "Altered Carbon",
+      "coverUrl": "https://assets.hardcover.app/edition/30854603/fcf5039465f821ba21aeffa9fdd9db135e1d4e58.jpeg"
+    },
+    {
+      "id": "365331",
+      "title": "The Name of the Rose",
+      "coverUrl": "https://assets.hardcover.app/edition/9226998/8c05b270-f9d5-4ce5-8498-d32dbfe2003d.jpg"
+    },
+    {
+      "id": "555",
+      "title": "The Lost Symbol",
+      "coverUrl": "https://assets.hardcover.app/editions/12712925/3110651410659800.jpg"
+    },
+    {
+      "id": "376832",
+      "title": "The Institute",
+      "coverUrl": "https://assets.hardcover.app/edition/4573759/5b590f4dfbddce10eb8f8e939da33b9c8bf525ee.jpeg"
+    },
+    {
+      "id": "1148409",
+      "title": "The God of the Woods",
+      "coverUrl": "https://assets.hardcover.app/editions/31172530/1691217550745585.jpeg"
+    },
+    {
+      "id": "386719",
+      "title": "Cryptonomicon",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332619/2b8c686e09d465bb1b8aa2fd9531be4d6842e9a1.jpeg"
+    },
+    {
+      "id": "358061",
+      "title": "The Girl Who Kicked the Hornet's Nest",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332882/9a42a57b3d3bc0b88bb57069767caa2ba55bf2c6.jpeg"
+    },
+    {
+      "id": "384771",
+      "title": "Blindsight",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7333230/0c3d4d7893e47e39bcbde68fcb6c343a2be66a24.jpeg"
+    },
+    {
+      "id": "99335",
+      "title": "Inferno",
+      "coverUrl": "https://assets.hardcover.app/edition/21477318/8fe535665a5467ed6b8405a35839aa452d91b025.jpeg"
+    },
+    {
+      "id": "372267",
+      "title": "Solaris",
+      "coverUrl": "https://assets.hardcover.app/edition/15545828/c908afb9139ca70866af560bfdd021c655ad53f3.jpeg"
+    },
+    {
+      "id": "382607",
+      "title": "Treasure Island",
+      "coverUrl": "https://assets.hardcover.app/edition/14503652/b6355bd8-dc95-40bd-8da7-15fd2d3de1de.jpg"
+    },
+    {
+      "id": "437709",
+      "title": "The Maid",
+      "coverUrl": "https://assets.hardcover.app/external_data/61232329/a00eeff3f8677a286daa3d85009fae72b0ae7b76.jpeg"
+    },
+    {
+      "id": "379979",
+      "title": "A Discovery of Witches",
+      "coverUrl": "https://assets.hardcover.app/edition/14846265/ec59a99bd5b11e161f1f16a31e49e82f9c08e2bf.jpeg"
+    },
+    {
+      "id": "8999",
+      "title": "One of Us Is Lying",
+      "coverUrl": "https://assets.hardcover.app/external_data/24923214/78aac0886653043e61f0aaf6d881200e08bd3ba3.jpeg"
+    },
+    {
+      "id": "781340",
+      "title": "None of This Is True",
+      "coverUrl": "https://assets.hardcover.app/external_data/61236779/64eed7a13f07d3d104137029cfdb4bbb395de934.jpeg"
+    },
+    {
+      "id": "428542",
+      "title": "The Southern Book Club's Guide to Slaying Vampires",
+      "coverUrl": "https://assets.hardcover.app/editions/310234/4666634139214332.jpg"
+    },
+    {
+      "id": "480253",
+      "title": "Upgrade",
+      "coverUrl": "https://assets.hardcover.app/external_data/59914457/6d05bef9020342f3438d865b650b76f4989b8408.jpeg"
+    },
+    {
+      "id": "427963",
+      "title": "Shift",
+      "coverUrl": "https://assets.hardcover.app/edition/30683920/835c0be1f9f75d06709c61ef4c674408e5ceef7e.jpeg"
+    },
+    {
+      "id": "380920",
+      "title": "The Murder of Roger Ackroyd",
+      "coverUrl": "https://assets.hardcover.app/edition/19870320/395fe1d41273ed98c45206883d532dc49cc5ae52.jpeg"
+    },
+    {
+      "id": "385180",
+      "title": "The Mysterious Affair at Styles",
+      "coverUrl": "https://assets.hardcover.app/edition/20278946/72c10bf694b82c0b675fb0f0a39e88a99d016c75.jpeg"
+    }
+  ],
+  "Romance": [
+    {
+      "id": "88639",
+      "title": "The Hunger Games",
+      "coverUrl": "https://assets.hardcover.app/editions/1589497/2979196565308831-lf%202.jpeg"
+    },
+    {
+      "id": "377193",
+      "title": "The Great Gatsby",
+      "coverUrl": "https://assets.hardcover.app/external_data/27597898/6cb93bdc8f29bc483f692644c829ab97a7f17716.jpeg"
+    },
+    {
+      "id": "175780",
+      "title": "Catching Fire",
+      "coverUrl": "https://assets.hardcover.app/edition/7988314/dbef0f7db3fc4a6157550d5f7cc01563af40315c.jpeg"
+    },
+    {
+      "id": "463683",
+      "title": "Mockingjay",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332302/73342f741799f340cc0237284f304ed48b64d1cb.jpeg"
+    },
+    {
+      "id": "377799",
+      "title": "The Handmaid’s Tale",
+      "coverUrl": "https://assets.hardcover.app/edition/20879993/7be97c9457dd0572c4cf915cddc844a91a24dc24.jpeg"
+    },
+    {
+      "id": "714600",
+      "title": "Fourth Wing",
+      "coverUrl": "https://assets.hardcover.app/editions/30707731/3559167047761380.jpeg"
+    },
+    {
+      "id": "379647",
+      "title": "Pride and Prejudice",
+      "coverUrl": "https://assets.hardcover.app/edition/30519375/e154c876-72fd-4f13-ba24-3551f0104306.jpg"
+    },
+    {
+      "id": "436692",
+      "title": "The Picture of Dorian Gray",
+      "coverUrl": "https://assets.hardcover.app/edition/25403534/25aad411adf5c70ceab52ba339ea701564cb93d6.jpeg"
+    },
+    {
+      "id": "80378",
+      "title": "The Song of Achilles",
+      "coverUrl": "https://assets.hardcover.app/editions/8933288/8719175186248367.jpg"
+    },
+    {
+      "id": "428290",
+      "title": "A Court of Thorns and Roses",
+      "coverUrl": "https://assets.hardcover.app/external_data/50291833/4af7f88042d87ecc991f2fcb53e945d8daaabcfd.jpeg"
+    },
+    {
+      "id": "479910",
+      "title": "Tomorrow, and Tomorrow, and Tomorrow",
+      "coverUrl": "https://assets.hardcover.app/edition/30535150/2efdfd508a803c89913fd6e987f69048a17c89c6.jpeg"
+    },
+    {
+      "id": "340654",
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "coverUrl": "https://assets.hardcover.app/edition/1849541/60b7835bda66d83c00f9e3e34c8eceebaee1f381.jpeg"
+    },
+    {
+      "id": "249097",
+      "title": "This Is How You Lose the Time War",
+      "coverUrl": "https://assets.hardcover.app/external_data/44204908/47b512a8e31cb3c55f8957b2659c59be05a2dbc5.jpeg"
+    },
+    {
+      "id": "427524",
+      "title": "The Invisible Life of Addie LaRue",
+      "coverUrl": "https://assets.hardcover.app/edition/9887800/25a0234922dc176711a9f418e70af29bc5a6153c.jpeg"
+    },
+    {
+      "id": "473869",
+      "title": "The Count of Monte Cristo",
+      "coverUrl": "https://assets.hardcover.app/edition/22062767/3432f1033b04d23e47edea3a864bb956f3b6346e.jpeg"
+    },
+    {
+      "id": "386401",
+      "title": "Wuthering Heights",
+      "coverUrl": "https://assets.hardcover.app/edition/10342255/9cd80aacd1d00db0d02a6d0019bc5cb946871387.jpeg"
+    },
+    {
+      "id": "436805",
+      "title": "The House in the Cerulean Sea",
+      "coverUrl": "https://assets.hardcover.app/edition/12846449/a82ee96fb437ad83b4ebb215643b7e8d644468f9.jpeg"
+    },
+    {
+      "id": "302088",
+      "title": "Twilight",
+      "coverUrl": "https://assets.hardcover.app/edition/19228247/0e4edc828d09c7efd08df09e37b04aab3f4026dd.jpeg"
+    },
+    {
+      "id": "197990",
+      "title": "The Fault in Our Stars",
+      "coverUrl": "https://assets.hardcover.app/external_data/42441742/f0fe7614243ae255ef797f894e263adeb97cd666.jpeg"
+    },
+    {
+      "id": "386180",
+      "title": "Jane Eyre",
+      "coverUrl": "https://assets.hardcover.app/external_data/41549656/aa8022ec54a9cd5440302f413ed9deb3b401e318.jpeg"
+    },
+    {
+      "id": "602482",
+      "title": "Tress of the Emerald Sea",
+      "coverUrl": "https://assets.hardcover.app/external_data/60564134/fc31b11ae8f367e5717cf7916e557846dbc356f7.jpeg"
+    },
+    {
+      "id": "109344",
+      "title": "Divergent",
+      "coverUrl": "https://assets.hardcover.app/edition/22182301/7276222-L.jpg"
+    },
+    {
+      "id": "39629",
+      "title": "Throne of Glass",
+      "coverUrl": "https://assets.hardcover.app/edition/30501042/9052e867e43511a1f2ec7dc8ce0e33d01faf7c6e.jpeg"
+    },
+    {
+      "id": "747398",
+      "title": "Iron Flame",
+      "coverUrl": "https://assets.hardcover.app/external_data/60991785/2bd76bde6a03cb77c6cdbdc7b6e045744e1ef5ff.jpeg"
+    },
+    {
+      "id": "475214",
+      "title": "Legends & Lattes",
+      "coverUrl": "https://assets.hardcover.app/editions/30396420/4372639752917043.jpg"
+    },
+    {
+      "id": "428929",
+      "title": "A Court of Mist and Fury",
+      "coverUrl": "https://assets.hardcover.app/edition/2090231/da5d3c1b-3786-432d-9eaf-4b2cc1731756.jpg"
+    },
+    {
+      "id": "375064",
+      "title": "The Night Circus",
+      "coverUrl": "https://assets.hardcover.app/editions/31495336/3661789124779351.jpg"
+    },
+    {
+      "id": "61787",
+      "title": "Normal People",
+      "coverUrl": "https://assets.hardcover.app/editions/30402559/2802629647590855.jpeg"
+    },
+    {
+      "id": "1162844",
+      "title": "The Perks of Being a Wallflower",
+      "coverUrl": "https://assets.hardcover.app/edition/6205525/8c3a7c27ba02822d3083c1cca67081c35d702c18.jpeg"
+    },
+    {
+      "id": "385491",
+      "title": "Warbreaker",
+      "coverUrl": "https://assets.hardcover.app/edition/28188510/d2bfa4645e6a05879e663f2b72264dc150610210.jpeg"
+    },
+    {
+      "id": "373875",
+      "title": "Lolita",
+      "coverUrl": "https://assets.hardcover.app/edition/26248826/8488932-L.jpg"
+    },
+    {
+      "id": "143390",
+      "title": "The Ballad of Songbirds and Snakes",
+      "coverUrl": "https://assets.hardcover.app/edition/30399380/da2b22ed-27e3-495f-9a64-761fe230195c.jpg"
+    },
+    {
+      "id": "381498",
+      "title": "Romeo and Juliet",
+      "coverUrl": "https://assets.hardcover.app/edition/12291085/a3d96064-7a5b-4143-a213-597c5a46f0a1.jpg"
+    },
+    {
+      "id": "312762",
+      "title": "Shadow and Bone",
+      "coverUrl": "https://assets.hardcover.app/editions/30503452/2167790222047428.jpeg"
+    },
+    {
+      "id": "458947",
+      "title": "A Court of Wings and Ruin",
+      "coverUrl": "https://assets.hardcover.app/external_data/48713106/c66cf9dd4f24d33d3ce338a24b6dd6d90ac222bb.jpeg"
+    },
+    {
+      "id": "748620",
+      "title": "The Long Way to a Small, Angry Planet",
+      "coverUrl": "https://assets.hardcover.app/editions/30403894/3494270170561911.jpg"
+    },
+    {
+      "id": "98065",
+      "title": "The Cruel Prince",
+      "coverUrl": "https://assets.hardcover.app/external_data/43188318/6bc821e0bdc3de2d6287ec023ef5cafc425ebdd0.jpeg"
+    },
+    {
+      "id": "428261",
+      "title": "Where the Crawdads Sing",
+      "coverUrl": "https://assets.hardcover.app/editions/22309128/6102116956447505.jpg"
+    },
+    {
+      "id": "376783",
+      "title": "Anna Karenina",
+      "coverUrl": "https://assets.hardcover.app/edition/3813596/28ed3bc40c30477f1497369fdd8cccadca401293.jpeg"
+    },
+    {
+      "id": "776952",
+      "title": "Norwegian Wood",
+      "coverUrl": "https://assets.hardcover.app/editions/11016885/4821932419507615.jpg"
+    },
+    {
+      "id": "240793",
+      "title": "A Wrinkle in Time",
+      "coverUrl": "https://assets.hardcover.app/edition/15420559/f668168e8bfa89b8530b0a17fd213b267f2b9b2a.jpeg"
+    },
+    {
+      "id": "511526",
+      "title": "The Housemaid",
+      "coverUrl": "https://assets.hardcover.app/edition/30793259/4ce04b693c8025f739ba67460aaff16f1e417b8a.jpeg"
+    },
+    {
+      "id": "266607",
+      "title": "Klara and the Sun",
+      "coverUrl": "https://assets.hardcover.app/external_data/59592031/11d4c25aa782acfbff944edbec1e89a6dbdbaace.jpeg"
+    },
+    {
+      "id": "283102",
+      "title": "The Princess Bride",
+      "coverUrl": "https://assets.hardcover.app/external_data/38050345/ece50c1bc265bc00502c50cf098c72adaa89e48c.jpeg"
+    },
+    {
+      "id": "144062",
+      "title": "City of Bones",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332620/060557a70ce979561a51d5d32bbadcdaf19ade05.jpeg"
+    },
+    {
+      "id": "429046",
+      "title": "A ​Court of Silver Flames",
+      "coverUrl": "https://assets.hardcover.app/external_data/31975800/2bbb080fea31fd0c1f457838f63210cbc3fbe3d8.jpeg"
+    },
+    {
+      "id": "447329",
+      "title": "Daisy Jones & The Six",
+      "coverUrl": "https://assets.hardcover.app/external_data/60647726/44783b6065c62f5173370ebe5d08c21faa84f83f.jpeg"
+    },
+    {
+      "id": "431441",
+      "title": "Howl's Moving Castle",
+      "coverUrl": "https://assets.hardcover.app/external_data/39788101/463194df8c826bdb85ccb460019cc7797e175116.jpeg"
+    },
+    {
+      "id": "459744",
+      "title": "A Court of Frost and Starlight",
+      "coverUrl": "https://assets.hardcover.app/edition/30391916/f4a094648601f72409260159d5867cbecccc394f.jpeg"
+    },
+    {
+      "id": "465201",
+      "title": "House of Earth and Blood",
+      "coverUrl": "https://assets.hardcover.app/external_data/37374512/a568a05f05a9f6cd37a96e14662b846b45acd29b.jpeg"
+    },
+    {
+      "id": "308655",
+      "title": "Scythe",
+      "coverUrl": "https://assets.hardcover.app/external_data/29353414/47343a2fd959964d0f01aa6ce204bb4e2465e101.jpeg"
+    },
+    {
+      "id": "1197328",
+      "title": "Onyx Storm",
+      "coverUrl": "https://assets.hardcover.app/edition/31924195/ae56c549dc746e14273905b3a7ee11d0e1f199a1.jpeg"
+    },
+    {
+      "id": "283659",
+      "title": "Crown of Midnight",
+      "coverUrl": "https://assets.hardcover.app/external_data/46404294/17f2308696bfb704d2cdc2b1837a8802f55412dd.jpeg"
+    },
+    {
+      "id": "490300",
+      "title": "Lessons in Chemistry",
+      "coverUrl": "https://assets.hardcover.app/edition/30618050/eeb1fc88-ea92-4854-a37c-e7fdcebc6254.jpg"
+    },
+    {
+      "id": "454009",
+      "title": "Book Lovers",
+      "coverUrl": "https://assets.hardcover.app/edition/30435685/daf4db5f-b542-48fb-895e-82cb35bd4ada.jpg"
+    },
+    {
+      "id": "444639",
+      "title": "New Moon",
+      "coverUrl": "https://assets.hardcover.app/edition/2923550/a24f25e8f8188ff8a569341c0ba983f9ba55c54a.jpeg"
+    },
+    {
+      "id": "381772",
+      "title": "Red, White & Royal Blue",
+      "coverUrl": "https://assets.hardcover.app/external_data/1648299/5869034759fdbfe0ccc5e1c834483213738d09fc.jpeg"
+    },
+    {
+      "id": "20970",
+      "title": "Insurgent",
+      "coverUrl": "https://assets.hardcover.app/edition/30404226/581908d44c3c82891ff1b1d0a9038e477bdc89d2.jpeg"
+    },
+    {
+      "id": "186373",
+      "title": "Crooked Kingdom",
+      "coverUrl": "https://assets.hardcover.app/editions/15324026/454101783196428.jpg"
+    },
+    {
+      "id": "142883",
+      "title": "Stardust",
+      "coverUrl": "https://assets.hardcover.app/edition/30737789/6a01d7ae-02fb-4951-a33d-c319ce55b5d1.jpg"
+    }
+  ],
+  "Horror": [
+    {
+      "id": "436692",
+      "title": "The Picture of Dorian Gray",
+      "coverUrl": "https://assets.hardcover.app/edition/25403534/25aad411adf5c70ceab52ba339ea701564cb93d6.jpeg"
+    },
+    {
+      "id": "28722",
+      "title": "Frankenstein",
+      "coverUrl": "https://assets.hardcover.app/edition/18780509/e353c2cafc8293db69a5771436ffc8a8779c26ab.jpeg"
+    },
+    {
+      "id": "428657",
+      "title": "Dracula",
+      "coverUrl": "https://assets.hardcover.app/editions/12963649/989255574897903-812-AV3IC3L._SL1500_.jpg"
+    },
+    {
+      "id": "36087",
+      "title": "The Road",
+      "coverUrl": "https://assets.hardcover.app/editions/642392/7620614454245640-cormacmcarthytheroad.jpg"
+    },
+    {
+      "id": "280359",
+      "title": "The Shining",
+      "coverUrl": "https://assets.hardcover.app/edition/6224476/39a69b16a4087379b6fa08bd0c9781fc9bf0da85.jpeg"
+    },
+    {
+      "id": "229579",
+      "title": "The Gunslinger",
+      "coverUrl": "https://assets.hardcover.app/books/229579/2367228096182994.png"
+    },
+    {
+      "id": "192491",
+      "title": "Annihilation",
+      "coverUrl": "https://assets.hardcover.app/editions/30649546/876164954158920.jpg"
+    },
+    {
+      "id": "376341",
+      "title": "The Stand",
+      "coverUrl": "https://assets.hardcover.app/edition/21840079/da029af124d14c28d6ade5a3b69bfcf8d4a17472.jpeg"
+    },
+    {
+      "id": "383587",
+      "title": "11/22/63",
+      "coverUrl": "https://assets.hardcover.app/edition/23959086/a129e91093231fcfa21c51c2195fcae2e4a56969.jpeg"
+    },
+    {
+      "id": "9724",
+      "title": "Jurassic Park",
+      "coverUrl": "https://assets.hardcover.app/editions/30401767/7336843016391221-81rBVCDfrgL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "id": "301814",
+      "title": "House of Leaves",
+      "coverUrl": "https://assets.hardcover.app/edition/30496249/35f243520f8801a93728f653e67f68a31b7b47fc.jpeg"
+    },
+    {
+      "id": "373525",
+      "title": "It",
+      "coverUrl": "https://assets.hardcover.app/edition/8943980/122ac0cfc4b131affedd32c2aff08463199bec1e.jpeg"
+    },
+    {
+      "id": "427736",
+      "title": "Ninth House",
+      "coverUrl": "https://assets.hardcover.app/external_data/50636014/6a62672d810875ba820bbc109f07274ceabfccb3.jpeg"
+    },
+    {
+      "id": "380549",
+      "title": "The Ocean at the End of the Lane",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332367/f23aac20ca501a73b6f2b348485f015091d1e361.jpeg"
+    },
+    {
+      "id": "65400",
+      "title": "Neverwhere",
+      "coverUrl": "https://assets.hardcover.app/edition/14626760/af7e7a91f30c6f5acb93b4f22db909be1be90d0a.jpeg"
+    },
+    {
+      "id": "147196",
+      "title": "World War Z: An Oral History of the Zombie War",
+      "coverUrl": "https://assets.hardcover.app/edition/3129764/6391724-L.jpg"
+    },
+    {
+      "id": "436338",
+      "title": "Tender Is the Flesh",
+      "coverUrl": "https://assets.hardcover.app/edition/12261434/bd8f2cff-a620-415f-975d-69206e5c6d39.jpg"
+    },
+    {
+      "id": "194560",
+      "title": "Coraline",
+      "coverUrl": "https://assets.hardcover.app/editions/30432385/1521826581986394-lf.jpeg"
+    },
+    {
+      "id": "427507",
+      "title": "A Deadly Education",
+      "coverUrl": "https://assets.hardcover.app/edition/23382500/d2861121a8e6dd8a33fdb7be5632c7bcd0e3232a.jpeg"
+    },
+    {
+      "id": "547",
+      "title": "Misery",
+      "coverUrl": "https://assets.hardcover.app/edition/32041345/d2963373-bde8-4a1c-b336-8d4d0c02ebda.jpg"
+    },
+    {
+      "id": "428353",
+      "title": "Mexican Gothic",
+      "coverUrl": "https://assets.hardcover.app/external_data/23195265/5e715ac598fd7eb8e81f4946fc39948b7f3425c9.jpeg"
+    },
+    {
+      "id": "385850",
+      "title": "Pet Sematary",
+      "coverUrl": "https://assets.hardcover.app/edition/31659400/8c361af1f4d12a8568575e715ad3e253c35ec71a.jpeg"
+    },
+    {
+      "id": "385191",
+      "title": "Carrie",
+      "coverUrl": "https://assets.hardcover.app/edition/31884529/e08da983-ed59-484d-afd7-92de64782664.jpg"
+    },
+    {
+      "id": "71005",
+      "title": "The Haunting of Hill House",
+      "coverUrl": "https://assets.hardcover.app/editions/30198567/8749762103567356.jpg"
+    },
+    {
+      "id": "270087",
+      "title": "The Graveyard Book",
+      "coverUrl": "https://assets.hardcover.app/edition/16321570/df5c953e1f2c786260b83256cb195f852eec23a4.jpeg"
+    },
+    {
+      "id": "384057",
+      "title": "'Salem's Lot",
+      "coverUrl": "https://assets.hardcover.app/edition/6460652/156d04facc3e767256e086ca3cf53e52c0c669a5.jpeg"
+    },
+    {
+      "id": "62743",
+      "title": "The Strange Case of Dr. Jekyll and Mr. Hyde",
+      "coverUrl": "https://assets.hardcover.app/edition/580935/ebc31467-ed89-46df-9b58-fcb05a806cd5.jpg"
+    },
+    {
+      "id": "514157",
+      "title": "One Dark Window",
+      "coverUrl": "https://assets.hardcover.app/edition/31828939/9cf81169b82316d77a84c61e95c7edee0ca281b2.jpeg"
+    },
+    {
+      "id": "438396",
+      "title": "Miss Peregrine’s Home for Peculiar Children",
+      "coverUrl": "https://assets.hardcover.app/edition/26442710/40fe8f04593aa9e0803c5fbf2700964f0f22079b.jpeg"
+    },
+    {
+      "id": "435966",
+      "title": "Bunny",
+      "coverUrl": "https://assets.hardcover.app/edition/27393723/f14fe0c5dd31bd934590afeb8b8b7aaa9abe3bcc.jpeg"
+    },
+    {
+      "id": "382589",
+      "title": "Interview with the Vampire",
+      "coverUrl": "https://assets.hardcover.app/edition/22881580/fd1018848b2681b800fc5c9ceab1595878885e6d.jpeg"
+    },
+    {
+      "id": "177453",
+      "title": "We Have Always Lived in the Castle",
+      "coverUrl": "https://assets.hardcover.app/editions/31291072/4468360256543553.jpg"
+    },
+    {
+      "id": "469768",
+      "title": "Fairy Tale",
+      "coverUrl": "https://assets.hardcover.app/edition/30445662/0c91093569488c3b6ffed7b9fafa10cbf9ea0ccf.jpeg"
+    },
+    {
+      "id": "382805",
+      "title": "American Psycho",
+      "coverUrl": "https://assets.hardcover.app/edition/30483142/34fc972fa61b658b63bc11a10eadfbf4808cdc09.jpeg"
+    },
+    {
+      "id": "2010782",
+      "title": "Perfume",
+      "coverUrl": "https://assets.hardcover.app/editions/31881611/8694740378727077.jpg"
+    },
+    {
+      "id": "455735",
+      "title": "There Is No Antimemetics Division",
+      "coverUrl": "https://assets.hardcover.app/external_data/193765/b3af02e08dc537afe1627e9cc6a20131874e056d.jpeg"
+    },
+    {
+      "id": "376832",
+      "title": "The Institute",
+      "coverUrl": "https://assets.hardcover.app/edition/4573759/5b590f4dfbddce10eb8f8e939da33b9c8bf525ee.jpeg"
+    },
+    {
+      "id": "455976",
+      "title": "Nettle & Bone",
+      "coverUrl": "https://assets.hardcover.app/edition/30766119/c5fbdec67a798c95d8893ff85df87874331f7cb5.jpeg"
+    },
+    {
+      "id": "185030",
+      "title": "The Outsider",
+      "coverUrl": "https://assets.hardcover.app/edition/7406221/e8882aa8642673ac6ad877cfcf96b73da7a29f08.jpeg"
+    },
+    {
+      "id": "255573",
+      "title": "I Am Legend",
+      "coverUrl": "https://assets.hardcover.app/edition/30399490/cbdd9c050c0af555c27cb18f9b86428081bbb7c5.jpeg"
+    },
+    {
+      "id": "151239",
+      "title": "The Drawing of the Three",
+      "coverUrl": "https://assets.hardcover.app/edition/30901138/35ba68fe-a797-4f29-9d5c-6ddf2944ad4d.png"
+    },
+    {
+      "id": "183010",
+      "title": "Fool Moon",
+      "coverUrl": "https://assets.hardcover.app/edition/2186537/8dd35c83467742c885281970f3d8b8300c1f4b9d.jpeg"
+    },
+    {
+      "id": "482831",
+      "title": "What Moves the Dead",
+      "coverUrl": "https://assets.hardcover.app/edition/31486904/0271f3b4f812baf6d3ce0476201e1a52011f7157.jpeg"
+    },
+    {
+      "id": "482996",
+      "title": "Between Two Fires",
+      "coverUrl": "https://assets.hardcover.app/editions/30423309/5478029573138530.jpg"
+    },
+    {
+      "id": "376472",
+      "title": "The Library at Mount Char",
+      "coverUrl": "https://assets.hardcover.app/editions/32116503/73f241f3-9243-491f-9495-6d95547e5d49.jpg"
+    },
+    {
+      "id": "428542",
+      "title": "The Southern Book Club's Guide to Slaying Vampires",
+      "coverUrl": "https://assets.hardcover.app/editions/310234/4666634139214332.jpg"
+    },
+    {
+      "id": "427451",
+      "title": "The Girl with All the Gifts",
+      "coverUrl": "https://assets.hardcover.app/external_data/45046247/c2c59429fe55dba2dc1d71fbc0c888514e7c1e02.jpeg"
+    },
+    {
+      "id": "377090",
+      "title": "The Waste Lands",
+      "coverUrl": "https://assets.hardcover.app/external_data/61198827/59dfae01fabd988d3e941e0fd2953dab4c8f1c66.jpeg"
+    },
+    {
+      "id": "149896",
+      "title": "The Long Walk",
+      "coverUrl": "https://assets.hardcover.app/external_data/2082318/6eeb7adc669e9e6288c4d43cb0c6449b4695ab38.jpeg"
+    },
+    {
+      "id": "429102",
+      "title": "Empire of the Vampire",
+      "coverUrl": "https://assets.hardcover.app/editions/30548430/7973802927976714.jpg"
+    },
+    {
+      "id": "456589",
+      "title": "Carmilla",
+      "coverUrl": "https://assets.hardcover.app/editions/3910455/9bd4c571-daf3-43c0-9ecb-63d966d25d50.jpg"
+    },
+    {
+      "id": "237142",
+      "title": "Doctor Sleep",
+      "coverUrl": "https://assets.hardcover.app/edition/14503262/0327da187607ff86aedc1a23f5fd44a64540254d.jpeg"
+    },
+    {
+      "id": "584720",
+      "title": "The Only One Left",
+      "coverUrl": "https://assets.hardcover.app/external_data/60094819/7ae20147d30f1bb2689f70679cd5ce49ee1a37a0.jpeg"
+    },
+    {
+      "id": "445491",
+      "title": "The Yellow Wallpaper",
+      "coverUrl": "https://assets.hardcover.app/external_data/1883579/e1db42aaa41391d3f0d3ed0fd9a252cd38523c46.jpeg"
+    },
+    {
+      "id": "550554",
+      "title": "Hell Bent",
+      "coverUrl": "https://assets.hardcover.app/external_data/61253793/2825f7628df8468c1a6f79eb07480c3fd2f1c9b5.jpeg"
+    },
+    {
+      "id": "473719",
+      "title": "Our Wives Under the Sea",
+      "coverUrl": "https://assets.hardcover.app/edition/30394770/4fcfdf58019c960afa21f6782caacb08091216f4.jpeg"
+    },
+    {
+      "id": "434922",
+      "title": "I'm Thinking of Ending Things",
+      "coverUrl": "https://assets.hardcover.app/edition/1963008/c310f043c91493e81996adc2510175a16cd67633.jpeg"
+    },
+    {
+      "id": "250488",
+      "title": "Pines",
+      "coverUrl": "https://assets.hardcover.app/external_data/33721590/15ab710963284ef73162b8bb16ef707e2c20d522.jpeg"
+    },
+    {
+      "id": "474056",
+      "title": "The Blacktongue Thief",
+      "coverUrl": "https://assets.hardcover.app/editions/30395155/9986773646988730.jpg"
+    },
+    {
+      "id": "137651",
+      "title": "The Silence of the Lambs",
+      "coverUrl": "https://assets.hardcover.app/edition/10125942/c88a8a1c322f1aa9fdae34f3b69d42feecebfb24.jpeg"
+    }
+  ],
+  "Historical Fiction": [
+    {
+      "id": "149361",
+      "title": "To Kill A Mockingbird",
+      "coverUrl": "https://assets.hardcover.app/edition/22780788/eef525120e32b6eca1070bbfb2b63a11d324579d.jpeg"
+    },
+    {
+      "id": "379647",
+      "title": "Pride and Prejudice",
+      "coverUrl": "https://assets.hardcover.app/edition/30519375/e154c876-72fd-4f13-ba24-3551f0104306.jpg"
+    },
+    {
+      "id": "80378",
+      "title": "The Song of Achilles",
+      "coverUrl": "https://assets.hardcover.app/editions/8933288/8719175186248367.jpg"
+    },
+    {
+      "id": "383598",
+      "title": "Circe",
+      "coverUrl": "https://assets.hardcover.app/editions/187333/9694237244087422-circe.jpg"
+    },
+    {
+      "id": "496492",
+      "title": "Babel, or The Necessity of Violence: An Arcane History of the Oxford Translators' Revolution",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332611/bbb44be9ff044379e6934ceae26be2405e3efdd6.jpeg"
+    },
+    {
+      "id": "300042",
+      "title": "The Book Thief",
+      "coverUrl": "https://assets.hardcover.app/editions/30399827/3081662300594446.jpg"
+    },
+    {
+      "id": "340654",
+      "title": "The Seven Husbands of Evelyn Hugo",
+      "coverUrl": "https://assets.hardcover.app/edition/1849541/60b7835bda66d83c00f9e3e34c8eceebaee1f381.jpeg"
+    },
+    {
+      "id": "378949",
+      "title": "Of Mice and Men",
+      "coverUrl": "https://assets.hardcover.app/editions/30399637/208697025088793-Of_Mice_and_Men_(1937_1st_ed_dust_jacket).jpg"
+    },
+    {
+      "id": "427524",
+      "title": "The Invisible Life of Addie LaRue",
+      "coverUrl": "https://assets.hardcover.app/edition/9887800/25a0234922dc176711a9f418e70af29bc5a6153c.jpeg"
+    },
+    {
+      "id": "473869",
+      "title": "The Count of Monte Cristo",
+      "coverUrl": "https://assets.hardcover.app/edition/22062767/3432f1033b04d23e47edea3a864bb956f3b6346e.jpeg"
+    },
+    {
+      "id": "386401",
+      "title": "Wuthering Heights",
+      "coverUrl": "https://assets.hardcover.app/edition/10342255/9cd80aacd1d00db0d02a6d0019bc5cb946871387.jpeg"
+    },
+    {
+      "id": "762271",
+      "title": "One Hundred Years of Solitude",
+      "coverUrl": "https://assets.hardcover.app/edition/31690057/1072e91e67d3953a7d35bbb0ac44138a8bc600c8.jpeg"
+    },
+    {
+      "id": "70825",
+      "title": "Catch-22",
+      "coverUrl": "https://assets.hardcover.app/edition/25295027/fa7df16d-c3b6-4738-8e6a-96cd281adfe6.jpeg"
+    },
+    {
+      "id": "71101",
+      "title": "The Kite Runner",
+      "coverUrl": "https://assets.hardcover.app/editions/30406169/3842999574958230.jpg"
+    },
+    {
+      "id": "375064",
+      "title": "The Night Circus",
+      "coverUrl": "https://assets.hardcover.app/editions/31495336/3661789124779351.jpg"
+    },
+    {
+      "id": "374090",
+      "title": "A Darker Shade of Magic",
+      "coverUrl": "https://assets.hardcover.app/edition/12484409/ad3c96ba221d6245bff0c0c777d825b012d74ec9.jpeg"
+    },
+    {
+      "id": "478556",
+      "title": "All the Light We Cannot See",
+      "coverUrl": "https://assets.hardcover.app/edition/30399751/aaeaae1a-e378-46ed-b982-ce2180f9a863.png"
+    },
+    {
+      "id": "428261",
+      "title": "Where the Crawdads Sing",
+      "coverUrl": "https://assets.hardcover.app/editions/22309128/6102116956447505.jpg"
+    },
+    {
+      "id": "376783",
+      "title": "Anna Karenina",
+      "coverUrl": "https://assets.hardcover.app/edition/3813596/28ed3bc40c30477f1497369fdd8cccadca401293.jpeg"
+    },
+    {
+      "id": "169516",
+      "title": "The Grapes of Wrath",
+      "coverUrl": "https://assets.hardcover.app/editions/10573597/8270357984760670-grapesofwrath.jpg"
+    },
+    {
+      "id": "447329",
+      "title": "Daisy Jones & The Six",
+      "coverUrl": "https://assets.hardcover.app/external_data/60647726/44783b6065c62f5173370ebe5d08c21faa84f83f.jpeg"
+    },
+    {
+      "id": "127044",
+      "title": "Pachinko",
+      "coverUrl": "https://assets.hardcover.app/external_data/40192242/fc70a33370b7cfd91a8b5356e33f3225f675156e.jpeg"
+    },
+    {
+      "id": "212183",
+      "title": "Jonathan Strange & Mr Norrell",
+      "coverUrl": "https://assets.hardcover.app/external_data/59342910/297877e178ee1ed56c8954c96a234c4e4f513255.jpeg"
+    },
+    {
+      "id": "1363747",
+      "title": "Blood Meridian: Or the Evening Redness in the West",
+      "coverUrl": "https://assets.hardcover.app/edition/30459828/51615725-cb20-41dd-aa08-a82c4157f11b.jpg"
+    },
+    {
+      "id": "375470",
+      "title": "The Shadow of the Wind",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332507/488f5702a797385ab4e5532825d2e11aebde45da.jpeg"
+    },
+    {
+      "id": "428353",
+      "title": "Mexican Gothic",
+      "coverUrl": "https://assets.hardcover.app/external_data/23195265/5e715ac598fd7eb8e81f4946fc39948b7f3425c9.jpeg"
+    },
+    {
+      "id": "98094",
+      "title": "The Pillars of the Earth",
+      "coverUrl": "https://assets.hardcover.app/edition/32856871/bdab1721-61a6-454e-8e1e-05977ef697fe.jpg"
+    },
+    {
+      "id": "71168",
+      "title": "Emma",
+      "coverUrl": "https://assets.hardcover.app/edition/14518933/67ca7d16-4fd9-43ae-9264-9683f00a1601.png"
+    },
+    {
+      "id": "66330",
+      "title": "The Man in the High Castle",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332681/aa5b4dfefa5a601437734c17811e6547ed2dc5a9.jpeg"
+    },
+    {
+      "id": "512106",
+      "title": "Demon Copperhead",
+      "coverUrl": "https://assets.hardcover.app/edition/30513018/8fec1e23-f6ff-4dc6-bb53-837f99d315a6.jpg"
+    },
+    {
+      "id": "1973931",
+      "title": "War and Peace",
+      "coverUrl": "https://assets.hardcover.app/external_data/272406/dee5cb845b2316580a3af2cd2a44f6b9227f7c5b.jpeg"
+    },
+    {
+      "id": "31677",
+      "title": "Heart of Darkness",
+      "coverUrl": "https://assets.hardcover.app/external_data/41529885/48a9c088af3c98971dc1e6c5663590b04c7da65a.jpeg"
+    },
+    {
+      "id": "1244658",
+      "title": "Emily Wilde's Encyclopaedia of Faeries",
+      "coverUrl": "https://assets.hardcover.app/editions/30590667/1785565836815120.jpg"
+    },
+    {
+      "id": "212769",
+      "title": "The Nightingale",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332672/168acd4901b25bd789a96e8d1b1053b3c9db25ba.jpeg"
+    },
+    {
+      "id": "435455",
+      "title": "No Longer Human",
+      "coverUrl": "https://assets.hardcover.app/editions/15248233/9349133283420308.jpg"
+    },
+    {
+      "id": "180646",
+      "title": "A Gentleman in Moscow",
+      "coverUrl": "https://assets.hardcover.app/edition/30399839/293069ad-c658-463c-8446-4568275b1891.jpg"
+    },
+    {
+      "id": "379619",
+      "title": "The City of Brass",
+      "coverUrl": "https://assets.hardcover.app/edition/30400336/3e426305-0273-4007-ad29-55d686eed763.jpg"
+    },
+    {
+      "id": "82069",
+      "title": "Memoirs of a Geisha",
+      "coverUrl": "https://assets.hardcover.app/edition/25729231/6ba53f20cc0e345e112d84ea41adea26d2b5ade9.jpeg"
+    },
+    {
+      "id": "56717",
+      "title": "Sense and Sensibility",
+      "coverUrl": "https://assets.hardcover.app/edition/30513733/cbdb636a49f5ef75069c46c47ad14d16e4cec323.jpeg"
+    },
+    {
+      "id": "2010782",
+      "title": "Perfume",
+      "coverUrl": "https://assets.hardcover.app/editions/31881611/8694740378727077.jpg"
+    },
+    {
+      "id": "283379",
+      "title": "All Quiet on the Western Front",
+      "coverUrl": "https://assets.hardcover.app/editions/16019337/6c268c9e-c4c5-4289-8241-2a0b677d9809.jpg"
+    },
+    {
+      "id": "166182",
+      "title": "The Color Purple",
+      "coverUrl": "https://assets.hardcover.app/external_data/660181/530952d31119e374544215fcdd4c0fd7049e2ebe.jpeg"
+    },
+    {
+      "id": "365331",
+      "title": "The Name of the Rose",
+      "coverUrl": "https://assets.hardcover.app/edition/9226998/8c05b270-f9d5-4ce5-8498-d32dbfe2003d.jpg"
+    },
+    {
+      "id": "136692",
+      "title": "The Remains of the Day",
+      "coverUrl": "https://assets.hardcover.app/edition/28184720/69b94f6c-9fed-4626-a31e-a61c78d626f6.jpg"
+    },
+    {
+      "id": "373226",
+      "title": "The Help",
+      "coverUrl": "https://assets.hardcover.app/edition/18985282/596c746e-35ef-455c-8caa-e2e49dd9b4ba.jpg"
+    },
+    {
+      "id": "555",
+      "title": "The Lost Symbol",
+      "coverUrl": "https://assets.hardcover.app/editions/12712925/3110651410659800.jpg"
+    },
+    {
+      "id": "1148409",
+      "title": "The God of the Woods",
+      "coverUrl": "https://assets.hardcover.app/editions/31172530/1691217550745585.jpeg"
+    },
+    {
+      "id": "427404",
+      "title": "Outlander",
+      "coverUrl": "https://assets.hardcover.app/edition/32259804/8dc6325f-ea56-498d-94df-053658a7b4e2.jpg"
+    },
+    {
+      "id": "243729",
+      "title": "The Scarlet Letter",
+      "coverUrl": "https://assets.hardcover.app/edition/14578565/134e253940cb4815a42445cf0f5635497582be42.jpeg"
+    },
+    {
+      "id": "386719",
+      "title": "Cryptonomicon",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332619/2b8c686e09d465bb1b8aa2fd9531be4d6842e9a1.jpeg"
+    },
+    {
+      "id": "441036",
+      "title": "The Bear and the Nightingale",
+      "coverUrl": "https://assets.hardcover.app/edition/30400414/4abb6f42-516f-41d7-98e7-7fc506ef36f8.jpg"
+    },
+    {
+      "id": "252646",
+      "title": "Persuasion",
+      "coverUrl": "https://assets.hardcover.app/edition/17833242/9a0ca206fd941fdf453f3422c61cfe32a8564e30.jpeg"
+    },
+    {
+      "id": "7490",
+      "title": "The Idiot",
+      "coverUrl": "https://assets.hardcover.app/edition/15583675/419662-L.jpg"
+    },
+    {
+      "id": "221025",
+      "title": "Lonesome Dove",
+      "coverUrl": "https://assets.hardcover.app/edition/19581037/7e5ebaa6216442ce822be903cc46c996b43a8ac7.jpeg"
+    },
+    {
+      "id": "473744",
+      "title": "Small Things Like These",
+      "coverUrl": "https://assets.hardcover.app/editions/30555005/9830805827943454.jpg"
+    },
+    {
+      "id": "431518",
+      "title": "She Who Became the Sun",
+      "coverUrl": "https://assets.hardcover.app/external_data/25819319/5262f115bd5bee6c97582725bad9b056979c5062.jpeg"
+    },
+    {
+      "id": "482996",
+      "title": "Between Two Fires",
+      "coverUrl": "https://assets.hardcover.app/editions/30423309/5478029573138530.jpg"
+    },
+    {
+      "id": "1010023",
+      "title": "James",
+      "coverUrl": "https://assets.hardcover.app/external_data/61346674/caff7309b465f9633e166709b0215c12aa392aff.jpeg"
+    },
+    {
+      "id": "6705",
+      "title": "Shōgun",
+      "coverUrl": "https://assets.hardcover.app/external_data/925345/fcf14e4ecfc553f27f96cd74b6e27d9c52e25500.jpeg"
+    },
+    {
+      "id": "67543",
+      "title": "The Dragon Republic",
+      "coverUrl": "https://assets.hardcover.app/external_data/25799854/da8d98f95792ff3a53375db3c0d745ede376dbd0.jpeg"
+    }
+  ],
+  "Biography": [
+    {
+      "id": "377193",
+      "title": "The Great Gatsby",
+      "coverUrl": "https://assets.hardcover.app/external_data/27597898/6cb93bdc8f29bc483f692644c829ab97a7f17716.jpeg"
+    },
+    {
+      "id": "467600",
+      "title": "I'm Glad My Mom Died",
+      "coverUrl": "https://assets.hardcover.app/edition/30385435/8e77553e-5aec-4543-846b-4d4372c23dc9.jpg"
+    },
+    {
+      "id": "34693",
+      "title": "The Colour Of Magic",
+      "coverUrl": "https://assets.hardcover.app/edition/30598805/04845bcc-a382-4cdc-9b69-30c21676392b.jpg"
+    },
+    {
+      "id": "44186",
+      "title": "Educated: A Memoir",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332324/e6fe1a74bff78e323bef5a82bc505aed21ca4724.jpeg"
+    },
+    {
+      "id": "375534",
+      "title": "Murder on the Orient Express",
+      "coverUrl": "https://assets.hardcover.app/editions/30399401/9393001616356172-853510.jpg"
+    },
+    {
+      "id": "385032",
+      "title": "A Short History of Nearly Everything",
+      "coverUrl": "https://assets.hardcover.app/external_data/30192277/7a058dd6f1dc49d4ec324913388c1c97a23c2cd2.jpeg"
+    },
+    {
+      "id": "374134",
+      "title": "2001: A Space Odyssey",
+      "coverUrl": "https://assets.hardcover.app/external_data/32368894/0e0fa6d7d783f711048d81894eff76a18bb6d30f.jpeg"
+    },
+    {
+      "id": "428211",
+      "title": "Crying in H Mart",
+      "coverUrl": "https://assets.hardcover.app/external_data/30192460/42cfdcc68d54bbae63429a783ced98c253ad4520.jpeg"
+    },
+    {
+      "id": "512106",
+      "title": "Demon Copperhead",
+      "coverUrl": "https://assets.hardcover.app/edition/30513018/8fec1e23-f6ff-4dc6-bb53-837f99d315a6.jpg"
+    },
+    {
+      "id": "35078",
+      "title": "Night",
+      "coverUrl": "https://assets.hardcover.app/editions/4917006/9609279739425578.jpg"
+    },
+    {
+      "id": "374018",
+      "title": "Steve Jobs",
+      "coverUrl": "https://assets.hardcover.app/editions/3137059/3507667057272976-61d7gLTQ4bL._SL1000_.jpg"
+    },
+    {
+      "id": "377730",
+      "title": "The Secret Garden",
+      "coverUrl": "https://assets.hardcover.app/edition/581870/fce2564056db963253bfec6d585abcd5e79e3a71.jpeg"
+    },
+    {
+      "id": "375699",
+      "title": "Born A Crime: Stories from a South African Childhood",
+      "coverUrl": "https://assets.hardcover.app/external_data/61507331/87baf08424bfe3f1f50c84b32628924a463630cf.jpeg"
+    },
+    {
+      "id": "381825",
+      "title": "When Breath Becomes Air",
+      "coverUrl": "https://assets.hardcover.app/editions/5627427/1472171673776330-breath.jpg"
+    },
+    {
+      "id": "368611",
+      "title": "Into the Wild",
+      "coverUrl": "https://assets.hardcover.app/edition/22348762/5e762a03aee646b40ddc2756408901b2d471bfec.jpeg"
+    },
+    {
+      "id": "427490",
+      "title": "The Anthropocene Reviewed: Essays on a human-centered planet",
+      "coverUrl": "https://assets.hardcover.app/external_data/61508162/7cae0b6681e4a750b70d690fd5b6a7feb497c150.jpeg"
+    },
+    {
+      "id": "337",
+      "title": "Becoming",
+      "coverUrl": "https://assets.hardcover.app/external_data/23200978/fd767670cf0a77ece2fa7069cb3859f48aa71439.jpeg"
+    },
+    {
+      "id": "383308",
+      "title": "Between the World and Me",
+      "coverUrl": "https://assets.hardcover.app/external_data/59371349/c97359fe28ac8342fb4623d93aaf50d55b436480.jpeg"
+    },
+    {
+      "id": "427347",
+      "title": "The Complete Maus",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7333343/d0618b839774716d579221f3344d2fbc1f49dc23.jpeg"
+    },
+    {
+      "id": "429888",
+      "title": "Never Split the Difference: Negotiating As If Your Life Depended On It",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332912/45dbb1b3a1c08e2e96297a4eda626c87ddbd8da9.jpeg"
+    },
+    {
+      "id": "361299",
+      "title": "Tuesdays with Morrie: An Old Man, a Young Man and Life's Greatest Lesson",
+      "coverUrl": "https://assets.hardcover.app/edition/21935346/abcbdbb2dbc148ec14784f0c527b936931f1d9cb.jpeg"
+    },
+    {
+      "id": "81913",
+      "title": "A Memory of Light",
+      "coverUrl": "https://assets.hardcover.app/edition/30930986/6513264d-e025-4a8e-8fcc-1b6030110264.png"
+    },
+    {
+      "id": "510471",
+      "title": "The Immortal Life of Henrietta Lacks",
+      "coverUrl": "https://assets.hardcover.app/external_data/49453944/e7be4abd4451df42a963622a49e7f996ff0654a3.jpeg"
+    },
+    {
+      "id": "12666",
+      "title": "The Glass Castle",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332926/f737c395fb5693a0ee8540f086885768f1f01df9.jpeg"
+    },
+    {
+      "id": "428153",
+      "title": "Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character",
+      "coverUrl": "https://assets.hardcover.app/edition/20927124/a9a5b20e0f9cdb341b08a0f508a334bb6d4f49d1.jpeg"
+    },
+    {
+      "id": "267674",
+      "title": "Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge, and the Teachings of Plants",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7333045/d1708e47240ee6f655fd7f25bf657d53e43f999a.jpeg"
+    },
+    {
+      "id": "305395",
+      "title": "Bossypants",
+      "coverUrl": "https://assets.hardcover.app/edition/30399197/e657e8bcc0fa23e7fefca6504cb605a48e4b67ac.jpeg"
+    },
+    {
+      "id": "486043",
+      "title": "The Communist Manifesto",
+      "coverUrl": "https://assets.hardcover.app/edition/16294758/21b5cfeb45e2bcaa189ab131168f6477f4515c85.jpeg"
+    },
+    {
+      "id": "436612",
+      "title": "In the Dream House",
+      "coverUrl": "https://assets.hardcover.app/edition/11425377/fd3bb47377b905a4f28bd6422119ce74616823f9.jpeg"
+    },
+    {
+      "id": "265529",
+      "title": "Kitchen Confidential: Adventures in the Culinary Underbelly",
+      "coverUrl": "https://assets.hardcover.app/external_data/50283901/f5ee69cbc973553cc887db97b79c63b2901b0014.jpeg"
+    },
+    {
+      "id": "271546",
+      "title": "A Farewell to Arms",
+      "coverUrl": "https://assets.hardcover.app/external_data/24791788/ba66bced530b505b7730d34cbcb25fe85f2568ce.jpeg"
+    },
+    {
+      "id": "86365",
+      "title": "We Should All Be Feminists",
+      "coverUrl": "https://assets.hardcover.app/editions/30402382/3510534994211781-41lPIJlO8rL.jpg"
+    },
+    {
+      "id": "674541",
+      "title": "Walden",
+      "coverUrl": "https://assets.hardcover.app/external_data/37168858/2ae624ba7bce24b7bcb621002ad9f9a31ccc9b8f.jpeg"
+    },
+    {
+      "id": "427741",
+      "title": "Maybe You Should Talk to Someone: A Therapist, Her Therapist, and Our Lives Revealed",
+      "coverUrl": "https://assets.hardcover.app/edition/6457219/3d6c47d25bfd079c31c4a802cf715dbe2997654e.jpeg"
+    },
+    {
+      "id": "185905",
+      "title": "I Know Why the Caged Bird Sings",
+      "coverUrl": "https://assets.hardcover.app/edition/10515867/caf09a0a61497157784ac03008e2df9277ca8353.jpeg"
+    },
+    {
+      "id": "427572",
+      "title": "A Promised Land",
+      "coverUrl": "https://assets.hardcover.app/external_data/59515200/de42995b2297fe11eee38bd9039609862c46d8c1.jpeg"
+    },
+    {
+      "id": "428472",
+      "title": "Milk and Honey",
+      "coverUrl": "https://assets.hardcover.app/edition/30399587/32c59cc9985f8aaeddecf8eae81a227ec08e027e.jpeg"
+    },
+    {
+      "id": "377089",
+      "title": "Paradise Lost",
+      "coverUrl": "https://assets.hardcover.app/editions/3757554/1919948996411096.jpg"
+    },
+    {
+      "id": "93185",
+      "title": "Republic",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7333354/a7052cedd8ba5f0c2e10dd09e9ad1448faf4e016.jpeg"
+    },
+    {
+      "id": "164979",
+      "title": "Maus: A Survivor's Tale: My Father Bleeds History",
+      "coverUrl": "https://assets.hardcover.app/external_data/31968819/c55b2acd574585ead210a4fc2a0a8f75342b42d4.jpeg"
+    },
+    {
+      "id": "360347",
+      "title": "Gravity's Rainbow",
+      "coverUrl": "https://assets.hardcover.app/editions/4647782/8271945363577893-gravitysrainbow.jpg"
+    },
+    {
+      "id": "109507",
+      "title": "Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future",
+      "coverUrl": "https://assets.hardcover.app/external_data/61087389/44371930487e1d6f843a3f2e887d534def71663c.jpeg"
+    },
+    {
+      "id": "24357",
+      "title": "The Year of Magical Thinking",
+      "coverUrl": "https://assets.hardcover.app/edition/12590338/745358-L.jpg"
+    },
+    {
+      "id": "198672",
+      "title": "Me Talk Pretty One Day",
+      "coverUrl": "https://assets.hardcover.app/external_data/59898786/89e61f72d325b810289d8bb9178f75a9cb064315.jpeg"
+    },
+    {
+      "id": "427618",
+      "title": "Shoe Dog: A Memoir by the Creator of NIKE",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7333013/14523df257ed3dc8bdca890f6a92ae519d1bd00f.jpeg"
+    },
+    {
+      "id": "168687",
+      "title": "David Copperfield",
+      "coverUrl": "https://assets.hardcover.app/editions/21501106/1949600411591415.jpg"
+    },
+    {
+      "id": "445010",
+      "title": "Her Body and Other Parties",
+      "coverUrl": "https://assets.hardcover.app/external_data/60032229/7efc4be73aa99c3b63587614afb4ff34a1150e19.jpeg"
+    },
+    {
+      "id": "379497",
+      "title": "Gulliver's Travels",
+      "coverUrl": "https://assets.hardcover.app/edition/13337767/88ad340f0a2ba6d98bd529a399855082735f4aad.jpeg"
+    },
+    {
+      "id": "383895",
+      "title": "What I Talk About When I Talk About Running",
+      "coverUrl": "https://assets.hardcover.app/editions/30591313/4c7a96fe-0260-4c6d-a9b3-9192325f0612.jpg"
+    },
+    {
+      "id": "52808",
+      "title": "Wild: From Lost to Found on the Pacific Crest Trail",
+      "coverUrl": "https://assets.hardcover.app/edition/30399514/22140b322f82e27240bdbaa199d8264252b72f22.jpeg"
+    },
+    {
+      "id": "872024",
+      "title": "The Woman in Me",
+      "coverUrl": "https://assets.hardcover.app/edition/30889538/13afae9d785b0185357a3161b9c272d0d89f0154.jpeg"
+    },
+    {
+      "id": "261377",
+      "title": "Persepolis: The Story of a Childhood",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7333172/3d37a623eadf43c855e3aeed8fe5de5c27281119.jpeg"
+    },
+    {
+      "id": "377712",
+      "title": "Know My Name",
+      "coverUrl": "https://assets.hardcover.app/external_data/24066372/44352fcc9399ff348865134dbdd6c8922c96cec7.jpeg"
+    },
+    {
+      "id": "103126",
+      "title": "The BFG",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7333400/6588de17f8382a796b5e8467c788e8a3bbaa2692.jpeg"
+    },
+    {
+      "id": "450942",
+      "title": "Everything I Know About Love: Now a Major BBC One Series",
+      "coverUrl": "https://assets.hardcover.app/edition/27041468/3c69c609edeb77eb7a31ae10a488c6b2d513ab8e.jpeg"
+    },
+    {
+      "id": "111757",
+      "title": "Eat, Pray, Love: One Woman's Search for Everything Across Italy, India and Indonesia",
+      "coverUrl": "https://assets.hardcover.app/edition/3164216/26179f98-d893-41d1-984d-16ea26f40b24.jpg"
+    },
+    {
+      "id": "891981",
+      "title": "How to Change Your Mind The New Science of Psychedelics",
+      "coverUrl": "https://assets.hardcover.app/edition/30912511/090c0320b77f1fc8e9689bab1e76aebd2911d286.jpeg"
+    },
+    {
+      "id": "209846",
+      "title": "Yes Please",
+      "coverUrl": "https://assets.hardcover.app/edition/30401294/0d79810f3cbb6950b143620197c041a20fd80515.jpeg"
+    },
+    {
+      "id": "340144",
+      "title": "Endurance: Shackleton's Incredible Voyage",
+      "coverUrl": "https://assets.hardcover.app/edition/31641730/13de97ee-4a41-42d2-a5c9-494c034590f2.jpg"
+    },
+    {
+      "id": "377817",
+      "title": "The Autobiography of Malcolm X",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7333239/b8c3a88e5cb7d284a02d9b35b07573d207f458bf.jpeg"
+    }
+  ],
+  "Self Help": [],
+  "Philosophy": [
+    {
+      "id": "381379",
+      "title": "The Catcher in the Rye",
+      "coverUrl": "https://assets.hardcover.app/editions/20025793/2524829738512264-91YXaY-I9VS._SL1500_.jpg"
+    },
+    {
+      "id": "436692",
+      "title": "The Picture of Dorian Gray",
+      "coverUrl": "https://assets.hardcover.app/edition/25403534/25aad411adf5c70ceab52ba339ea701564cb93d6.jpeg"
+    },
+    {
+      "id": "337236",
+      "title": "The Alchemist",
+      "coverUrl": "https://assets.hardcover.app/editions/30399646/6724991536065856.jpg"
+    },
+    {
+      "id": "266084",
+      "title": "The Stranger",
+      "coverUrl": "https://assets.hardcover.app/edition/15655608/419742-L.jpg"
+    },
+    {
+      "id": "115005",
+      "title": "The Little Prince",
+      "coverUrl": "https://assets.hardcover.app/editions/30426444/4807756302554780-157993.jpg"
+    },
+    {
+      "id": "197990",
+      "title": "The Fault in Our Stars",
+      "coverUrl": "https://assets.hardcover.app/external_data/42441742/f0fe7614243ae255ef797f894e263adeb97cd666.jpeg"
+    },
+    {
+      "id": "242987",
+      "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+      "coverUrl": "https://assets.hardcover.app/external_data/39792230/703e1ead0915ce19bc07da55049957ed22605b5d.jpeg"
+    },
+    {
+      "id": "242841",
+      "title": "Thinking, Fast and Slow",
+      "coverUrl": "https://assets.hardcover.app/external_data/32475567/ddc6d0b45faff3b36560a5663e4ff2d2efb63740.jpeg"
+    },
+    {
+      "id": "374551",
+      "title": "Little Women",
+      "coverUrl": "https://assets.hardcover.app/edition/26091088/6c8ca035efb9e9dbed40a7f45c64aaa924c2b578.jpeg"
+    },
+    {
+      "id": "495645",
+      "title": "Man's Search for Meaning",
+      "coverUrl": "https://assets.hardcover.app/edition/30443934/9e06b9cfae5eb17e4d071c9caaeda029fcf353df.jpeg"
+    },
+    {
+      "id": "75637",
+      "title": "Siddhartha",
+      "coverUrl": "https://assets.hardcover.app/editions/1645915/2549686296244180-52036.jpg"
+    },
+    {
+      "id": "385032",
+      "title": "A Short History of Nearly Everything",
+      "coverUrl": "https://assets.hardcover.app/external_data/30192277/7a058dd6f1dc49d4ec324913388c1c97a23c2cd2.jpeg"
+    },
+    {
+      "id": "157096",
+      "title": "Meditations",
+      "coverUrl": "https://assets.hardcover.app/external_data/47659608/cee064c51e9acb6a09bb7158794ef45e231dde6e.jpeg"
+    },
+    {
+      "id": "374377",
+      "title": "Alice's Adventures in Wonderland",
+      "coverUrl": "https://assets.hardcover.app/edition/32806710/fe0c3d9c2e0abadb4c34221a5eec4f342a184e0d.jpeg"
+    },
+    {
+      "id": "80661",
+      "title": "The Art of War",
+      "coverUrl": "https://assets.hardcover.app/edition/30407002/222cb1d7-a6f8-4f17-9a2a-b6dbb44316e1.jpeg"
+    },
+    {
+      "id": "748391",
+      "title": "Don Quixote",
+      "coverUrl": "https://assets.hardcover.app/external_data/25818030/7696d4e1246ccb1315aedc0afb5bc46237666ad4.jpeg"
+    },
+    {
+      "id": "375927",
+      "title": "The Adventures of Tom Sawyer",
+      "coverUrl": "https://assets.hardcover.app/edition/10140800/0fed641412c4c4d77b8e4eca76288d4500774055.jpeg"
+    },
+    {
+      "id": "42",
+      "title": "Notes from Underground",
+      "coverUrl": "https://assets.hardcover.app/edition/28244794/aef0025870dc301dc70429511975fd80f758ef6b.jpeg"
+    },
+    {
+      "id": "433209",
+      "title": "The Unbearable Lightness of Being",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332985/84dbb147f5985a35aab6e5605c62ebf7a6339690.jpeg"
+    },
+    {
+      "id": "427884",
+      "title": "The Stone Sky",
+      "coverUrl": "https://assets.hardcover.app/external_data/45573946/d5b057644853864759209c4edba6334d8887fd94.jpeg"
+    },
+    {
+      "id": "460562",
+      "title": "White Nights",
+      "coverUrl": "https://assets.hardcover.app/external_data/805534/3765c35bdef9f0ab31d7e708601fab713a55d18a.jpeg"
+    },
+    {
+      "id": "347503",
+      "title": "Alice's Adventures in Wonderland / Through the Looking-Glass",
+      "coverUrl": "https://assets.hardcover.app/external_data/33686436/2b79f8eb2bbf2e260d5e9489b1b60a7ec5b612f0.jpeg"
+    },
+    {
+      "id": "430949",
+      "title": "Artemis Fowl",
+      "coverUrl": "https://assets.hardcover.app/edition/6806645/a9dd78dd-cc25-480c-9161-e8a556259c95.jpg"
+    },
+    {
+      "id": "432566",
+      "title": "The Prince",
+      "coverUrl": "https://assets.hardcover.app/external_data/46827046/eca912d4809441cc6659148affdcd75a8ef20ab5.jpeg"
+    },
+    {
+      "id": "427391",
+      "title": "The Tipping Point: How Little Things Can Make a Big Difference",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332504/7e0f25fc2c55296cf031c4b433124ba3d2c5af31.jpeg"
+    },
+    {
+      "id": "361299",
+      "title": "Tuesdays with Morrie: An Old Man, a Young Man and Life's Greatest Lesson",
+      "coverUrl": "https://assets.hardcover.app/edition/21935346/abcbdbb2dbc148ec14784f0c527b936931f1d9cb.jpeg"
+    },
+    {
+      "id": "427444",
+      "title": "Four Thousand Weeks: Time and How to Use It",
+      "coverUrl": "https://assets.hardcover.app/edition/30455079/b336540f0267efbbd708b24934817f227d660666.jpeg"
+    },
+    {
+      "id": "464952",
+      "title": "The Myth of Sisyphus",
+      "coverUrl": "https://assets.hardcover.app/external_data/48503761/f6334fc1456e9d9b5043c833710aae40fa83d4f1.jpeg"
+    },
+    {
+      "id": "226864",
+      "title": "Graceling",
+      "coverUrl": "https://assets.hardcover.app/edition/7513418/9f1de0ccf8982c09d8ea1dad7336537382fecb98.jpeg"
+    },
+    {
+      "id": "267674",
+      "title": "Braiding Sweetgrass: Indigenous Wisdom, Scientific Knowledge, and the Teachings of Plants",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7333045/d1708e47240ee6f655fd7f25bf657d53e43f999a.jpeg"
+    },
+    {
+      "id": "897288",
+      "title": "The Life Changing Magic of Tidying Up",
+      "coverUrl": "https://assets.hardcover.app/edition/30918878/a7291e42040f038dbe60cd5cc46a91992d2f9e4c.jpeg"
+    },
+    {
+      "id": "486043",
+      "title": "The Communist Manifesto",
+      "coverUrl": "https://assets.hardcover.app/edition/16294758/21b5cfeb45e2bcaa189ab131168f6477f4515c85.jpeg"
+    },
+    {
+      "id": "210881",
+      "title": "Zen and the Art of Motorcycle Maintenance: An Inquiry into Values",
+      "coverUrl": "https://assets.hardcover.app/external_data/31056341/398c09338379da8fce191bcd16df44fa70c646b0.jpeg"
+    },
+    {
+      "id": "272075",
+      "title": "12 Rules for Life: An Antidote to Chaos",
+      "coverUrl": "https://assets.hardcover.app/editions/3852991/32c5a08d-4c2d-4ec3-9ddc-4f05cdfbb902.jpg"
+    },
+    {
+      "id": "674541",
+      "title": "Walden",
+      "coverUrl": "https://assets.hardcover.app/external_data/37168858/2ae624ba7bce24b7bcb621002ad9f9a31ccc9b8f.jpeg"
+    },
+    {
+      "id": "382874",
+      "title": "The God Delusion",
+      "coverUrl": "https://assets.hardcover.app/edition/13353482/be3cf58d15957597622e0554a961a90cde6c8279.jpeg"
+    },
+    {
+      "id": "436502",
+      "title": "A Short Stay in Hell",
+      "coverUrl": "https://assets.hardcover.app/books/436502/8dfcaca4-9526-4735-afec-4d7d1416edcf.jpg"
+    },
+    {
+      "id": "427777",
+      "title": "The Courage to Be Disliked",
+      "coverUrl": "https://assets.hardcover.app/external_data/24555015/54f7a3add8d4f15b083beaf741a45aff3348723b.jpeg"
+    },
+    {
+      "id": "216846",
+      "title": "Where the Wild Things Are",
+      "coverUrl": "https://assets.hardcover.app/edition/3601215/50842-L.jpg"
+    },
+    {
+      "id": "330490",
+      "title": "The 48 Laws of Power",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7333226/35c763501eaa5c88627404fd33281f61a13e7b2d.jpeg"
+    },
+    {
+      "id": "312500",
+      "title": "Candide",
+      "coverUrl": "https://assets.hardcover.app/external_data/31934439/d7cc940ab892f2bc6e68a4e59e92a9f1804a0972.jpeg"
+    },
+    {
+      "id": "431229",
+      "title": "21 Lessons for the 21st Century",
+      "coverUrl": "https://assets.hardcover.app/edition/30402213/94129fcb-4279-4978-8adf-ea3835b8aa9d.jpg"
+    },
+    {
+      "id": "93185",
+      "title": "Republic",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7333354/a7052cedd8ba5f0c2e10dd09e9ad1448faf4e016.jpeg"
+    },
+    {
+      "id": "111985",
+      "title": "Gödel, Escher, Bach: an Eternal Golden Braid",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7333056/061e0b38a21e38fd2953208cf3c990d3303d1464.jpeg"
+    },
+    {
+      "id": "435859",
+      "title": "Steppenwolf",
+      "coverUrl": "https://assets.hardcover.app/editions/3512145/d062403f-cedf-45b3-a03d-0e666b9291ce.jpg"
+    },
+    {
+      "id": "2280862",
+      "title": "Bridge to Terabithia",
+      "coverUrl": "https://assets.hardcover.app/edition/30402215/fc7b41ec-293b-4d8a-ac29-b29d7ac60394.jpg"
+    },
+    {
+      "id": "444952",
+      "title": "Sophie's World",
+      "coverUrl": "https://assets.hardcover.app/edition/1496515/29a79c02e8e60bdfcbc92cfef7467cad7f7432e1.jpeg"
+    },
+    {
+      "id": "482336",
+      "title": "Beyond Good and Evil",
+      "coverUrl": "https://assets.hardcover.app/edition/14719778/023c7ef29d9f756435b39dbfd721188fd5ad6c12.jpeg"
+    },
+    {
+      "id": "429709",
+      "title": "Thus Spoke Zarathustra",
+      "coverUrl": "https://assets.hardcover.app/external_data/33691647/dbb4117faacb8087756a158cb6f5e040e9630609.jpeg"
+    },
+    {
+      "id": "554278",
+      "title": "The Creative Act: A Way of Being",
+      "coverUrl": "https://assets.hardcover.app/editions/30513220/57736a93-b5e0-4f61-9487-4e2586617bee.jpg"
+    },
+    {
+      "id": "223656",
+      "title": "The Four Agreements: A Practical Guide to Personal Freedom",
+      "coverUrl": "https://assets.hardcover.app/edition/10754484/0149d639a1a9b5a1defff9a226cb54da9b49bcfc.jpeg"
+    },
+    {
+      "id": "236344",
+      "title": "The Black Swan: The Impact of the Highly Improbable",
+      "coverUrl": "https://assets.hardcover.app/edition/16730939/85aa5da5030420fd188ab2284fda4b7202a11ec0.jpeg"
+    },
+    {
+      "id": "435431",
+      "title": "The Demon-Haunted World: Science as a Candle in the Dark",
+      "coverUrl": "https://assets.hardcover.app/edition/25847587/6e2a3dec29aaaca330c92d65daecbce3a4d25897.jpeg"
+    },
+    {
+      "id": "428391",
+      "title": "A Natural History of Dragons",
+      "coverUrl": "https://assets.hardcover.app/external_data/27377629/1e2a707c13b37465b422627731f93122256aa74d.jpeg"
+    },
+    {
+      "id": "111757",
+      "title": "Eat, Pray, Love: One Woman's Search for Everything Across Italy, India and Indonesia",
+      "coverUrl": "https://assets.hardcover.app/edition/3164216/26179f98-d893-41d1-984d-16ea26f40b24.jpg"
+    },
+    {
+      "id": "77208",
+      "title": "道德經 (Dao De Jing / Tao Te Ching)",
+      "coverUrl": "https://assets.hardcover.app/edition/19097653/b78e3d47b82d2d6bf2a547bf18938d0067e8e1a5.jpeg"
+    },
+    {
+      "id": "267709",
+      "title": "Waiting for Godot",
+      "coverUrl": "https://assets.hardcover.app/edition/30400175/29f922c3-5f4c-44de-b6ed-12ba7691b6a2.jpg"
+    },
+    {
+      "id": "60003",
+      "title": "Hyperbole and a Half: Unfortunate Situations, Flawed Coping Mechanisms, Mayhem, and Other Things That Happened",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7333053/5e43aa029226276fce410a18ae039bf61226db75.jpeg"
+    },
+    {
+      "id": "81594",
+      "title": "Nausea",
+      "coverUrl": "https://assets.hardcover.app/external_data/59586835/935955286ddd2e891f63e1844181c4f98316c426.jpeg"
+    },
+    {
+      "id": "148371",
+      "title": "Predictably Irrational: The Hidden Forces That Shape Our Decisions",
+      "coverUrl": "https://assets.hardcover.app/edition/30403698/c13e8658436bcae47633e5e01201ebd555da2539.jpeg"
+    }
+  ],
+  "Psychology": [
+    {
+      "id": "428023",
+      "title": "Atomic habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones",
+      "coverUrl": "https://assets.hardcover.app/edition/12605395/629717fe-df46-40b8-8529-dca0323bf699.jpg"
+    },
+    {
+      "id": "197990",
+      "title": "The Fault in Our Stars",
+      "coverUrl": "https://assets.hardcover.app/external_data/42441742/f0fe7614243ae255ef797f894e263adeb97cd666.jpeg"
+    },
+    {
+      "id": "70825",
+      "title": "Catch-22",
+      "coverUrl": "https://assets.hardcover.app/edition/25295027/fa7df16d-c3b6-4738-8e6a-96cd281adfe6.jpeg"
+    },
+    {
+      "id": "342142",
+      "title": "The Bell Jar",
+      "coverUrl": "https://assets.hardcover.app/editions/26012618/337747029847346-thebelljar2.jpg"
+    },
+    {
+      "id": "242987",
+      "title": "The Subtle Art of Not Giving a F*ck: A Counterintuitive Approach to Living a Good Life",
+      "coverUrl": "https://assets.hardcover.app/external_data/39792230/703e1ead0915ce19bc07da55049957ed22605b5d.jpeg"
+    },
+    {
+      "id": "242841",
+      "title": "Thinking, Fast and Slow",
+      "coverUrl": "https://assets.hardcover.app/external_data/32475567/ddc6d0b45faff3b36560a5663e4ff2d2efb63740.jpeg"
+    },
+    {
+      "id": "212258",
+      "title": "The Brothers Karamazov",
+      "coverUrl": "https://assets.hardcover.app/edition/31370986/f057a871e6635e92341a5d3c47840dd16a91c543.jpeg"
+    },
+    {
+      "id": "495645",
+      "title": "Man's Search for Meaning",
+      "coverUrl": "https://assets.hardcover.app/edition/30443934/9e06b9cfae5eb17e4d071c9caaeda029fcf353df.jpeg"
+    },
+    {
+      "id": "382641",
+      "title": "The Curious Incident of the Dog in the Night-Time",
+      "coverUrl": "https://assets.hardcover.app/external_data/60344932/5d3d325dbfd7eda00bc7f63495d4a03519bb1e8f.jpeg"
+    },
+    {
+      "id": "511526",
+      "title": "The Housemaid",
+      "coverUrl": "https://assets.hardcover.app/edition/30793259/4ce04b693c8025f739ba67460aaff16f1e417b8a.jpeg"
+    },
+    {
+      "id": "427812",
+      "title": "How to Win Friends and Influence People",
+      "coverUrl": "https://assets.hardcover.app/external_data/59970685/82ad188ab1a8168fa9267f69356def4798f60086.jpeg"
+    },
+    {
+      "id": "29886",
+      "title": "The Trial",
+      "coverUrl": "https://assets.hardcover.app/edition/30738162/8140099c-e36f-4279-a914-d5156141079b.jpeg"
+    },
+    {
+      "id": "817984",
+      "title": "Quiet : The Power of Introverts in a World That Can't Stop Talking",
+      "coverUrl": "https://assets.hardcover.app/edition/25260285/858323355fe5c5e54d92fa04d912416c109272b5.jpeg"
+    },
+    {
+      "id": "429559",
+      "title": "In Cold Blood",
+      "coverUrl": "https://assets.hardcover.app/edition/29139931/b227320dd378685b36172c6f2888b53e2247e170.jpeg"
+    },
+    {
+      "id": "66795",
+      "title": "Outliers: The Story of Success",
+      "coverUrl": "https://assets.hardcover.app/external_data/44146827/fd1756fafb0379e3e6d5e16cbd368c3fd400799b.jpeg"
+    },
+    {
+      "id": "306986",
+      "title": "Deep Work: Rules for Focused Success in a Distracted World",
+      "coverUrl": "https://assets.hardcover.app/external_data/43295845/f4a8749dd530cd3f34b4cb00d225aca590487218.jpeg"
+    },
+    {
+      "id": "32698",
+      "title": "Why We Sleep: Unlocking the Power of Sleep and Dreams",
+      "coverUrl": "https://assets.hardcover.app/edition/30401325/007c4bf140918947a40c1b468da6e92321ebbde1.jpeg"
+    },
+    {
+      "id": "358355",
+      "title": "The Body Keeps the Score: Brain, Mind, and Body in the Healing of Trauma",
+      "coverUrl": "https://assets.hardcover.app/editions/24435972/5206219704089523-the_body_keeps_the_score.jpg"
+    },
+    {
+      "id": "252646",
+      "title": "Persuasion",
+      "coverUrl": "https://assets.hardcover.app/edition/17833242/9a0ca206fd941fdf453f3422c61cfe32a8564e30.jpeg"
+    },
+    {
+      "id": "431486",
+      "title": "The Psychology of Money",
+      "coverUrl": "https://assets.hardcover.app/editions/30402080/2750873312297770.jpg"
+    },
+    {
+      "id": "149844",
+      "title": "The Plague",
+      "coverUrl": "https://assets.hardcover.app/edition/2707798/7be060fefe972fcc6c85a3a65649d64d2517ad03.jpeg"
+    },
+    {
+      "id": "427513",
+      "title": "Ulysses",
+      "coverUrl": "https://assets.hardcover.app/external_data/61208607/8f93e37eab6201f6f715f24fc35fdca81d7c14db.jpeg"
+    },
+    {
+      "id": "441615",
+      "title": "Blindness",
+      "coverUrl": "https://assets.hardcover.app/edition/30402238/09d8201dca8f836ab7dc29d555a22ea063cf708c.jpeg"
+    },
+    {
+      "id": "432566",
+      "title": "The Prince",
+      "coverUrl": "https://assets.hardcover.app/external_data/46827046/eca912d4809441cc6659148affdcd75a8ef20ab5.jpeg"
+    },
+    {
+      "id": "429888",
+      "title": "Never Split the Difference: Negotiating As If Your Life Depended On It",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332912/45dbb1b3a1c08e2e96297a4eda626c87ddbd8da9.jpeg"
+    },
+    {
+      "id": "427391",
+      "title": "The Tipping Point: How Little Things Can Make a Big Difference",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332504/7e0f25fc2c55296cf031c4b433124ba3d2c5af31.jpeg"
+    },
+    {
+      "id": "361299",
+      "title": "Tuesdays with Morrie: An Old Man, a Young Man and Life's Greatest Lesson",
+      "coverUrl": "https://assets.hardcover.app/edition/21935346/abcbdbb2dbc148ec14784f0c527b936931f1d9cb.jpeg"
+    },
+    {
+      "id": "192351",
+      "title": "Digital Minimalism: Choosing a Focused Life in a Noisy World",
+      "coverUrl": "https://assets.hardcover.app/external_data/59340601/d5cda8f52cd8e844683d4a762edebd859a32c853.jpeg"
+    },
+    {
+      "id": "427444",
+      "title": "Four Thousand Weeks: Time and How to Use It",
+      "coverUrl": "https://assets.hardcover.app/edition/30455079/b336540f0267efbbd708b24934817f227d660666.jpeg"
+    },
+    {
+      "id": "191614",
+      "title": "Blink",
+      "coverUrl": "https://assets.hardcover.app/external_data/60188306/f4f0cf1e2bce80a72968f0b8e758ac6cf3d9e651.jpeg"
+    },
+    {
+      "id": "253778",
+      "title": "The 7 Habits of Highly Effective People",
+      "coverUrl": "https://assets.hardcover.app/edition/30401530/7546032f43cdce8a7219ee6676cc3273e288e879.jpeg"
+    },
+    {
+      "id": "427448",
+      "title": "Talking to Strangers: What We Should Know About the People We Don’t Know",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332589/e64cabd9ef557abd63ce93c18dd71ba6a4fb9949.jpeg"
+    },
+    {
+      "id": "172036",
+      "title": "Factfulness",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332656/305561d75a2a2ef97a62c5120ff3bd0c1086bcf4.jpeg"
+    },
+    {
+      "id": "384919",
+      "title": "Everything I Never Told You",
+      "coverUrl": "https://assets.hardcover.app/edition/30401104/1d528ed9e59df7849b7cafc19f3f74833bca8a39.jpeg"
+    },
+    {
+      "id": "210881",
+      "title": "Zen and the Art of Motorcycle Maintenance: An Inquiry into Values",
+      "coverUrl": "https://assets.hardcover.app/external_data/31056341/398c09338379da8fce191bcd16df44fa70c646b0.jpeg"
+    },
+    {
+      "id": "338255",
+      "title": "The Death of Ivan Ilych",
+      "coverUrl": "https://assets.hardcover.app/external_data/33722583/e7f244df1b12755df5af57ea765a2dc4a4a51425.jpeg"
+    },
+    {
+      "id": "463072",
+      "title": "The Man Who Mistook His Wife for a Hat",
+      "coverUrl": "https://assets.hardcover.app/editions/30413299/386907587734351.jpg"
+    },
+    {
+      "id": "384730",
+      "title": "Wonder",
+      "coverUrl": "https://assets.hardcover.app/edition/13191538/06ce4dae00f9ab1c5799cd4199a1fbd42af87eed.jpeg"
+    },
+    {
+      "id": "427741",
+      "title": "Maybe You Should Talk to Someone: A Therapist, Her Therapist, and Our Lives Revealed",
+      "coverUrl": "https://assets.hardcover.app/edition/6457219/3d6c47d25bfd079c31c4a802cf715dbe2997654e.jpeg"
+    },
+    {
+      "id": "28073",
+      "title": "Their Eyes Were Watching God",
+      "coverUrl": "https://assets.hardcover.app/external_data/59699230/f97f966c0630d910a690dc54e8e865cbf71aa000.jpeg"
+    },
+    {
+      "id": "330490",
+      "title": "The 48 Laws of Power",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7333226/35c763501eaa5c88627404fd33281f61a13e7b2d.jpeg"
+    },
+    {
+      "id": "428654",
+      "title": "A Monster Calls",
+      "coverUrl": "https://assets.hardcover.app/external_data/32727991/8b6f4fae3ecff392f47312dde2a0cd1fd8fdb177.jpeg"
+    },
+    {
+      "id": "444909",
+      "title": "Cultish: The Language of Fanaticism",
+      "coverUrl": "https://assets.hardcover.app/external_data/32815491/2b98b8a15749439401714f368c05fdc8ccfff6b6.jpeg"
+    },
+    {
+      "id": "482651",
+      "title": "The Design of Everyday Things",
+      "coverUrl": "https://assets.hardcover.app/edition/30422850/93b17c0b08996fa715916de185a6a47643298e7c.jpeg"
+    },
+    {
+      "id": "1178961",
+      "title": "The Anxious Generation: How the Great Rewiring of Childhood is Causing an Epidemic of Mental Illness",
+      "coverUrl": "https://assets.hardcover.app/edition/31203575/c710ce5f09da9937e5c5bd30bf6619088ffdb7ac.jpeg"
+    },
+    {
+      "id": "249473",
+      "title": "Influence: The Psychology of Persuasion",
+      "coverUrl": "https://assets.hardcover.app/edition/18322754/c2025cc19ab98ad6979e1df0aad8af610d712f3c.jpeg"
+    },
+    {
+      "id": "431485",
+      "title": "Can't Hurt Me: Master Your Mind and Defy the Odds",
+      "coverUrl": "https://assets.hardcover.app/external_data/61546515/5ddf773ff71577c2033b79d47dcf01306d03b213.jpeg"
+    },
+    {
+      "id": "378776",
+      "title": "Range: Why Generalists Triumph in a Specialized World",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332669/2a1692b5b17014dbcc67867536300250b6931e65.jpeg"
+    },
+    {
+      "id": "482336",
+      "title": "Beyond Good and Evil",
+      "coverUrl": "https://assets.hardcover.app/edition/14719778/023c7ef29d9f756435b39dbfd721188fd5ad6c12.jpeg"
+    },
+    {
+      "id": "434758",
+      "title": "The Five People You Meet in Heaven",
+      "coverUrl": "https://assets.hardcover.app/external_data/61214732/82632ab2d01e90e5e49be6fb752e284c337f966b.jpeg"
+    },
+    {
+      "id": "430368",
+      "title": "Think Again: The Power of Knowing What You Don't Know",
+      "coverUrl": "https://assets.hardcover.app/external_data/30192578/789d29d1bc64b2e5ce18332edf17eeeb445860a7.jpeg"
+    },
+    {
+      "id": "114581",
+      "title": "All About Love: New Visions",
+      "coverUrl": "https://assets.hardcover.app/edition/28485159/40bd9c85bd181b426e72fe5312bd6e1651a46274.jpeg"
+    },
+    {
+      "id": "463054",
+      "title": "Stolen Focus: Why You Can't Pay Attention",
+      "coverUrl": "https://assets.hardcover.app/external_data/59521303/04a43345924914e575bad8110a8e388798a310b4.jpeg"
+    },
+    {
+      "id": "376567",
+      "title": "My Sister's Keeper",
+      "coverUrl": "https://assets.hardcover.app/external_data/31976177/87e74b3a9e387f952cf27b193ab7b8b980cc173c.jpeg"
+    },
+    {
+      "id": "431744",
+      "title": "The War of Art: Break Through the Blocks and Win Your Inner Creative Battles",
+      "coverUrl": "https://assets.hardcover.app/edition/11122496/896a32c47ec2a79f8b9bb6e0fffefddb1f7359ec.jpeg"
+    },
+    {
+      "id": "7527",
+      "title": "Algorithms to Live By: The Computer Science of Human Decisions",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7333240/6f77a87d2b875dbe7b07ca4bcf8201cb4007e89d.jpeg"
+    },
+    {
+      "id": "148371",
+      "title": "Predictably Irrational: The Hidden Forces That Shape Our Decisions",
+      "coverUrl": "https://assets.hardcover.app/edition/30403698/c13e8658436bcae47633e5e01201ebd555da2539.jpeg"
+    },
+    {
+      "id": "100774",
+      "title": "The Righteous Mind: Why Good People Are Divided by Politics and Religion",
+      "coverUrl": "https://assets.hardcover.app/edition/30399569/2fbdfe88-1573-4c99-8e0a-90a2dd44b6f0.jpg"
+    },
+    {
+      "id": "433204",
+      "title": "How to Be an Antiracist",
+      "coverUrl": "https://assets.hardcover.app/external_data/32815033/3a8e532e4598c36eb3c64da996dad404d435ac12.jpeg"
+    },
+    {
+      "id": "490930",
+      "title": "Building a Second Brain: A Proven Method to Organize Your Digital Life and Unlock Your Creative Potential",
+      "coverUrl": "https://assets.hardcover.app/edition/30438341/13d2a91b-fec3-492b-b839-05ca3127b670.jpg"
+    }
+  ],
+  "Classic": [],
+  "Adventure": [
+    {
+      "id": "427578",
+      "title": "Project Hail Mary",
+      "coverUrl": "https://assets.hardcover.app/editions/3274049/8741341047797682-91mYu67RfUL._SL1500_.jpg"
+    },
+    {
+      "id": "328491",
+      "title": "Harry Potter and the Philosopher's Stone",
+      "coverUrl": "https://assets.hardcover.app/edition/2667580/06168492-bf52-4333-9ac6-66ed21907865.jpg"
+    },
+    {
+      "id": "312460",
+      "title": "Dune",
+      "coverUrl": "https://assets.hardcover.app/editions/30426415/8362709973192601-9780441013593-us.jpg"
+    },
+    {
+      "id": "429306",
+      "title": "Harry Potter and the Chamber of Secrets",
+      "coverUrl": "https://assets.hardcover.app/editions/25614271/4833571895209920-lf.jpeg"
+    },
+    {
+      "id": "88639",
+      "title": "The Hunger Games",
+      "coverUrl": "https://assets.hardcover.app/editions/1589497/2979196565308831-lf%202.jpeg"
+    },
+    {
+      "id": "2459845",
+      "title": "The Hobbit, or There and Back Again",
+      "coverUrl": "https://assets.hardcover.app/edition/17456445/d34448a9-bf3f-441d-93f2-1cd32dd3867c.jpg"
+    },
+    {
+      "id": "376219",
+      "title": "Harry Potter and the Prisoner of Azkaban",
+      "coverUrl": "https://assets.hardcover.app/edition/28780168/0012cc5a-9e3a-48d4-95b6-d91f484de17a.jpg"
+    },
+    {
+      "id": "383236",
+      "title": "Harry Potter and the Goblet of Fire",
+      "coverUrl": "https://assets.hardcover.app/editions/28458058/1771665257940243-49130.jpg"
+    },
+    {
+      "id": "428465",
+      "title": "Harry Potter and the Order of the Phoenix",
+      "coverUrl": "https://assets.hardcover.app/editions/29262698/2170450621507933-58613451.jpg"
+    },
+    {
+      "id": "369692",
+      "title": "Mistborn: The Final Empire",
+      "coverUrl": "https://assets.hardcover.app/external_data/31614753/800579f7d675e7d2cd01043ddc57eb6ff724a6a5.jpeg"
+    },
+    {
+      "id": "427798",
+      "title": "The Hitchhiker's Guide to the Galaxy",
+      "coverUrl": "https://assets.hardcover.app/edition/21490281/d9b48333ac7a69ebe0aa5573fe0ff032e6f97508.jpeg"
+    },
+    {
+      "id": "382143",
+      "title": "Harry Potter and the Deathly Hallows",
+      "coverUrl": "https://assets.hardcover.app/editions/14019917/7017379795452299-58613224.jpg"
+    },
+    {
+      "id": "428506",
+      "title": "Harry Potter and the Half-Blood Prince",
+      "coverUrl": "https://assets.hardcover.app/editions/19724535/8038369521613846-58613345.jpg"
+    },
+    {
+      "id": "292354",
+      "title": "The Martian",
+      "coverUrl": "https://assets.hardcover.app/editions/21716111/5323176149970177.jpg"
+    },
+    {
+      "id": "427473",
+      "title": "Red Rising",
+      "coverUrl": "https://assets.hardcover.app/editions/26096001/3897005112280259.jpg"
+    },
+    {
+      "id": "139773",
+      "title": "The Fellowship of the Ring",
+      "coverUrl": "https://assets.hardcover.app/edition/29029601/6d64b05efec0ccb215640b38d8c6bc4c712da0f5.jpeg"
+    },
+    {
+      "id": "644",
+      "title": "A Game of Thrones",
+      "coverUrl": "https://assets.hardcover.app/edition/12841472/a63e7ea1-9064-4eb8-afb4-5372db40aed2.jpg"
+    },
+    {
+      "id": "386446",
+      "title": "The Way of Kings",
+      "coverUrl": "https://assets.hardcover.app/edition/3134360/a18d937805a28e3214a556442c8d33f41c02f2cb.jpeg"
+    },
+    {
+      "id": "427971",
+      "title": "All Systems Red",
+      "coverUrl": "https://assets.hardcover.app/edition/31608045/3c51e2999ec8dc7e94fdd569d083d45f2d46dd3b.jpeg"
+    },
+    {
+      "id": "446681",
+      "title": "Dungeon Crawler Carl",
+      "coverUrl": "https://assets.hardcover.app/edition/31601422/3a01ea07-01f4-45a2-9940-6fc7e00e0d08.jpeg"
+    },
+    {
+      "id": "175780",
+      "title": "Catching Fire",
+      "coverUrl": "https://assets.hardcover.app/edition/7988314/dbef0f7db3fc4a6157550d5f7cc01563af40315c.jpeg"
+    },
+    {
+      "id": "26363",
+      "title": "Ready Player One",
+      "coverUrl": "https://assets.hardcover.app/edition/31561015/c72731ad-c2bc-49c8-a087-66605cead82f.jpg"
+    },
+    {
+      "id": "463683",
+      "title": "Mockingjay",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332302/73342f741799f340cc0237284f304ed48b64d1cb.jpeg"
+    },
+    {
+      "id": "714600",
+      "title": "Fourth Wing",
+      "coverUrl": "https://assets.hardcover.app/editions/30707731/3559167047761380.jpeg"
+    },
+    {
+      "id": "379217",
+      "title": "The Name of the Wind",
+      "coverUrl": "https://assets.hardcover.app/editions/19454574/9509867934646082.jpg"
+    },
+    {
+      "id": "428018",
+      "title": "The Midnight Library",
+      "coverUrl": "https://assets.hardcover.app/external_data/30206313/f95c74793bcdd7925758f16a6f6f5f423a2ec81d.jpeg"
+    },
+    {
+      "id": "158268",
+      "title": "Ender's Game",
+      "coverUrl": "https://assets.hardcover.app/external_data/59556867/ec6f766e71f270e2aac18494d2a4d9c1e05ceb56.jpeg"
+    },
+    {
+      "id": "374481",
+      "title": "Lord of the Flies",
+      "coverUrl": "https://assets.hardcover.app/editions/5311461/6685526815468095-8016155.jpg"
+    },
+    {
+      "id": "80378",
+      "title": "The Song of Achilles",
+      "coverUrl": "https://assets.hardcover.app/editions/8933288/8719175186248367.jpg"
+    },
+    {
+      "id": "428290",
+      "title": "A Court of Thorns and Roses",
+      "coverUrl": "https://assets.hardcover.app/external_data/50291833/4af7f88042d87ecc991f2fcb53e945d8daaabcfd.jpeg"
+    },
+    {
+      "id": "427383",
+      "title": "The Well of Ascension",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332358/43f95ab5370016fe0b2eddf9adee5f338850e6c4.jpeg"
+    },
+    {
+      "id": "337236",
+      "title": "The Alchemist",
+      "coverUrl": "https://assets.hardcover.app/editions/30399646/6724991536065856.jpg"
+    },
+    {
+      "id": "657",
+      "title": "American Gods",
+      "coverUrl": "https://assets.hardcover.app/external_data/30222505/3e02a50c5ecf68835504b66795c7553ae9cc6d98.jpeg"
+    },
+    {
+      "id": "379631",
+      "title": "The Two Towers",
+      "coverUrl": "https://assets.hardcover.app/edition/25616931/cd5d5770785ed7174f4649b06ff4feb6cbdb800e.jpeg"
+    },
+    {
+      "id": "103241",
+      "title": "The Hero of Ages",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332415/e3dcf34cb6632d5de4f946fbbd5d20558f3d69d6.jpeg"
+    },
+    {
+      "id": "427621",
+      "title": "Leviathan Wakes",
+      "coverUrl": "https://assets.hardcover.app/editions/31795264/8326503637087890.jpg"
+    },
+    {
+      "id": "219252",
+      "title": "The Lightning Thief",
+      "coverUrl": "https://assets.hardcover.app/edition/11185124/b076b406ccdf683e9fb871f8aa24c041ae354514.jpeg"
+    },
+    {
+      "id": "428657",
+      "title": "Dracula",
+      "coverUrl": "https://assets.hardcover.app/editions/12963649/989255574897903-812-AV3IC3L._SL1500_.jpg"
+    },
+    {
+      "id": "427374",
+      "title": "A Clash of Kings",
+      "coverUrl": "https://assets.hardcover.app/edition/7441206/83b941d8f996468d946641f3674e9b26461a3ddc.jpeg"
+    },
+    {
+      "id": "77104",
+      "title": "The Eye of the World",
+      "coverUrl": "https://assets.hardcover.app/edition/30621010/97e433a0-efab-4de8-a7cc-23ad09a4df05.png"
+    },
+    {
+      "id": "115005",
+      "title": "The Little Prince",
+      "coverUrl": "https://assets.hardcover.app/editions/30426444/4807756302554780-157993.jpg"
+    },
+    {
+      "id": "373163",
+      "title": "The Da Vinci Code",
+      "coverUrl": "https://assets.hardcover.app/editions/30400169/2520023766251547.jpeg"
+    },
+    {
+      "id": "427460",
+      "title": "Hyperion",
+      "coverUrl": "https://assets.hardcover.app/edition/30428122/3c2f0e295e374546dcee4d94bd25197589d8484a.jpeg"
+    },
+    {
+      "id": "374131",
+      "title": "Words of Radiance",
+      "coverUrl": "https://assets.hardcover.app/edition/419923/7428154-L.jpg"
+    },
+    {
+      "id": "36087",
+      "title": "The Road",
+      "coverUrl": "https://assets.hardcover.app/editions/642392/7620614454245640-cormacmcarthytheroad.jpg"
+    },
+    {
+      "id": "1898835",
+      "title": "Six of Crows",
+      "coverUrl": "https://assets.hardcover.app/edition/30399477/8fbcdad6-5240-4e0e-9eb5-b691b0745f01.jpg"
+    },
+    {
+      "id": "594985",
+      "title": "The Will of the Many",
+      "coverUrl": "https://assets.hardcover.app/edition/30615590/1fe836a2-7004-4378-add0-dc78b96b2d17.jpg"
+    },
+    {
+      "id": "429356",
+      "title": "The Lion, the Witch and the Wardrobe",
+      "coverUrl": "https://assets.hardcover.app/editions/30400082/2444907221007209.jpg"
+    },
+    {
+      "id": "473869",
+      "title": "The Count of Monte Cristo",
+      "coverUrl": "https://assets.hardcover.app/edition/22062767/3432f1033b04d23e47edea3a864bb956f3b6346e.jpeg"
+    },
+    {
+      "id": "143200",
+      "title": "The Poppy War",
+      "coverUrl": "https://assets.hardcover.app/edition/30474703/a131f38041ff2c99c8667ca5fdf142f27da739ce.jpeg"
+    },
+    {
+      "id": "355708",
+      "title": "The Golden Compass",
+      "coverUrl": "https://assets.hardcover.app/editions/19151716/902688047208777-119322.jpg"
+    },
+    {
+      "id": "268150",
+      "title": "Do Androids Dream of Electric Sheep?",
+      "coverUrl": "https://assets.hardcover.app/editions/24366858/2403087114756371-912qCxdgTRL._SL1500_.jpg"
+    },
+    {
+      "id": "380764",
+      "title": "The Lies of Locke Lamora",
+      "coverUrl": "https://assets.hardcover.app/edition/14655125/9aab1cd2-201a-4312-813b-d5118c1e8bc2.jpg"
+    },
+    {
+      "id": "459452",
+      "title": "Oathbringer",
+      "coverUrl": "https://assets.hardcover.app/edition/30455612/1deeb21c2576843fe4556815fea2eb784e406908.jpeg"
+    },
+    {
+      "id": "236",
+      "title": "A Storm of Swords",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332349/5249dbcbc118ae4ea68c37295c8386f96c341c95.jpeg"
+    },
+    {
+      "id": "602482",
+      "title": "Tress of the Emerald Sea",
+      "coverUrl": "https://assets.hardcover.app/external_data/60564134/fc31b11ae8f367e5717cf7916e557846dbc356f7.jpeg"
+    },
+    {
+      "id": "378044",
+      "title": "Golden Son",
+      "coverUrl": "https://assets.hardcover.app/editions/30404982/b5150007-bf09-4937-8d32-ecf89f136342.jpg"
+    },
+    {
+      "id": "109344",
+      "title": "Divergent",
+      "coverUrl": "https://assets.hardcover.app/edition/22182301/7276222-L.jpg"
+    },
+    {
+      "id": "377011",
+      "title": "A Feast for Crows",
+      "coverUrl": "https://assets.hardcover.app/edition/2789048/8570883-L.jpg"
+    },
+    {
+      "id": "39629",
+      "title": "Throne of Glass",
+      "coverUrl": "https://assets.hardcover.app/edition/30501042/9052e867e43511a1f2ec7dc8ce0e33d01faf7c6e.jpeg"
+    }
+  ],
+  "Crime": [
+    {
+      "id": "469783",
+      "title": "Crime and Punishment",
+      "coverUrl": "https://assets.hardcover.app/edition/11223468/295861-L.jpg"
+    },
+    {
+      "id": "1218611",
+      "title": "The Girl with the Dragon Tattoo",
+      "coverUrl": "https://assets.hardcover.app/edition/22298854/46bea0924000f4fae375accbeefa58c7a615f02e.jpeg"
+    },
+    {
+      "id": "2008536",
+      "title": "And Then There Were None",
+      "coverUrl": "https://assets.hardcover.app/editions/26939988/4489646938598107-16299.jpg"
+    },
+    {
+      "id": "187993",
+      "title": "The Silent Patient",
+      "coverUrl": "https://assets.hardcover.app/edition/30408097/283e4f71-ecbc-4e2c-8876-6fdfad786456.jpg"
+    },
+    {
+      "id": "1145808",
+      "title": "Gone Girl",
+      "coverUrl": "https://assets.hardcover.app/editions/30400927/daac9aed-3fb0-4404-9248-925788cae4f2.jpeg"
+    },
+    {
+      "id": "427666",
+      "title": "Jade City",
+      "coverUrl": "https://assets.hardcover.app/edition/19597711/1c216658-2a3e-4d79-876c-83218ace27f4.jpg"
+    },
+    {
+      "id": "511526",
+      "title": "The Housemaid",
+      "coverUrl": "https://assets.hardcover.app/edition/30793259/4ce04b693c8025f739ba67460aaff16f1e417b8a.jpeg"
+    },
+    {
+      "id": "382513",
+      "title": "A Good Girl's Guide to Murder",
+      "coverUrl": "https://assets.hardcover.app/edition/30614103/222bb8053c54c2a15bf641bd87f53993c8328f18.jpeg"
+    },
+    {
+      "id": "437572",
+      "title": "The Thursday Murder Club",
+      "coverUrl": "https://assets.hardcover.app/external_data/47667262/f7aa5ab35a99f0b0f24d4b75d06e02b96a81dcec.jpeg"
+    },
+    {
+      "id": "375534",
+      "title": "Murder on the Orient Express",
+      "coverUrl": "https://assets.hardcover.app/editions/30399401/9393001616356172-853510.jpg"
+    },
+    {
+      "id": "321728",
+      "title": "Fight Club",
+      "coverUrl": "https://assets.hardcover.app/editions/14379830/9291375278274024-81GH0MPAUIL._SL1500_.jpg"
+    },
+    {
+      "id": "130839",
+      "title": "Sharp Objects",
+      "coverUrl": "https://assets.hardcover.app/external_data/48812118/acf4dec3c464b013bf3fcff7545db1f529e29697.jpeg"
+    },
+    {
+      "id": "444640",
+      "title": "The Girl Who Played With Fire",
+      "coverUrl": "https://assets.hardcover.app/edition/18512719/5c232b2b7e8e03d36816c4a171a4d6a367c9d8e4.jpeg"
+    },
+    {
+      "id": "428504",
+      "title": "The Guest List",
+      "coverUrl": "https://assets.hardcover.app/external_data/35435236/43242e719c3badc4629b1728254757cba51d2d7f.jpeg"
+    },
+    {
+      "id": "383924",
+      "title": "A Study in Scarlet",
+      "coverUrl": "https://assets.hardcover.app/edition/30399452/b85e6c727c3a4bd19d00735162bf8fff549b0081.jpeg"
+    },
+    {
+      "id": "437709",
+      "title": "The Maid",
+      "coverUrl": "https://assets.hardcover.app/external_data/61232329/a00eeff3f8677a286daa3d85009fae72b0ae7b76.jpeg"
+    },
+    {
+      "id": "781340",
+      "title": "None of This Is True",
+      "coverUrl": "https://assets.hardcover.app/external_data/61236779/64eed7a13f07d3d104137029cfdb4bbb395de934.jpeg"
+    },
+    {
+      "id": "380920",
+      "title": "The Murder of Roger Ackroyd",
+      "coverUrl": "https://assets.hardcover.app/edition/19870320/395fe1d41273ed98c45206883d532dc49cc5ae52.jpeg"
+    },
+    {
+      "id": "385180",
+      "title": "The Mysterious Affair at Styles",
+      "coverUrl": "https://assets.hardcover.app/edition/20278946/72c10bf694b82c0b675fb0f0a39e88a99d016c75.jpeg"
+    },
+    {
+      "id": "429870",
+      "title": "Prince of Thorns",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332968/cff2d0dfb9eaac7be05005be0e6e582ad36ba00c.jpeg"
+    },
+    {
+      "id": "201711",
+      "title": "No Country for Old Men",
+      "coverUrl": "https://assets.hardcover.app/edition/24544559/f00ab31f-7fa7-4b43-b9d9-11b2fe9f65d4.jpg"
+    },
+    {
+      "id": "377553",
+      "title": "Dark Places",
+      "coverUrl": "https://assets.hardcover.app/external_data/25848945/acba48cf050aeceaa6463de7f6b60290b3993f0f.jpeg"
+    },
+    {
+      "id": "385932",
+      "title": "Bad Blood: Secrets and Lies in a Silicon Valley Startup",
+      "coverUrl": "https://assets.hardcover.app/edition/30401490/013726d5dac8667a4e1c00ac0bdcd1d1b0c7ef3e.jpeg"
+    },
+    {
+      "id": "377309",
+      "title": "The Hound of the Baskervilles",
+      "coverUrl": "https://assets.hardcover.app/edition/9551586/27b19969887aafc0fbbfacced11de4ce065b022d.jpeg"
+    },
+    {
+      "id": "431844",
+      "title": "My Sister, the Serial Killer",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332769/1c71c351c88eba37e5a91297edc51c80357c7aa5.jpeg"
+    },
+    {
+      "id": "430448",
+      "title": "The Adventures of Sherlock Holmes",
+      "coverUrl": "https://assets.hardcover.app/edition/30401605/9d1924b69124136f977286fbb0cdd5f7582feabb.jpeg"
+    },
+    {
+      "id": "137651",
+      "title": "The Silence of the Lambs",
+      "coverUrl": "https://assets.hardcover.app/edition/10125942/c88a8a1c322f1aa9fdae34f3b69d42feecebfb24.jpeg"
+    },
+    {
+      "id": "373776",
+      "title": "The Godfather",
+      "coverUrl": "https://assets.hardcover.app/edition/9396774/e96c6707ecc4dd4371457a4af71d72eb255b2d16.jpeg"
+    },
+    {
+      "id": "428943",
+      "title": "Good Girl, Bad Blood",
+      "coverUrl": "https://assets.hardcover.app/edition/27992511/e13b3d573ed49f269887f33ce8a538ae4466de26.jpeg"
+    },
+    {
+      "id": "183498",
+      "title": "The Cuckoo's Calling",
+      "coverUrl": "https://assets.hardcover.app/book_mappings/7332890/20694ef1e5a90ff2dc112404c72ed0df08d6dcc7.jpeg"
+    },
+    {
+      "id": "257345",
+      "title": "Killing Floor",
+      "coverUrl": "https://assets.hardcover.app/editions/4365399/7458207508295374.jpg"
+    },
+    {
+      "id": "585562",
+      "title": "The Housemaid's Secret",
+      "coverUrl": "https://assets.hardcover.app/edition/30551488/dd9608ed-25d8-4b88-ac66-f0d5aba4d894.jpg"
+    },
+    {
+      "id": "482712",
+      "title": "Everyone In My Family Has Killed Someone",
+      "coverUrl": "https://assets.hardcover.app/edition/30618643/1cca6b42dbcd8961684688a71dcd235b75d37f4c.jpeg"
+    },
+    {
+      "id": "427527",
+      "title": "Lock In",
+      "coverUrl": "https://assets.hardcover.app/edition/15917903/5b5ba520-277c-4926-9deb-084f93de7124.jpg"
+    },
+    {
+      "id": "312167",
+      "title": "The Caves of Steel",
+      "coverUrl": "https://assets.hardcover.app/edition/30422727/b4e657268d8383a1a60f096eeaab2222e11d9f10.jpeg"
+    },
+    {
+      "id": "463684",
+      "title": "The Man Who Died Twice",
+      "coverUrl": "https://assets.hardcover.app/edition/30504308/c2bb10ec1d229ae90973da83899d60c1ba807d26.jpeg"
+    },
+    {
+      "id": "437349",
+      "title": "Billy Summers",
+      "coverUrl": "https://assets.hardcover.app/edition/31937930/e3f816ee-9d80-426b-81d6-27c7af882d5f.jpg"
+    },
+    {
+      "id": "353770",
+      "title": "In the Woods",
+      "coverUrl": "https://assets.hardcover.app/edition/30403660/21fd9ca7a7de031445a46daf810d2e2c1a99e9e4.jpeg"
+    },
+    {
+      "id": "436443",
+      "title": "Drive Your Plow Over the Bones of the Dead",
+      "coverUrl": "https://assets.hardcover.app/external_data/42465376/10571155d216d622d76fb1ebb5b88ff9fb8a1564.jpeg"
+    },
+    {
+      "id": "467465",
+      "title": "As Good As Dead",
+      "coverUrl": "https://assets.hardcover.app/external_data/29139791/419ed1ba847f978b0484b466a3da15e9002131d4.jpeg"
+    },
+    {
+      "id": "140086",
+      "title": "Pretty Girls",
+      "coverUrl": "https://assets.hardcover.app/external_data/24098817/6de37886864b89c8df2fcabd605cbf0e748fd36e.jpeg"
+    },
+    {
+      "id": "633384",
+      "title": "Holly",
+      "coverUrl": "https://assets.hardcover.app/external_data/59174872/6f0ce6a7711abca7c6decf84b739e5ebe22b56b6.jpeg"
+    },
+    {
+      "id": "445841",
+      "title": "Jade War",
+      "coverUrl": "https://assets.hardcover.app/edition/9062035/a916152da1df8a991570e068d46c0e287724c713.jpeg"
+    },
+    {
+      "id": "512236",
+      "title": "Wrong Place Wrong Time",
+      "coverUrl": "https://assets.hardcover.app/external_data/61208165/023d2820c923a090367c49681ffbb516994cc012.jpeg"
+    },
+    {
+      "id": "475182",
+      "title": "A Flicker in the Dark",
+      "coverUrl": "https://assets.hardcover.app/edition/30746028/cd84dd7f-8c25-4070-81fe-85b19202abba.jpg"
+    },
+    {
+      "id": "1083913",
+      "title": "Butter: A Novel of Food and Murder",
+      "coverUrl": "https://assets.hardcover.app/edition/31107949/04ab6f1e69dbf05db53eb8dd4fb958dfd02a3956.jpeg"
+    },
+    {
+      "id": "833733",
+      "title": "Battle Royale",
+      "coverUrl": "https://assets.hardcover.app/edition/30853870/b9479560-b7d2-45b1-90e8-dc782fbd9413.jpg"
+    },
+    {
+      "id": "445842",
+      "title": "Jade Legacy",
+      "coverUrl": "https://assets.hardcover.app/edition/13452302/45836e5c86d48b624825c9f537946a888bc21957.jpeg"
+    },
+    {
+      "id": "645716",
+      "title": "The Sign of Four",
+      "coverUrl": "https://assets.hardcover.app/external_data/60150255/298da0bb45596fb6ab2f2dfa8566bd265f166184.jpeg"
+    },
+    {
+      "id": "432608",
+      "title": "Magpie Murders",
+      "coverUrl": "https://assets.hardcover.app/edition/23502840/5d101b1e7558de476a04f05be511ae192d9573cf.jpeg"
+    },
+    {
+      "id": "730898",
+      "title": "The Last Devil to Die",
+      "coverUrl": "https://assets.hardcover.app/external_data/61253897/85daa5ef110d34ef81ab4ea06457681031d18333.jpeg"
+    },
+    {
+      "id": "430445",
+      "title": "Later",
+      "coverUrl": "https://assets.hardcover.app/edition/30400316/9d91f1d8-f70c-4df8-8034-13c50d372607.jpg"
+    },
+    {
+      "id": "386715",
+      "title": "The Golden Fool",
+      "coverUrl": "https://assets.hardcover.app/external_data/1285139/61b7710f75cb2c1cf14f888b9cd303d38d48b3ff.jpeg"
+    },
+    {
+      "id": "23273",
+      "title": "Fool's Fate",
+      "coverUrl": "https://assets.hardcover.app/external_data/61081446/987756ec2b09c709628262c097473b426e4f0214.jpeg"
+    },
+    {
+      "id": "373314",
+      "title": "The Complete Sherlock Holmes",
+      "coverUrl": "https://assets.hardcover.app/external_data/27565384/aeeb1adc42800251e789ae465cae34817ec6df5d.jpeg"
+    },
+    {
+      "id": "428313",
+      "title": "The Hunting Party",
+      "coverUrl": "https://assets.hardcover.app/external_data/59483304/0f1e903d741bc276caf63a87b2ae7f68b6658a42.jpeg"
+    },
+    {
+      "id": "475544",
+      "title": "Notes on an Execution",
+      "coverUrl": "https://assets.hardcover.app/edition/31484710/c6da72ec89a90fe6bf7b3dc01901c64ff8c05e3f.jpeg"
+    },
+    {
+      "id": "435771",
+      "title": "We Need to Talk About Kevin",
+      "coverUrl": "https://assets.hardcover.app/edition/9802477/45818-L.jpg"
+    },
+    {
+      "id": "876726",
+      "title": "Bright Young Women",
+      "coverUrl": "https://assets.hardcover.app/external_data/965322/66f5ee393568a2e2f697a17adfa044cef24b6722.jpeg"
+    },
+    {
+      "id": "301500",
+      "title": "The Kind Worth Killing",
+      "coverUrl": "https://assets.hardcover.app/external_data/843371/1d7ad881a7677c5f4cdbae1adfc1194a1bada7be.jpeg"
+    }
+  ]
+}

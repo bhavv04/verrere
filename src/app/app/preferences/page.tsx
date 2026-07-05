@@ -9,6 +9,7 @@ import {
   Skull, Landmark, User, Leaf, Brain, MessageCircle,
   ScrollText, Map, Shield
 } from "lucide-react";
+import genrePreviewBooksRaw from "../../../../lib/genrePreviewBooks.json";
 
 const GENRES = [
   { name: "Fiction", icon: BookOpen },
@@ -27,11 +28,17 @@ const GENRES = [
   { name: "Adventure", icon: Map },
   { name: "Crime", icon: Shield },
 ];
+
 interface PreviewBook {
   id: string;
   coverUrl: string;
   title: string;
 }
+
+type GenreBooksMap = Record<string, PreviewBook[]>;
+const genreBooksData = genrePreviewBooksRaw as GenreBooksMap;
+
+const PREVIEW_LIMIT = 12;
 
 export default function PreferencesPage() {
   const [genres, setGenres] = useState<string[]>([]);
@@ -39,7 +46,6 @@ export default function PreferencesPage() {
   const [saving, setSaving] = useState(false);
   const [saved, setSaved] = useState(false);
   const [previewBooks, setPreviewBooks] = useState<PreviewBook[]>([]);
-  const [previewLoading, setPreviewLoading] = useState(false);
 
   useEffect(() => {
     fetch("/api/user", { method: "POST" })
@@ -51,29 +57,52 @@ export default function PreferencesPage() {
       .finally(() => setLoading(false));
   }, []);
 
-  const fetchPreview = useCallback(async (selectedGenres: string[]) => {
+  // Fisher-Yates shuffle — returns a new shuffled copy, doesn't mutate input.
+  const shuffle = <T,>(arr: T[]): T[] => {
+    const copy = [...arr];
+    for (let i = copy.length - 1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [copy[i], copy[j]] = [copy[j], copy[i]];
+    }
+    return copy;
+  };
+
+  // Builds the preview grid directly from the static genrePreviewBooks.json,
+  // round-robining across selected genres so no single genre dominates,
+  // deduping books that appear under multiple genres, and shuffling each
+  // genre's pool first so the order/subset looks different on every toggle.
+  const buildPreview = useCallback((selectedGenres: string[]) => {
     if (selectedGenres.length === 0) {
       setPreviewBooks([]);
       return;
     }
-    setPreviewLoading(true);
-    try {
-      const res = await fetch(`/api/books?genres=${selectedGenres.map(encodeURIComponent).join(",")}`);
-      const data = await res.json();
-      const books = (data.books ?? [])
-        .filter((b: any) => b.coverUrl)
-        .slice(0, 12);
-      setPreviewBooks(books);
-    } catch {
-      setPreviewBooks([]);
-    } finally {
-      setPreviewLoading(false);
+
+    const seen = new Set<string>();
+    const result: PreviewBook[] = [];
+    const perGenre = selectedGenres.map((g) => shuffle(genreBooksData[g] ?? []));
+
+    let idx = 0;
+    let addedInPass = true;
+    while (addedInPass && result.length < PREVIEW_LIMIT) {
+      addedInPass = false;
+      for (const books of perGenre) {
+        const book = books[idx];
+        if (book && !seen.has(book.id)) {
+          seen.add(book.id);
+          result.push(book);
+          addedInPass = true;
+          if (result.length >= PREVIEW_LIMIT) break;
+        }
+      }
+      idx++;
     }
+
+    setPreviewBooks(result);
   }, []);
 
   useEffect(() => {
-    if (!loading) fetchPreview(genres);
-  }, [genres, loading]);
+    if (!loading) buildPreview(genres);
+  }, [genres, loading, buildPreview]);
 
   const toggle = (genre: string) => {
     const next = genres.includes(genre)
@@ -101,7 +130,7 @@ export default function PreferencesPage() {
     <div className="min-h-screen bg-stone-50 dark:bg-stone-950 text-stone-900 dark:text-stone-100">
       <Navbar />
 
-      <main className="max-w-6xl mx-auto px-6 pt-28 pb-16">
+      <main className="max-w-6xl mx-auto px-6 pt-28 pb-24">
 
         {/* Header */}
         <div className="mb-8">
@@ -218,15 +247,6 @@ export default function PreferencesPage() {
                 <p className="text-stone-400 dark:text-stone-600 text-sm">
                   Select genres to preview your feed
                 </p>
-              </div>
-            ) : previewLoading ? (
-              <div className="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-4 lg:grid-cols-3 xl:grid-cols-4 gap-3">
-                {[...Array(12)].map((_, i) => (
-                  <div
-                    key={i}
-                    className="aspect-[2/3] rounded-xl bg-stone-200 dark:bg-stone-800 animate-pulse"
-                  />
-                ))}
               </div>
             ) : (
               <motion.div
