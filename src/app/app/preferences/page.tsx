@@ -127,7 +127,7 @@ export default function PreferencesPage() {
   };
 
   return (
-    <div className="min-h-screen bg-stone-50 dark:bg-stone-950 text-stone-900 dark:text-stone-100">
+    <div className="bg-stone-50 dark:bg-stone-900 text-stone-900 dark:text-stone-100">
       <Navbar />
 
       <main className="max-w-6xl mx-auto px-6 pt-28 pb-24">
@@ -153,7 +153,7 @@ export default function PreferencesPage() {
               <span className={`text-xs font-semibold px-2 py-0.5 rounded-full ${
                 genres.length === 5
                   ? "bg-amber-100 dark:bg-amber-900/30 text-amber-600 dark:text-amber-400"
-                  : "bg-stone-100 dark:bg-stone-800 text-stone-400 dark:text-stone-500"
+                  : "bg-stone-200 dark:bg-stone-800 text-stone-400 dark:text-stone-500"
               }`}>
                 {genres.length}/5
               </span>
@@ -177,7 +177,7 @@ export default function PreferencesPage() {
                       whileTap={{ scale: 0.98 }}
                       className={`flex items-center gap-3 px-4 py-3 rounded-xl border text-left transition-all ${
                         active
-                          ? "bg-stone-900 dark:bg-stone-100 border-stone-900 dark:border-stone-100 text-white dark:text-stone-900"
+                          ? "bg-stone-800 dark:bg-stone-100 border-stone-900 dark:border-stone-100 text-white dark:text-stone-900"
                           : disabled
                           ? "bg-transparent border-stone-100 dark:border-stone-800/50 text-stone-300 dark:text-stone-700 cursor-not-allowed"
                           : "bg-white dark:bg-stone-900 border-stone-200 dark:border-stone-800 text-stone-700 dark:text-stone-300 hover:border-stone-300 dark:hover:border-stone-700 hover:bg-stone-50 dark:hover:bg-stone-800/50"
