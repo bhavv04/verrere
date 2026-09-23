@@ -31,7 +31,7 @@ export default function CTA() {
 
           {/* Icon */}
           <div className="relative z-10 w-12 h-12 rounded-2xl bg-stone-100 dark:bg-stone-800 flex items-center justify-center mb-6">
-            <img src="/verrere.png" alt="Verrere" className="w-full h-full object-contain" />
+            <img src="/verrere_logo.png" alt="Verrere" className="w-full h-full object-contain" />
           </div>
 
           {/* Heading */}

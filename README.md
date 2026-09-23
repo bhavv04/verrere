@@ -1,12 +1,17 @@
 # verrere
 
-> Tinder for books. Swipe through titles, build your shelf, discover what to read next.
+> Swipe through titles, build your shelf, discover what to read next.
 
 ![Homepage Screenshot](public/verrere2.png)
 
 books that were swiped right get saved to your shelf: 
 
 ![Shelf Preview](public/verrere3.png)
+
+You can update you preferences: 
+
+![Preferences Preview](public/verrere4.png)
+
 
 ## Overview
 

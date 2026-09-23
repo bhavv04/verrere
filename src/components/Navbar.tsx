@@ -44,7 +44,7 @@ export default function Navbar() {
             )}
             <button onClick={go("/app")} className="flex items-center gap-2.5 group">
               <div className="w-10 h-10 rounded-lg overflow-hidden">
-                <img src="/verrere.png" alt="Verrere" className="w-full h-full object-contain" />
+                <img src="/verrere_logo.png" alt="Verrere" className="w-full h-full object-contain" />
               </div>
               <span className="hidden sm:block text-[15px] font-semibold tracking-[-0.02em] text-stone-900 dark:text-stone-100">Verrere</span>
             </button>
